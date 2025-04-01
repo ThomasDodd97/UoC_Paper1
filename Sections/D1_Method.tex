@@ -1,0 +1,106 @@
+\section{Method}
+This chapter will elucidate the various practicalities associated with scientifically researching the research questions posed in the introduction.
+
+\begin{equation}
+y=f(x_1,x_2,x_3)
+\label{eq:1}
+\end{equation}
+
+\begin{equation}
+f:\mathbb{R}^n \rightarrow \mathbb{R}
+\label{eq:2}
+\end{equation}
+
+\begin{equation}
+f(\mathbf{x}):\mathbf{x}=(x_{n},x_{n+1},x_{n+2})
+\label{eq:3}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+&R-\textcolor[HTML]{EB7D3C}{COOH}+\textcolor[HTML]{1DB1ED}{HO}-R'\rightarrow\\
+&R-\textcolor[HTML]{EB7D3C}{CO}\textcolor[HTML]{1DB1ED}{O}-R'+\textcolor[HTML]{EB7D3C}{H}-\textcolor[HTML]{1DB1ED}{O}-\textcolor[HTML]{1DB1ED}{H}
+\end{split}
+\label{eq:4}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+RCOOH+H&OR'\rightarrow\\
+&RCOOR'+H_{2}O
+\end{split}
+\label{eq:5}
+\end{equation}
+
+\subsection{Background on Chemical System Researched}
+The chemical system was a branching polyester by the name of poly(glycerol itaconate citrate).
+It is based on three simple monomers all of which are readily available bio-based feedstocks- glycerol, itaconic acid, and citric acid.
+When heated for an extended period of time these polyesterify, which is to say, undergo esterification in a chained fashion.
+Due to the multi-functional nature of these chemicals this generates branching polyesters, which can cross-link with themselves, creating a thermoset product.
+\begin{center}
+    \captionsetup{format=custom,width=0.4\textwidth,skip=0pt}
+    \includegraphics[width=.50\textwidth]{MonomersGroupHighlighting}
+    \captionof{figure}{\footnotesize{Skeletal diagrams of chemicals studied. Left: Glycerol. Centre: Itaconic acid. Right: Citric acid. Functional groups considered likely to be taking part in the esterification are coloured: Blue for hydroxyl groups, orange for carboxyl groups.}}
+    \label{fig:MonomersGroupHighlighting}
+\end{center}
+
+\begin{center}
+    \captionsetup{format=custom,width=0.4\textwidth,skip=0pt}
+    \includegraphics[width=.50\textwidth]{Polyesterification}
+    \captionof{figure}{\footnotesize{Skeletal diagram presenting the polycondensation reaction between a triol (glycerol) and a triacid (citric acid). Adapted from}}
+    \label{fig:IntroductionPolyesterification}
+\end{center}
+
+\subsection{Target Variable Selected and How to Measure It Practically}
+Given the proof-of-concept nature of this project we elected to use a proxy variable for strength.
+This would be mass loss; the mildly naive rationale behind this was as follows:
+For each ester link generated during the polyesterification process a water molecule is generated.
+If the heating temperature is above 100oC, which is above the boiling point of water, then water should naturally evaporate over the course of the polyesterification reaction.
+This would generate a mass loss between the start mass of the various monomers, and the end mass of the polyesterified thermoset product.
+We hence make two basic assumptions: firstly, mass loss is directly proportional to the number of ester linkages generated.
+Secondly, we assume that the number of ester linkages generated should be proportional to the number of successful cross-links within the final 3D structure of the thermoset.
+Thirdly and finally, we assume that the number of cross-links generated in the final 3D structure of the thermoset is proportional to the tensile strength exhibited by the thermoset.
+
+
+\begin{figure*}[htb]
+    \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
+    \includegraphics[width=\textwidth]{MonomerMixing}
+    \captionof{figure}{\footnotesize{Illustration of stoichiometric ratios between glycerol (G) and citric acid (Ci) and possible repeat units.}}
+    \label{fig:SecondMonomer}
+\end{figure*}
+
+It is therewith trivial to discover the value of this proxy variable- one simply weighs the mass of monomers used beforehand and the mass of the resultant thermoset after the polyesterification (See equation ??).
+Important is the problem of how to call an end to the polyesterification process.
+This ended up taking the form of an arbitrary gradient, beyond which the polyesterifiation would be terminated.
+
+\begin{figure*}[htb]
+    \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
+    \includegraphics[width=\textwidth]{PrepoolymerMassVsTime}
+    \captionof{figure}{\footnotesize{Left: Prepolymer mass loss over time, data points connected by straight lines. Right: Prepolymer mass loss over time, data points scattered, and blue exponential curve fitted. Green vertical line shows time at which target gradient reached, and straight green tangent line exponential shows linear fit for last 24 hours of data. Orange line gives the latest 24hr tangent available at the time of graph drawing.}}
+    \label{fig:PrepoolymerMassVsTime}
+\end{figure*}
+
+\subsection{Predictor Variables, How to Tune Them Practically, and the Parameter Space}
+Given that poly(glycerol itaconate citrate) is comprised of three monomeric components, it becamce clear that the chemical stoichiometry would be the primary means by which properties could be tuned.
+This meant building a balancing system for the various compositions possible, and placing some bounds on the parameter space.
+(Provide the graphics used in the first year report here...)
+
+\begin{figure*}[htb]
+    \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
+    \includegraphics[width=\textwidth]{QuantificationOfMonomerMixing}
+    \captionof{figure}{\footnotesize{Visualisation of 3D optimisation parameter space for the P(GCiIt) problem.}}
+    \label{fig:QuantificationOfMonomerMixing}
+\end{figure*}
+
+\subsection{Bayesian Optimisation of the Variables and How it was Implemented Computationally and Practically}
+Given the target variable and predictor variables, a prior could be built over the parameter space.
+This was achieved using various forms of deterministic random sampling techniques.
+Once the prior was generated, this could be leveraged to carry out Bayesian optimisation in various forms.
+Description of the various stepping methods et cetera.
+
+\subsection{Benchmark Techniques}
+To prove the sample efficient nature of Bayesian optimisation we used a number of deterministic grid sampling techniques.
+These were grid, quasirandom, and pseudorandom, and used the entire sample limit we had presribed.
+Naturally, grid was the most representative of the parameter space, and found a good coupld of points.
+Whilst, quasirandom under performed relatively, and pseudorandom failed miserably\dots
+Some benchmarks have been developed, these are presented in figure ??.
