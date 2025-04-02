@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.2)  31 MAR 2025 20:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.2)  2 APR 2025 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -539,29 +539,30 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 \@quotelevel=\count422
 \@quotereset=\count423
- (./main.aux)
+
+No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 33.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 34.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -571,16 +572,16 @@ LaTeX Font Info:    ... okay on input line 33.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 666.81776pt, 76.82243pt)
+* h-part:(L,W,R)=(72.26997pt, 452.96793pt, 72.26997pt)
+* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=666.81776pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-24.31609pt
-* \headheight=28.45274pt
+* \textwidth=452.96793pt
+* \textheight=700.5069pt
+* \oddsidemargin=-0.00002pt
+* \evensidemargin=-0.00002pt
+* \topmargin=-37.00002pt
+* \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -613,99 +614,53 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
- (./Sections/A1_Title.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) (./Sections/B1_Abstract.tex) (./Sections/C1_Introduction.tex) (./Sections/D1_Method.tex [1
+Runaway argument?
+{Plantics-GX: a biodegradable and cost-effective thermoset plastic th\ETC.
+/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex:34: File ended while scanning use of \field.
+<inserted text> 
+                \par 
+l.34 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-]
-File: Images/MonomersGroupHighlighting.png Graphic file (type bmp)
-<Images/MonomersGroupHighlighting.png>
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
+[1
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 42--43
- [] 
- []
-
-File: Images/Polyesterification.png Graphic file (type bmp)
-<Images/Polyesterification.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 49--50
- [] 
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]\TU/lmr/bx/n/14.4 Target Variable Se-
- []
-
-File: Images/MonomerMixing.png Graphic file (type bmp)
-<Images/MonomerMixing.png>
-File: Images/PrepoolymerMassVsTime.png Graphic file (type bmp)
-<Images/PrepoolymerMassVsTime.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]\TU/lmr/bx/n/14.4 Predictor Variables,
- []
-
-
-Underfull \hbox (badness 5022) in paragraph at lines 83--83
-\TU/lmr/bx/n/14.4 How to Tune Them
- []
-
-File: Images/QuantificationOfMonomerMixing.png Graphic file (type bmp)
-<Images/QuantificationOfMonomerMixing.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-\TU/lmr/bx/n/14.4 How it was Imple-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-\TU/lmr/bx/n/14.4 mented Computation-
- []
-
-) (./Sections/E1_Results.tex [3] [4]
-File: Images/DeterministicBenchmarks.png Graphic file (type bmp)
-<Images/DeterministicBenchmarks.png>
-File: Images/BayesianPriors.png Graphic file (type bmp)
-<Images/BayesianPriors.png>
-File: Images/SmallPriorOptimisationProgression.png Graphic file (type bmp)
-<Images/SmallPriorOptimisationProgression.png>
-File: Images/LargePriorOptimisationProgression.png Graphic file (type bmp)
-<Images/LargePriorOptimisationProgression.png>
-) (./Sections/F1_Discussion.tex
-Underfull \hbox (badness 5985) in paragraph at lines 15--17
-[]\TU/lmr/bx/n/12 Global Optimum Estimation
- []
-
-) (./Sections/G1_Conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--1
-[]\TU/lmr/bx/n/12 Optimum Stoichiometry
- []
-
-) [5] [6] [7] (./main.aux)
+] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) 
-Here is how much of TeX's memory you used:
- 13495 strings out of 474773
- 254058 string characters out of 5757724
- 1935839 words of memory out of 5000000
- 35480 multiletter control sequences out of 15000+600000
- 566329 words of font info for 79 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 66i,15n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ )
+(\end occurred inside a group at level 3)
 
-Output written on main.pdf (7 pages).
+### semi simple group (level 3) entered at line 20 (\begingroup)
+### semi simple group (level 2) entered at line 34 (\begingroup)
+### semi simple group (level 1) entered at line 34 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 13337 strings out of 474773
+ 247882 string characters out of 5757724
+ 1918839 words of memory out of 5000000
+ 35386 multiletter control sequences out of 15000+600000
+ 558077 words of font info for 37 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 66i,5n,81p,1241b,1257s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (1 page).

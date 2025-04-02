@@ -1,7 +1,7 @@
 % Setting the document's class and font size.
 \documentclass[12pt,a4paper]{article}
 % Importing the geometry package, allowing the tightening of margins.
-\usepackage[nomarginpar,headheight=10mm,bottom=27mm]{geometry}
+\usepackage[nomarginpar,top=25.4mm,bottom=25.4mm,left=25.4mm,right=25.4mm]{geometry}
 % Importing an important maths formatting tool
 \usepackage{amsmath}
 % Import all the mathematical symbols we may need, e.g. \rightarrow
@@ -28,16 +28,20 @@
 \addbibresource{Bibliography/Bibliography.bib}
 % Import the package allowing the invoking of multiple columns of text.
 \usepackage{multicol}
+% A package allowing for space-holding text input.
 \usepackage{lipsum}
 
 \begin{document}
-    \input{Sections/A1_Title}
-    \input{Sections/B1_Abstract}
-    \begin{multicols}{2}
-    \input{Sections/C1_Introduction}
-    \input{Sections/D1_Method}
-    \input{Sections/E1_Results}
-    \input{Sections/F1_Discussion}
-    \input{Sections/G1_Conclusion}
-    \end{multicols}{2}
+hello
+\cite{Ahamad2001}
+    % \input{Sections/A1_Title}
+    % \input{Sections/B1_Abstract}
+    % \begin{multicols}{2}
+    % \input{Sections/C1_Introduction}
+    % \input{Sections/D1_Method}
+    % \input{Sections/E1_Results}
+    % \input{Sections/F1_Discussion}
+    % \input{Sections/G1_Conclusion}
+    % \input{Sections/H1_Bibliography}
+    % \end{multicols}{2}
 \end{document}
