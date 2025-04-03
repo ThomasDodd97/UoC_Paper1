@@ -42,40 +42,34 @@
       \field{journaltitle}{Designed Monomers and Polymers}
       \field{number}{3}
       \field{title}{Synthesis of unsaturated polyester resin - effect of anhydride composition}
-      \field{type}{Journal Article}
       \field{volume}{4}
       \field{year}{2001}
       \field{pages}{261\bibrangedash 268}
       \range{pages}{8}
     \endentry
     \entry{Alberts2017}{article}{}
-      \name{author}{2}{}{%
-        {{hash=e25ed3c544395fe4680cd6cf0a65f128}{%
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=14cb589be9951bd80b14479d04f08da3}{%
            family={Alberts},
            familyi={A\bibinitperiod},
-           given={Albert\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=cdec01617249607680fd7135fa4807c0}{%
-           family={Rothenberg},
-           familyi={R\bibinitperiod},
-           given={Gadi},
-           giveni={G\bibinitperiod}}}%
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{0ec7bee4034e775fcf74860135cebb2e}
-      \strng{fullhash}{0ec7bee4034e775fcf74860135cebb2e}
-      \strng{bibnamehash}{0ec7bee4034e775fcf74860135cebb2e}
-      \strng{authorbibnamehash}{0ec7bee4034e775fcf74860135cebb2e}
-      \strng{authornamehash}{0ec7bee4034e775fcf74860135cebb2e}
-      \strng{authorfullhash}{0ec7bee4034e775fcf74860135cebb2e}
+      \strng{namehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{fullhash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{bibnamehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{authorbibnamehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{authornamehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{authorfullhash}{e40e2f81fa38c3537e150766a088af13}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1359-6640}
       \field{journaltitle}{Faraday Discussions}
       \field{number}{0}
-      \field{title}{Plantics-GX: a biodegradable and cost-effective thermoset plastic that is 100% plant-based}
-      \field{type}{Journal Article}
+      \field{title}{Plantics-GX: a biodegradable and cost-effective thermoset plastic that is 100{\%} plant-based}
       \field{volume}{202}
       \field{year}{2017}
       \field{pages}{111\bibrangedash 120}
@@ -97,7 +91,7 @@
         {{hash=eed8f54d5742bcc376ff00bf549d9a6e}{%
            family={Beauson},
            familyi={B\bibinitperiod},
-           given={J.},
+           given={J},
            giveni={J\bibinitperiod}}}%
       }
       \strng{namehash}{870477aaef314fba450a45f956962b2e}
@@ -142,7 +136,6 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymer-Plastics Technology and Engineering}
       \field{title}{Bio-based thermosetting resins for future generation: a review}
-      \field{type}{Journal Article}
       \field{volume}{55:17}
       \field{year}{2016}
       \field{pages}{1836\bibrangedash 1896}
@@ -158,7 +151,7 @@
         {{hash=38241eaee18102cab15a125b0654c7da}{%
            family={Chen},
            familyi={C\bibinitperiod},
-           given={J.},
+           given={J},
            giveni={J\bibinitperiod}}}%
       }
       \strng{namehash}{009ae0939de2e2902cbc6c9fa114de64}
@@ -205,7 +198,6 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Fuel}
       \field{title}{Comparative pyrolysis characteristics of representative commercial thermosetting plastic waste in inert and oxygenous atmosphere}
-      \field{type}{Journal Article}
       \field{volume}{246}
       \field{year}{2019}
       \field{pages}{212\bibrangedash 221}
@@ -234,9 +226,8 @@
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Environmental Science & Technology}
+      \field{journaltitle}{Environmental Science and Technology}
       \field{title}{Mapping global flows of chemicals: from fossil fuel feedstocks to chemical products}
-      \field{type}{Journal Article}
       \field{volume}{52}
       \field{year}{2018}
       \field{pages}{1725\bibrangedash 1734}
@@ -267,7 +258,6 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Green Chemistry}
       \field{title}{Closed-loop chemical recyling of thermosetting polymers and their applications: a review}
-      \field{type}{Journal Article}
       \field{volume}{24}
       \field{year}{2022}
       \field{pages}{5691\bibrangedash 5708}
@@ -283,7 +273,7 @@
         {{hash=5e538d7c5ab3d9762c299955fb081ce2}{%
            family={Ma},
            familyi={M\bibinitperiod},
-           given={S.},
+           given={S},
            giveni={S\bibinitperiod}}}%
       }
       \strng{namehash}{c6c4d323073500265a4aadd7672dc203}
@@ -328,21 +318,20 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biotechnology}
       \field{title}{Biodegradation of polyesters containing aromatic constituents}
-      \field{type}{Journal Article}
       \field{volume}{86}
       \field{year}{2001}
       \field{pages}{87\bibrangedash 95}
       \range{pages}{9}
     \endentry
     \entry{Sharma2011}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
-        {{hash=d983bf34f3eeabbb0cfa1a52422b1b03}{%
+        {{hash=3e8dea8c685949631532a9eddb35edfa}{%
            family={Sharma},
            familyi={S\bibinitperiod},
-           given={et\bibnamedelima al.},
-           giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod},
-           suffix={S.},
-           suffixi={S\bibinitperiod}}}%
+           given={S},
+           giveni={S\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Cambridge}%
@@ -350,19 +339,18 @@
       \list{publisher}{1}{%
         {RSC Publishing}%
       }
-      \strng{namehash}{d983bf34f3eeabbb0cfa1a52422b1b03}
-      \strng{fullhash}{d983bf34f3eeabbb0cfa1a52422b1b03}
-      \strng{bibnamehash}{d983bf34f3eeabbb0cfa1a52422b1b03}
-      \strng{authorbibnamehash}{d983bf34f3eeabbb0cfa1a52422b1b03}
-      \strng{authornamehash}{d983bf34f3eeabbb0cfa1a52422b1b03}
-      \strng{authorfullhash}{d983bf34f3eeabbb0cfa1a52422b1b03}
+      \strng{namehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{fullhash}{4d43032af8c85a90b102c469533974a5}
+      \strng{bibnamehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{authorbibnamehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{authornamehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{authorfullhash}{4d43032af8c85a90b102c469533974a5}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{series}{RSC Green Chemistry Series}
       \field{title}{A handbook of applied biopolymer technology}
-      \field{type}{Book}
       \field{year}{2011}
     \endentry
     \entry{Tesoro1990}{article}{}
@@ -387,7 +375,6 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Polymer Science}
       \field{title}{Reversible Crosslinking in Epoxy Resins. I. Feasibility Studies}
-      \field{type}{Journal Article}
       \field{volume}{39}
       \field{year}{1990}
       \field{pages}{1425\bibrangedash 1437}
@@ -444,7 +431,6 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Composites Part B}
       \field{title}{Comprehensive study of recylcing of thermosetting polymer composites - Driving force, challenges and methods}
-      \field{type}{Journal Article}
       \field{volume}{207}
       \field{year}{2020}
       \verb{doi}
@@ -503,7 +489,6 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Macromolecular Rapid Communications}
       \field{title}{Recent advances in glycerol polymers: chemistry and biomedical applications}
-      \field{type}{Journal Article}
       \field{volume}{35}
       \field{year}{2014}
       \field{pages}{1906\bibrangedash 1924}
@@ -513,7 +498,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Alber}
 \endrefsection
 \endinput
 
