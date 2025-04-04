@@ -3,14 +3,16 @@
 % Importing the geometry package, allowing the tightening of margins.
 \usepackage[nomarginpar,top=25.4mm,bottom=25.4mm,left=25.4mm,right=25.4mm]{geometry}
 % Importing the package allowing referencing
-\usepackage[backend=biber,style=numeric,natbib=true,url=false,doi=true]{biblatex}
+\usepackage[backend=biber,style=numeric,url=false,doi=true]{biblatex}
 \addbibresource{Bibliography/Bibliography.bib}
 % Importing an important maths formatting tool
 \usepackage{amsmath}
 % Import all the mathematical symbols we may need, e.g. \rightarrow
 \usepackage{amssymb}
-% Colorise the text at will. e.g. \color{red} \color[rgb]{1.00,0.00,0.00} {HTML}{FF7F00}??
+% Colorise the text at will. e.g. \color{red} \textcolor[HTML]{EB7D3C}{CO}
 \usepackage{xcolor}
+\definecolor{CarboxylOrange}{HTML}{EB7D3C}
+\definecolor{HydroxylBlue}{HTML}{1DB1ED}
 % Importing a package to deal with captions outside the usual. e.g. captionof
 \usepackage{caption}
 % Importing a package allowing the changing of caption formats
@@ -28,6 +30,8 @@
 \usepackage{multicol}
 % A package allowing for space-holding text input.
 \usepackage{lipsum}
+% A package that tends to be able to fix the hbox issues...
+\usepackage{microtype}
 
 \begin{document}
     \input{Sections/A1_Title}
