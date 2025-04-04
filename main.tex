@@ -3,8 +3,9 @@
 % Importing the geometry package, allowing the tightening of margins.
 \usepackage[nomarginpar,top=25.4mm,bottom=25.4mm,left=25.4mm,right=25.4mm]{geometry}
 % Importing the package allowing referencing
-\usepackage[backend=biber,style=numeric,url=false,doi=true]{biblatex}
+\usepackage[backend=biber]{biblatex}
 \addbibresource{Bibliography/Bibliography.bib}
+\errorcontextlines=3
 % Importing an important maths formatting tool
 \usepackage{amsmath}
 % Import all the mathematical symbols we may need, e.g. \rightarrow
@@ -32,6 +33,8 @@
 \usepackage{lipsum}
 % A package that tends to be able to fix the hbox issues...
 \usepackage{microtype}
+% Allow urls to be used in the document
+\usepackage{url}
 
 \begin{document}
     \input{Sections/A1_Title}

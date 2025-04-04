@@ -1,0 +1,796 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Ahamad2001}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=c4a791e76a8677ac12449fb63c2e7a03}{%
+           family={Ahamad},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \strng{fullhash}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \strng{fullhashraw}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \strng{bibnamehash}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \strng{authorbibnamehash}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \strng{authornamehash}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \strng{authorfullhash}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \strng{authorfullhashraw}{6891cb4b95d9a213b4e1803204bbd4f3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Designed Monomers and Polymers}
+      \field{number}{3}
+      \field{title}{Synthesis of unsaturated polyester resin - effect of anhydride composition}
+      \field{volume}{4}
+      \field{year}{2001}
+      \field{pages}{261\bibrangedash 268}
+      \range{pages}{8}
+    \endentry
+    \entry{Alberts2017}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=14cb589be9951bd80b14479d04f08da3}{%
+           family={Alberts},
+           familyi={A\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{fullhash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{fullhashraw}{e40e2f81fa38c3537e150766a088af13}
+      \strng{bibnamehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{authorbibnamehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{authornamehash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{authorfullhash}{e40e2f81fa38c3537e150766a088af13}
+      \strng{authorfullhashraw}{e40e2f81fa38c3537e150766a088af13}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Faraday Discussions}
+      \field{number}{0}
+      \field{title}{Plantics-GX: a biodegradable and cost-effective thermoset plastic that is 100{\%} plant-based}
+      \field{volume}{202}
+      \field{year}{2017}
+      \field{pages}{111\bibrangedash 120}
+      \range{pages}{10}
+    \endentry
+    \entry{Bader2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=293baeff26f71b654788e8e1896150ae}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a46d07c48207571935244ca0f5c4f58}
+      \strng{fullhash}{5a46d07c48207571935244ca0f5c4f58}
+      \strng{fullhashraw}{5a46d07c48207571935244ca0f5c4f58}
+      \strng{bibnamehash}{5a46d07c48207571935244ca0f5c4f58}
+      \strng{authorbibnamehash}{5a46d07c48207571935244ca0f5c4f58}
+      \strng{authornamehash}{5a46d07c48207571935244ca0f5c4f58}
+      \strng{authorfullhash}{5a46d07c48207571935244ca0f5c4f58}
+      \strng{authorfullhashraw}{5a46d07c48207571935244ca0f5c4f58}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Pharmaceutics and Biopharmaceutics}
+      \field{title}{Improving extracellular vesicles production through a Bayesian optimization-based experimental design}
+      \field{volume}{182}
+      \field{year}{2023}
+      \field{pages}{103\bibrangedash 114}
+      \range{pages}{12}
+    \endentry
+    \entry{Balachandran2016}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=adc873cc84ed59dfcd93ade953c218ef}{%
+           family={Balachandran},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab83624a4a6278f99216c5a511117249}
+      \strng{fullhash}{ab83624a4a6278f99216c5a511117249}
+      \strng{fullhashraw}{ab83624a4a6278f99216c5a511117249}
+      \strng{bibnamehash}{ab83624a4a6278f99216c5a511117249}
+      \strng{authorbibnamehash}{ab83624a4a6278f99216c5a511117249}
+      \strng{authornamehash}{ab83624a4a6278f99216c5a511117249}
+      \strng{authorfullhash}{ab83624a4a6278f99216c5a511117249}
+      \strng{authorfullhashraw}{ab83624a4a6278f99216c5a511117249}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Adaptive strategies for materials design using uncertainties}
+      \field{volume}{6}
+      \field{year}{2016}
+    \endentry
+    \entry{Beauson2016}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=eed8f54d5742bcc376ff00bf549d9a6e}{%
+           family={Beauson},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{870477aaef314fba450a45f956962b2e}
+      \strng{fullhash}{870477aaef314fba450a45f956962b2e}
+      \strng{fullhashraw}{870477aaef314fba450a45f956962b2e}
+      \strng{bibnamehash}{870477aaef314fba450a45f956962b2e}
+      \strng{authorbibnamehash}{870477aaef314fba450a45f956962b2e}
+      \strng{authornamehash}{870477aaef314fba450a45f956962b2e}
+      \strng{authorfullhash}{870477aaef314fba450a45f956962b2e}
+      \strng{authorfullhashraw}{870477aaef314fba450a45f956962b2e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Composites: Part A}
+      \field{title}{Recycling of shredded composites from wind turbine blades in new thermoset polymer composites}
+      \field{volume}{90}
+      \field{year}{2016}
+      \field{pages}{390\bibrangedash 399}
+      \range{pages}{10}
+    \endentry
+    \entry{Bobade2016}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=909b4822e4243ffc89a552ea70fe274d}{%
+           family={Bobade},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c2c3a0285040736f93ef1a4af7311b4}
+      \strng{fullhash}{4c2c3a0285040736f93ef1a4af7311b4}
+      \strng{fullhashraw}{4c2c3a0285040736f93ef1a4af7311b4}
+      \strng{bibnamehash}{4c2c3a0285040736f93ef1a4af7311b4}
+      \strng{authorbibnamehash}{4c2c3a0285040736f93ef1a4af7311b4}
+      \strng{authornamehash}{4c2c3a0285040736f93ef1a4af7311b4}
+      \strng{authorfullhash}{4c2c3a0285040736f93ef1a4af7311b4}
+      \strng{authorfullhashraw}{4c2c3a0285040736f93ef1a4af7311b4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymer-Plastics Technology and Engineering}
+      \field{title}{Bio-based thermosetting resins for future generation: a review}
+      \field{volume}{55:17}
+      \field{year}{2016}
+      \field{pages}{1836\bibrangedash 1896}
+      \range{pages}{61}
+    \endentry
+    \entry{Calandra2016}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=9a20e2bcab04fda7d5ab440a2a0b60e0}{%
+           family={Calandra},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{56a3b6a47d555e541a9d185981801345}
+      \strng{fullhash}{56a3b6a47d555e541a9d185981801345}
+      \strng{fullhashraw}{56a3b6a47d555e541a9d185981801345}
+      \strng{bibnamehash}{56a3b6a47d555e541a9d185981801345}
+      \strng{authorbibnamehash}{56a3b6a47d555e541a9d185981801345}
+      \strng{authornamehash}{56a3b6a47d555e541a9d185981801345}
+      \strng{authorfullhash}{56a3b6a47d555e541a9d185981801345}
+      \strng{authorfullhashraw}{56a3b6a47d555e541a9d185981801345}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematics and Artificial Intelligence}
+      \field{title}{Bayesian optimization for learning gaits under uncertainty}
+      \field{volume}{76}
+      \field{year}{2016}
+      \field{pages}{5\bibrangedash 23}
+      \range{pages}{19}
+    \endentry
+    \entry{ChenJ2019}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=38241eaee18102cab15a125b0654c7da}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{fullhash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{fullhashraw}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{bibnamehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authorbibnamehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authornamehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authorfullhash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authorfullhashraw}{009ae0939de2e2902cbc6c9fa114de64}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reinforced Plastics and Composites}
+      \field{title}{Recycling and reuse of composite materials for wind turbine blades: An overview}
+      \field{volume}{38}
+      \field{year}{2019}
+      \field{pages}{567\bibrangedash 577}
+      \range{pages}{11}
+    \endentry
+    \entry{ChenR2019}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ce2628fb5b7c5a6e9483a40e04abbb59}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \strng{fullhash}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \strng{fullhashraw}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \strng{bibnamehash}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \strng{authorbibnamehash}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \strng{authornamehash}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \strng{authorfullhash}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \strng{authorfullhashraw}{5b1b16e28ae878e6a7c7a79bd3210f18}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fuel}
+      \field{title}{Comparative pyrolysis characteristics of representative commercial thermosetting plastic waste in inert and oxygenous atmosphere}
+      \field{volume}{246}
+      \field{year}{2019}
+      \field{pages}{212\bibrangedash 221}
+      \range{pages}{10}
+    \endentry
+    \entry{Cho2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=105056258aa28abb24c7a340f79cdb03}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{105056258aa28abb24c7a340f79cdb03}
+      \strng{fullhash}{105056258aa28abb24c7a340f79cdb03}
+      \strng{fullhashraw}{105056258aa28abb24c7a340f79cdb03}
+      \strng{bibnamehash}{105056258aa28abb24c7a340f79cdb03}
+      \strng{authorbibnamehash}{105056258aa28abb24c7a340f79cdb03}
+      \strng{authornamehash}{105056258aa28abb24c7a340f79cdb03}
+      \strng{authorfullhash}{105056258aa28abb24c7a340f79cdb03}
+      \strng{authorfullhashraw}{105056258aa28abb24c7a340f79cdb03}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Basic enhancement strategies when using Bayesian optimization for hyperparameter tuning of deep neural networks}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{52588\bibrangedash 52608}
+      \range{pages}{21}
+    \endentry
+    \entry{Jones1998}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=0d47db4e16f37728e919030d807803e0}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab0479b3755f4d84f3fc29cff6671471}
+      \strng{fullhash}{ab0479b3755f4d84f3fc29cff6671471}
+      \strng{fullhashraw}{ab0479b3755f4d84f3fc29cff6671471}
+      \strng{bibnamehash}{ab0479b3755f4d84f3fc29cff6671471}
+      \strng{authorbibnamehash}{ab0479b3755f4d84f3fc29cff6671471}
+      \strng{authornamehash}{ab0479b3755f4d84f3fc29cff6671471}
+      \strng{authorfullhash}{ab0479b3755f4d84f3fc29cff6671471}
+      \strng{authorfullhashraw}{ab0479b3755f4d84f3fc29cff6671471}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Global Optimization}
+      \field{title}{Efficient global optimization of expensive black-box functions}
+      \field{volume}{13}
+      \field{year}{1998}
+      \field{pages}{455\bibrangedash 492}
+      \range{pages}{38}
+    \endentry
+    \entry{Levi2018}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=595200c723cf2bcc1bdf138b874f9db1}{%
+           family={Levi},
+           familyi={L\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9d7cd6cb8724d855f288621a3b9081b}
+      \strng{fullhash}{d9d7cd6cb8724d855f288621a3b9081b}
+      \strng{fullhashraw}{d9d7cd6cb8724d855f288621a3b9081b}
+      \strng{bibnamehash}{d9d7cd6cb8724d855f288621a3b9081b}
+      \strng{authorbibnamehash}{d9d7cd6cb8724d855f288621a3b9081b}
+      \strng{authornamehash}{d9d7cd6cb8724d855f288621a3b9081b}
+      \strng{authorfullhash}{d9d7cd6cb8724d855f288621a3b9081b}
+      \strng{authorfullhashraw}{d9d7cd6cb8724d855f288621a3b9081b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Science and Technology}
+      \field{title}{Mapping global flows of chemicals: from fossil fuel feedstocks to chemical products}
+      \field{volume}{52}
+      \field{year}{2018}
+      \field{pages}{1725\bibrangedash 1734}
+      \range{pages}{10}
+    \endentry
+    \entry{Liu2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ce084360cc68e7db4fe6cae1287b3adf}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{0954792dbe24f33db81eda5a866f3dba}
+      \strng{fullhash}{0954792dbe24f33db81eda5a866f3dba}
+      \strng{fullhashraw}{0954792dbe24f33db81eda5a866f3dba}
+      \strng{bibnamehash}{0954792dbe24f33db81eda5a866f3dba}
+      \strng{authorbibnamehash}{0954792dbe24f33db81eda5a866f3dba}
+      \strng{authornamehash}{0954792dbe24f33db81eda5a866f3dba}
+      \strng{authorfullhash}{0954792dbe24f33db81eda5a866f3dba}
+      \strng{authorfullhashraw}{0954792dbe24f33db81eda5a866f3dba}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Green Chemistry}
+      \field{title}{Closed-loop chemical recyling of thermosetting polymers and their applications: a review}
+      \field{volume}{24}
+      \field{year}{2022}
+      \field{pages}{5691\bibrangedash 5708}
+      \range{pages}{18}
+    \endentry
+    \entry{Ma2017}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5e538d7c5ab3d9762c299955fb081ce2}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6c4d323073500265a4aadd7672dc203}
+      \strng{fullhash}{c6c4d323073500265a4aadd7672dc203}
+      \strng{fullhashraw}{c6c4d323073500265a4aadd7672dc203}
+      \strng{bibnamehash}{c6c4d323073500265a4aadd7672dc203}
+      \strng{authorbibnamehash}{c6c4d323073500265a4aadd7672dc203}
+      \strng{authornamehash}{c6c4d323073500265a4aadd7672dc203}
+      \strng{authorfullhash}{c6c4d323073500265a4aadd7672dc203}
+      \strng{authorfullhashraw}{c6c4d323073500265a4aadd7672dc203}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Progress in Polymer Science}
+      \field{title}{Degradable thermosets based on labile bonds or linkages: A review}
+      \field{volume}{76}
+      \field{year}{2017}
+      \field{pages}{65\bibrangedash 110}
+      \range{pages}{46}
+    \endentry
+    \entry{Mockus1978}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=60425f44f6c5b7fd2993272cad382137}{%
+           family={Mockus},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{75900dd3e50ebf462f3678b062a5929e}
+      \strng{fullhash}{75900dd3e50ebf462f3678b062a5929e}
+      \strng{fullhashraw}{75900dd3e50ebf462f3678b062a5929e}
+      \strng{bibnamehash}{75900dd3e50ebf462f3678b062a5929e}
+      \strng{authorbibnamehash}{75900dd3e50ebf462f3678b062a5929e}
+      \strng{authornamehash}{75900dd3e50ebf462f3678b062a5929e}
+      \strng{authorfullhash}{75900dd3e50ebf462f3678b062a5929e}
+      \strng{authorfullhashraw}{75900dd3e50ebf462f3678b062a5929e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Towards Global Optimisation}
+      \field{title}{The application of bayesian methods for seeking the extremum}
+      \field{volume}{2}
+      \field{year}{1978}
+      \field{pages}{117\bibrangedash 128}
+      \range{pages}{12}
+    \endentry
+    \entry{Muller2001}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=997062b74af61f912aeb93cceefb897e}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f54356f7eb908d16d04934c43025383a}
+      \strng{fullhash}{f54356f7eb908d16d04934c43025383a}
+      \strng{fullhashraw}{f54356f7eb908d16d04934c43025383a}
+      \strng{bibnamehash}{f54356f7eb908d16d04934c43025383a}
+      \strng{authorbibnamehash}{f54356f7eb908d16d04934c43025383a}
+      \strng{authornamehash}{f54356f7eb908d16d04934c43025383a}
+      \strng{authorfullhash}{f54356f7eb908d16d04934c43025383a}
+      \strng{authorfullhashraw}{f54356f7eb908d16d04934c43025383a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biotechnology}
+      \field{title}{Biodegradation of polyesters containing aromatic constituents}
+      \field{volume}{86}
+      \field{year}{2001}
+      \field{pages}{87\bibrangedash 95}
+      \range{pages}{9}
+    \endentry
+    \entry{Roeva2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=65ddd0e6ba2ca6d554ea525f026d739e}{%
+           family={Roeva},
+           familyi={R\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {InTech}%
+      }
+      \strng{namehash}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \strng{fullhash}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \strng{fullhashraw}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \strng{bibnamehash}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \strng{authorbibnamehash}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \strng{authornamehash}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \strng{authorfullhash}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \strng{authorfullhashraw}{65ddd0e6ba2ca6d554ea525f026d739e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-953-51-0146-8}
+      \field{title}{Real-world Applications of Genetic Algorithms}
+      \field{type}{Book}
+      \field{year}{2012}
+    \endentry
+    \entry{Sharma2011}{book}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=3e8dea8c685949631532a9eddb35edfa}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {RSC Publishing}%
+      }
+      \strng{namehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{fullhash}{4d43032af8c85a90b102c469533974a5}
+      \strng{fullhashraw}{4d43032af8c85a90b102c469533974a5}
+      \strng{bibnamehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{authorbibnamehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{authornamehash}{4d43032af8c85a90b102c469533974a5}
+      \strng{authorfullhash}{4d43032af8c85a90b102c469533974a5}
+      \strng{authorfullhashraw}{4d43032af8c85a90b102c469533974a5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{RSC Green Chemistry Series}
+      \field{title}{A handbook of applied biopolymer technology}
+      \field{year}{2011}
+    \endentry
+    \entry{Shukla2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5627eabbb05403a44d11bf8f3a5936e4}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5627eabbb05403a44d11bf8f3a5936e4}
+      \strng{fullhash}{5627eabbb05403a44d11bf8f3a5936e4}
+      \strng{fullhashraw}{5627eabbb05403a44d11bf8f3a5936e4}
+      \strng{bibnamehash}{5627eabbb05403a44d11bf8f3a5936e4}
+      \strng{authorbibnamehash}{5627eabbb05403a44d11bf8f3a5936e4}
+      \strng{authornamehash}{5627eabbb05403a44d11bf8f3a5936e4}
+      \strng{authorfullhash}{5627eabbb05403a44d11bf8f3a5936e4}
+      \strng{authorfullhashraw}{5627eabbb05403a44d11bf8f3a5936e4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Polymer Research}
+      \field{number}{373}
+      \field{title}{A study on the synthesis of various polyesters from glycerol}
+      \field{volume}{29}
+      \field{year}{2022}
+    \endentry
+    \entry{Stork2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f1f486f89adcb3995a14a58cff19e773}{%
+           family={Stork},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec716eb52525b57c664292c19c8c22cf}
+      \strng{fullhash}{ec716eb52525b57c664292c19c8c22cf}
+      \strng{fullhashraw}{ec716eb52525b57c664292c19c8c22cf}
+      \strng{bibnamehash}{ec716eb52525b57c664292c19c8c22cf}
+      \strng{authorbibnamehash}{ec716eb52525b57c664292c19c8c22cf}
+      \strng{authornamehash}{ec716eb52525b57c664292c19c8c22cf}
+      \strng{authorfullhash}{ec716eb52525b57c664292c19c8c22cf}
+      \strng{authorfullhashraw}{ec716eb52525b57c664292c19c8c22cf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Natural Computing}
+      \field{title}{A new taxonomy of global optimization algorithms}
+      \field{volume}{21}
+      \field{year}{2022}
+      \field{pages}{219\bibrangedash 242}
+      \range{pages}{24}
+    \endentry
+    \entry{Tesoro1990}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=bda8fe274e175700e26fac21ea784cb8}{%
+           family={Tesoro},
+           familyi={T\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \strng{fullhash}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \strng{fullhashraw}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \strng{bibnamehash}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \strng{authorbibnamehash}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \strng{authornamehash}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \strng{authorfullhash}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \strng{authorfullhashraw}{de5f3e0408cfa4a01f4cfb57443989dd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Polymer Science}
+      \field{title}{Reversible Crosslinking in Epoxy Resins. I. Feasibility Studies}
+      \field{volume}{39}
+      \field{year}{1990}
+      \field{pages}{1425\bibrangedash 1437}
+      \range{pages}{13}
+    \endentry
+    \entry{Trenkel2008}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=f682209836b3c0732e03773fe5332b08}{%
+           family={Trenkel-Amoroso},
+           familyi={T\bibinithyphendelim A\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oregon State University}%
+      }
+      \strng{namehash}{f682209836b3c0732e03773fe5332b08}
+      \strng{fullhash}{f682209836b3c0732e03773fe5332b08}
+      \strng{fullhashraw}{f682209836b3c0732e03773fe5332b08}
+      \strng{bibnamehash}{f682209836b3c0732e03773fe5332b08}
+      \strng{authorbibnamehash}{f682209836b3c0732e03773fe5332b08}
+      \strng{authornamehash}{f682209836b3c0732e03773fe5332b08}
+      \strng{authorfullhash}{f682209836b3c0732e03773fe5332b08}
+      \strng{authorfullhashraw}{f682209836b3c0732e03773fe5332b08}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Synthesis, degradation and practical applications of a glycerol/citric acid condensation polymer}
+      \field{type}{phdthesis}
+      \field{year}{2008}
+    \endentry
+    \entry{UN2015}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=0433a030f35fe613ec8cf50417323dea}{%
+           family={UN},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {United Nations}%
+      }
+      \strng{namehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{fullhash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{fullhashraw}{0433a030f35fe613ec8cf50417323dea}
+      \strng{bibnamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authorbibnamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authornamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authorfullhash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authorfullhashraw}{0433a030f35fe613ec8cf50417323dea}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{A/RES/70/1}
+      \field{title}{The 2030 Agenda for Sustainable Development}
+      \field{type}{techreport}
+      \field{year}{2015}
+    \endentry
+    \entry{Utekar2020}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a3cf7d117c1f6f2ee1ca82cb9ea916b2}{%
+           family={Utekar},
+           familyi={U\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e37644c67968a6331e61e1ba741ef334}
+      \strng{fullhash}{e37644c67968a6331e61e1ba741ef334}
+      \strng{fullhashraw}{e37644c67968a6331e61e1ba741ef334}
+      \strng{bibnamehash}{e37644c67968a6331e61e1ba741ef334}
+      \strng{authorbibnamehash}{e37644c67968a6331e61e1ba741ef334}
+      \strng{authornamehash}{e37644c67968a6331e61e1ba741ef334}
+      \strng{authorfullhash}{e37644c67968a6331e61e1ba741ef334}
+      \strng{authorfullhashraw}{e37644c67968a6331e61e1ba741ef334}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Composites Part B}
+      \field{title}{Comprehensive study of recylcing of thermosetting polymer composites - Driving force, challenges and methods}
+      \field{volume}{207}
+      \field{year}{2020}
+    \endentry
+    \entry{WCED1987}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=6960c0f8736bf8b2f5c35b327dbc627c}{%
+           family={WCED},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {The United Nation's World Commission on Environment}%
+        {Development}%
+      }
+      \strng{namehash}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \strng{fullhash}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \strng{fullhashraw}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \strng{bibnamehash}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \strng{authorbibnamehash}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \strng{authornamehash}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \strng{authorfullhash}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \strng{authorfullhashraw}{6960c0f8736bf8b2f5c35b327dbc627c}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{019282080X}
+      \field{title}{Our Common Future}
+      \field{type}{techreport}
+      \field{year}{1987}
+    \endentry
+    \entry{Yamashita2018}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=e1a48f0996f4a7c277331c950c24c96f}{%
+           family={Yamashita},
+           familyi={Y\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \strng{fullhash}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \strng{fullhashraw}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \strng{bibnamehash}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \strng{authorbibnamehash}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \strng{authornamehash}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \strng{authorfullhash}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \strng{authorfullhashraw}{f177d1d61f679a8a4fc5fe2f2083edfa}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Materials}
+      \field{title}{Crystal structure prediction accelerated by Bayesian optimization}
+      \field{volume}{2}
+      \field{year}{2018}
+    \endentry
+    \entry{Zhang2014}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=32e563370422457790db030ab2c13183}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{fullhash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{fullhashraw}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{bibnamehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{authorbibnamehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{authornamehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{authorfullhash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{authorfullhashraw}{a7bdfe934c877ee9b78d04fed4e61189}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Macromolecular Rapid Communications}
+      \field{title}{Recent advances in glycerol polymers: chemistry and biomedical applications}
+      \field{volume}{35}
+      \field{year}{2014}
+      \field{pages}{1906\bibrangedash 1924}
+      \range{pages}{19}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
