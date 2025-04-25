@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1743772978.28545 "main.bcf" "main.bbl" "main" 1743772982.50161 0
+["biber main"] 1743772978.28545 "main.bcf" "main.bbl" "main" 1745595243.07779 0
   "Bibliography/Bibliography.bib" 1743772978.05326 6861 a423c4d556c37f10b27f54f9ab0d69ca ""
-  "main.bcf" 1743772982.44621 110527 f81f4c18b5767990c24ab7aea1c1c324 "pdflatex"
+  "main.bcf" 1745595243.01299 110527 f81f4c18b5767990c24ab7aea1c1c324 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1743772981.12712 "/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex" "main.pdf" "main" 1743772982.50183 0
+["pdflatex"] 1745595241.50198 "/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex" "main.pdf" "main" 1745595243.07812 0
   "/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex" 1743764832.04488 1934 8b3c96f0f92f2b7831949e5e48968907 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -120,20 +120,22 @@
   "Images/MonomerMixing.png" 1743438092.09739 134886 8d3c2bd418088d4f6c5a306cad847118 ""
   "Images/MonomersGroupHighlighting.png" 1743438092.09796 130775 768394fde71ae21a98a9500b08ef1a7e ""
   "Images/Polyesterification.png" 1743438092.09863 164644 d52798378f544e29be0e4dd4cd1cb323 ""
+  "Images/PolymersGroupHighlighting.png" 1745509613.88428 32236 9ef531eb3f2930d0a1d45d8e4cfb6d5f ""
   "Images/PrepoolymerMassVsTime.png" 1743438092.09942 197615 013e806cc9ae79833e8a9b9e3f6aba7c ""
   "Images/QuantificationOfMonomerMixing.png" 1743438092.09999 140008 793bbbd78ae777c7f3d9f0a909a6a7ad ""
+  "Images/SimpleReactionOverview.png" 1745594857.15714 46250 61894e5d5464529e766ecd7977bbe365 ""
   "Images/SmallPriorOptimisationProgression.png" 1743438092.10076 215581 be291f703e190b431292f25a3a424c64 ""
-  "Sections/A1_Title.tex" 1743528450.46495 251 b2d51fc162c331a93bfc2e718859cd4a ""
+  "Sections/A1_Title.tex" 1743781878.33885 253 9af403518cda237981c5ce09765c6cfe ""
   "Sections/B1_Abstract.tex" 1743767659.01584 1340 78b57780d0e01a02b36efeeb17fa2ee6 ""
-  "Sections/C1_Introduction.tex" 1743772978.17108 8126 39d2958602f680d344045939c6f39bd6 ""
-  "Sections/D1_Method.tex" 1743679232.21411 6704 37fadbfc08d44bd84d69b107a17daf23 ""
+  "Sections/C1_Introduction.tex" 1743870309.94647 8126 39d2958602f680d344045939c6f39bd6 ""
+  "Sections/D1_Method.tex" 1745595241.27753 7358 b3159b26f4f73a7e5b4c04ac2cb10c89 ""
   "Sections/E1_Results.tex" 1743438720.70165 3396 c415005031b78221b42524e9e2190cbd ""
   "Sections/F1_Discussion.tex" 1743438771.12394 487 34b0fb6c6afae41d4205054e863928c7 ""
   "Sections/G1_Conclusion.tex" 1743438809.94242 34 792b6cdad05eb24559fb72323bb3e3e4 ""
   "Sections/H1_Bibliography.tex" 1743757242.92826 56 d68231be097735b5f34655fcf2cf7c01 ""
-  "main.aux" 1743772982.44447 10067 6ce2106f8d92f23b2711eee6cf53a56f "pdflatex"
+  "main.aux" 1745595243.01093 10528 0e74374bad6180c5d32d6a9faf675f09 "pdflatex"
   "main.bbl" 1743772979.64927 33303 14a0b8c6a2a2da19794f233de63dc866 "biber main"
-  "main.run.xml" 1743772982.44673 2320 b867871a6e071d851ccdb7d946d48351 "pdflatex"
+  "main.run.xml" 1745595243.01379 2320 b867871a6e071d851ccdb7d946d48351 "pdflatex"
   "main.tex" 1743764832.04488 1934 8b3c96f0f92f2b7831949e5e48968907 ""
   (generated)
   "main.aux"
