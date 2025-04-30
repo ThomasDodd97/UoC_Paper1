@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  25 APR 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  30 APR 2025 15:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -366,7 +366,9 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/gensymb/gensymb.sty
+Package: gensymb 2022/10/17 v1.0.2 (KJH)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -555,30 +557,28 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
 \@quotelevel=\count433
 \@quotereset=\count434
- (./main.aux
-
-LaTeX Warning: Label `fig:IntroductionPolyesterification' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -627,9 +627,20 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
- (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
+LaTeX Info: Redefining \celsius on input line 53.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 53.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 53.
+Package gensymb Info: Using \Omega for \ohm on input line 53.
+
+Package gensymb Warning: Not defining \micro.
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count435
 \scratchdimen=\dimen186
@@ -650,20 +661,20 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 39.
-Package microtype Info: Applying patch `item' on input line 39.
-Package microtype Info: Applying patch `toc' on input line 39.
-Package microtype Info: Applying patch `eqnum' on input line 39.
-Package microtype Info: Applying patch `footnote' on input line 39.
-Package microtype Info: Applying patch `verbatim' on input line 39.
-LaTeX Info: Redefining \microtypesetup on input line 39.
+LaTeX Info: Redefining \microtypecontext on input line 53.
+Package microtype Info: Applying patch `item' on input line 53.
+Package microtype Info: Applying patch `toc' on input line 53.
+Package microtype Info: Applying patch `eqnum' on input line 53.
+Package microtype Info: Applying patch `footnote' on input line 53.
+Package microtype Info: Applying patch `verbatim' on input line 53.
+LaTeX Info: Redefining \microtypesetup on input line 53.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 39.
+LaTeX Info: Redefining \showhyphens on input line 53.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -684,91 +695,62 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )) (./Sections/B1_Abstract.tex) (./Sections/C1_Introduction.tex [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./Sections/D1_Method.tex
-<Images/MonomersGroupHighlighting.png, id=14, 948.04187pt x 201.75375pt>
-File: Images/MonomersGroupHighlighting.png Graphic file (type png)
-<use Images/MonomersGroupHighlighting.png>
-Package pdftex.def Info: Images/MonomersGroupHighlighting.png  used on input line 42.
-(pdftex.def)             Requested size: 217.42267pt x 46.27pt.
-<Images/Polyesterification.png, id=16, 955.57pt x 335.2525pt>
-File: Images/Polyesterification.png Graphic file (type png)
-<use Images/Polyesterification.png>
-Package pdftex.def Info: Images/Polyesterification.png  used on input line 49.
-(pdftex.def)             Requested size: 217.42267pt x 76.27773pt.
-<Images/PolymersGroupHighlighting.png, id=17, 602.25pt x 258.9675pt>
-File: Images/PolymersGroupHighlighting.png Graphic file (type png)
-<use Images/PolymersGroupHighlighting.png>
-Package pdftex.def Info: Images/PolymersGroupHighlighting.png  used on input line 56.
-(pdftex.def)             Requested size: 217.42267pt x 93.49297pt.
- [3 <./Images/MonomersGroupHighlighting.png> <./Images/Polyesterification.png>]
-<Images/SimpleReactionOverview.png, id=29, 1027.84pt x 298.11375pt>
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+\OT1/cmr/m/n/12 (+20) In op-ti-mis-ing the prop-er-ties of a
+ []
+
+<Images/SimpleLinearEsterification.png, id=14, 1326.9575pt x 276.03125pt>
+File: Images/SimpleLinearEsterification.png Graphic file (type png)
+<use Images/SimpleLinearEsterification.png>
+Package pdftex.def Info: Images/SimpleLinearEsterification.png  used on input line 24.
+(pdftex.def)             Requested size: 452.96793pt x 94.22423pt.
+[3]
+<Images/SimpleReactionOverview.png, id=22, 1027.84pt x 298.11375pt>
 File: Images/SimpleReactionOverview.png Graphic file (type png)
 <use Images/SimpleReactionOverview.png>
-Package pdftex.def Info: Images/SimpleReactionOverview.png  used on input line 63.
+Package pdftex.def Info: Images/SimpleReactionOverview.png  used on input line 40.
 (pdftex.def)             Requested size: 452.96793pt x 131.3797pt.
-<Images/MonomerMixing.png, id=30, 952.55875pt x 200.75pt>
-File: Images/MonomerMixing.png Graphic file (type png)
-<use Images/MonomerMixing.png>
-Package pdftex.def Info: Images/MonomerMixing.png  used on input line 81.
-(pdftex.def)             Requested size: 452.96793pt x 95.46445pt.
-<Images/PrepoolymerMassVsTime.png, id=31, 975.645pt x 363.3575pt>
-File: Images/PrepoolymerMassVsTime.png Graphic file (type png)
-<use Images/PrepoolymerMassVsTime.png>
-Package pdftex.def Info: Images/PrepoolymerMassVsTime.png  used on input line 92.
-(pdftex.def)             Requested size: 452.96793pt x 168.6989pt.
-<Images/QuantificationOfMonomerMixing.png, id=32, 932.48375pt x 242.9075pt>
-File: Images/QuantificationOfMonomerMixing.png Graphic file (type png)
-<use Images/QuantificationOfMonomerMixing.png>
-Package pdftex.def Info: Images/QuantificationOfMonomerMixing.png  used on input line 104.
-(pdftex.def)             Requested size: 452.96793pt x 117.9953pt.
-) (./Sections/E1_Results.tex [4 <./Images/PolymersGroupHighlighting.png>]
-<Images/DeterministicBenchmarks.png, id=37, 954.56625pt x 290.08376pt>
-File: Images/DeterministicBenchmarks.png Graphic file (type png)
-<use Images/DeterministicBenchmarks.png>
-Package pdftex.def Info: Images/DeterministicBenchmarks.png  used on input line 10.
-(pdftex.def)             Requested size: 452.96793pt x 137.64957pt.
-<Images/BayesianPriors.png, id=38, 963.6pt x 317.185pt>
-File: Images/BayesianPriors.png Graphic file (type png)
-<use Images/BayesianPriors.png>
-Package pdftex.def Info: Images/BayesianPriors.png  used on input line 21.
-(pdftex.def)             Requested size: 452.96793pt x 149.10115pt.
-<Images/SmallPriorOptimisationProgression.png, id=39, 960.58875pt x 376.40625pt>
-File: Images/SmallPriorOptimisationProgression.png Graphic file (type png)
-<use Images/SmallPriorOptimisationProgression.png>
-Package pdftex.def Info: Images/SmallPriorOptimisationProgression.png  used on input line 31.
-(pdftex.def)             Requested size: 452.96793pt x 177.49678pt.
-<Images/LargePriorOptimisationProgression.png, id=40, 955.57pt x 372.39125pt>
-File: Images/LargePriorOptimisationProgression.png Graphic file (type png)
-<use Images/LargePriorOptimisationProgression.png>
-Package pdftex.def Info: Images/LargePriorOptimisationProgression.png  used on input line 38.
-(pdftex.def)             Requested size: 452.96793pt x 176.52402pt.
-) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) [5 <./Images/SimpleReactionOverview.png> <./Images/MonomerMixing.png>] (./Sections/H1_Bibliography.tex [6 <./Images/PrepoolymerMassVsTime.png> <./Images/QuantificationOfMonomerMixing.png>] [7 <./Images/DeterministicBenchmarks.png> <./Images/BayesianPriors.png>] [8 <./Images/SmallPriorOptimisationProgression.png>])
 
-[9 <./Images/LargePriorOptimisationProgression.png>] (./main.aux)
+Underfull \hbox (badness 7273) in paragraph at lines 45--48
+[]\OT1/cmr/m/n/12 (+20) Thermoset syn-the-sis was two-step:
+ []
+
+[4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Images/SimpleLinearEsterification.png>]
+<Images/PolymerisableRange.png, id=32, 1440.38126pt x 690.58pt>
+File: Images/PolymerisableRange.png Graphic file (type png)
+<use Images/PolymerisableRange.png>
+Package pdftex.def Info: Images/PolymerisableRange.png  used on input line 90.
+(pdftex.def)             Requested size: 452.96793pt x 217.16504pt.
+ [5 <./Images/SimpleReactionOverview.png>] [6 <./Images/PolymerisableRange.png>]
+<Images/OptimisationAlgorithm.png, id=42, 273.61423pt x 533.3526pt>
+File: Images/OptimisationAlgorithm.png Graphic file (type png)
+<use Images/OptimisationAlgorithm.png>
+Package pdftex.def Info: Images/OptimisationAlgorithm.png  used on input line 171.
+(pdftex.def)             Requested size: 217.42267pt x 423.81798pt.
+) (./Sections/E1_Results.tex) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [7 <./Images/OptimisationAlgorithm.png>] [8])
+
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16455 strings out of 473190
- 304213 string characters out of 5715801
- 1242076 words of memory out of 5000000
- 39333 multiletter control sequences out of 15000+600000
- 575907 words of font info for 172 fonts, out of 8000000 for 9000
+ 18077 strings out of 473190
+ 340493 string characters out of 5715801
+ 1271460 words of memory out of 5000000
+ 40944 multiletter control sequences out of 15000+600000
+ 576658 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,81p,1297b,1420s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 1880365 bytes).
+ 66i,16n,81p,1297b,1404s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (9 pages, 1176881 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 34872 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 38933 words of extra memory for PDF output out of 42996 (max. 10000000)
 

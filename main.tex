@@ -8,8 +8,11 @@
 \errorcontextlines=3
 % Importing an important maths formatting tool
 \usepackage{amsmath}
+\DeclareMathOperator*{\argmaxA}{arg\,max} % Declaring an operator using the amsmath package.
 % Import all the mathematical symbols we may need, e.g. \rightarrow
 \usepackage{amssymb}
+% Importing package allowing for the use of a degrees C symbol e.g. \degree
+\usepackage{gensymb}
 % Colorise the text at will. e.g. \color{red} \textcolor[HTML]{EB7D3C}{CO}
 \usepackage{xcolor}
 \definecolor{CarboxylOrange}{HTML}{EB7D3C}
@@ -35,6 +38,17 @@
 \usepackage{microtype}
 % Allow urls to be used in the document
 \usepackage{url}
+% Import a package capable of more complicated cross-referencing e.g. \cref{eq:StoichiometricEquation,eq:CitricAcidBounds,eq:ItaconicAcidBounds}
+\usepackage{cleveref}
+
+% % This is a code snipped stolen from online which fixes spacing above and below any equations I have written.
+% \expandafter\def\expandafter\normalsize\expandafter{%
+%     \normalsize%
+%     \setlength\abovedisplayskip{8pt}%
+%     \setlength\belowdisplayskip{8pt}%
+%     \setlength\abovedisplayshortskip{-8pt}%
+%     \setlength\belowdisplayshortskip{2pt}%
+% }
 
 \begin{document}
     \input{Sections/A1_Title}
