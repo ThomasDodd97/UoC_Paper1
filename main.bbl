@@ -309,6 +309,90 @@
       \field{pages}{52588\bibrangedash 52608}
       \range{pages}{21}
     \endentry
+    \entry{Deisenroth2020}{book}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=541cff1f71074f8f9f3259b053e4e2a8}{%
+           family={Deisenroth},
+           familyi={D\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \strng{fullhash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \strng{fullhashraw}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \strng{bibnamehash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \strng{authorbibnamehash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \strng{authornamehash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \strng{authorfullhash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \strng{authorfullhashraw}{ae0eeab3f0059421bd4d8dbc00b7c47b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematics for Machine Learning}
+      \field{year}{2020}
+    \endentry
+    \entry{Downey2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=32e04286cb6c84b49e111a74a34a59b3}{%
+           family={Downey},
+           familyi={D\bibinitperiod},
+           given={Allen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OŔeilly Media Inc}%
+      }
+      \strng{namehash}{32e04286cb6c84b49e111a74a34a59b3}
+      \strng{fullhash}{32e04286cb6c84b49e111a74a34a59b3}
+      \strng{fullhashraw}{32e04286cb6c84b49e111a74a34a59b3}
+      \strng{bibnamehash}{32e04286cb6c84b49e111a74a34a59b3}
+      \strng{authorbibnamehash}{32e04286cb6c84b49e111a74a34a59b3}
+      \strng{authornamehash}{32e04286cb6c84b49e111a74a34a59b3}
+      \strng{authorfullhash}{32e04286cb6c84b49e111a74a34a59b3}
+      \strng{authorfullhashraw}{32e04286cb6c84b49e111a74a34a59b3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1449370780}
+      \field{title}{Think Bayes}
+      \field{year}{2013}
+    \endentry
+    \entry{Garud2017}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5bc40bbf417288d99e0e025c5ad6a31f}{%
+           family={Garud},
+           familyi={G\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{efed19bfead90febcafcfe2ede83c365}
+      \strng{fullhash}{efed19bfead90febcafcfe2ede83c365}
+      \strng{fullhashraw}{efed19bfead90febcafcfe2ede83c365}
+      \strng{bibnamehash}{efed19bfead90febcafcfe2ede83c365}
+      \strng{authorbibnamehash}{efed19bfead90febcafcfe2ede83c365}
+      \strng{authornamehash}{efed19bfead90febcafcfe2ede83c365}
+      \strng{authorfullhash}{efed19bfead90febcafcfe2ede83c365}
+      \strng{authorfullhashraw}{efed19bfead90febcafcfe2ede83c365}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers and Chemical Engineering}
+      \field{title}{Design of computer experiments: A review}
+      \field{volume}{106}
+      \field{year}{2017}
+      \field{pages}{71\bibrangedash 95}
+      \range{pages}{25}
+    \endentry
     \entry{Jones1998}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -482,6 +566,35 @@
       \field{year}{2001}
       \field{pages}{87\bibrangedash 95}
       \range{pages}{9}
+    \endentry
+    \entry{Rasmussen2005}{book}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=c3e4580ad47bbaa5c297dcf7133fe05e}{%
+           family={Rasmussen},
+           familyi={R\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{681014e3c0661ae71813f95508c92d82}
+      \strng{fullhash}{681014e3c0661ae71813f95508c92d82}
+      \strng{fullhashraw}{681014e3c0661ae71813f95508c92d82}
+      \strng{bibnamehash}{681014e3c0661ae71813f95508c92d82}
+      \strng{authorbibnamehash}{681014e3c0661ae71813f95508c92d82}
+      \strng{authornamehash}{681014e3c0661ae71813f95508c92d82}
+      \strng{authorfullhash}{681014e3c0661ae71813f95508c92d82}
+      \strng{authorfullhashraw}{681014e3c0661ae71813f95508c92d82}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780262182539}
+      \field{title}{Gaussian Processes for Machine Learning}
+      \field{year}{2005}
     \endentry
     \entry{Roeva2012}{book}{}{}
       \name{author}{1}{}{%
