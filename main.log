@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  13 MAY 2025 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  21 MAY 2025 17:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,6 +357,22 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip76
+\RaggedLeftLeftskip=\skip77
+\RaggedRightLeftskip=\skip78
+\CenteringRightskip=\skip79
+\RaggedLeftRightskip=\skip80
+\RaggedRightRightskip=\skip81
+\CenteringParfillskip=\skip82
+\RaggedLeftParfillskip=\skip83
+\RaggedRightParfillskip=\skip84
+\JustifyingParfillskip=\skip85
+\CenteringParindent=\skip86
+\RaggedLeftParindent=\skip87
+\RaggedRightParindent=\skip88
+\JustifyingParindent=\skip89
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -421,131 +437,228 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen167
 \Gin@req@width=\dimen168
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count417
+\l__tblr_c_int=\count418
+\l__tblr_r_int=\count419
+\l__tblr_d_dim=\dimen169
+\l__tblr_h_dim=\dimen170
+\l__tblr_o_dim=\dimen171
+\l__tblr_p_dim=\dimen172
+\l__tblr_q_dim=\dimen173
+\l__tblr_r_dim=\dimen174
+\l__tblr_s_dim=\dimen175
+\l__tblr_t_dim=\dimen176
+\l__tblr_v_dim=\dimen177
+\l__tblr_w_dim=\dimen178
+\l__tblr_a_box=\box55
+\l__tblr_b_box=\box56
+\l__tblr_c_box=\box57
+\l__tblr_d_box=\box58
+\g__tblr_table_count_int=\count420
+\c@rownum=\count421
+\c@colnum=\count422
+\c@rowcount=\count423
+\c@colcount=\count424
+\abovesep=\dimen179
+\belowsep=\dimen180
+\leftsep=\dimen181
+\rightsep=\dimen182
+\g_tblr_level_int=\count425
+\g__tblr_data_row_key_count_int=\count426
+\g__tblr_data_column_key_count_int=\count427
+\g__tblr_data_cell_key_count_int=\count428
+\g__tblr_array_int=\count429
+\l__tblr_key_count_int=\count430
+\l__tblr_key_quotient_int=\count431
+\l__tblr_key_quotient_two_int=\count432
+\l__tblr_key_remainder_int=\count433
+\g__tblr_data_str_value_count_int=\count434
+\rulewidth=\dimen183
+\l__tblr_strut_dp_dim=\dimen184
+\l__tblr_strut_ht_dim=\dimen185
+\g__tblr_cell_wd_dim=\dimen186
+\g__tblr_cell_ht_dim=\dimen187
+\g__tblr_cell_head_dim=\dimen188
+\g__tblr_cell_foot_dim=\dimen189
+\l__column_target_dim=\dimen190
+\l__tblr_caption_box=\box59
+\l__tblr_caption_left_box=\box60
+\l__tblr_row_head_box=\box61
+\l__tblr_row_foot_box=\box62
+\l__tblr_row_head_foot_dim=\dimen191
+\tablewidth=\dimen192
+\l__tblr_table_firsthead_box=\box63
+\l__tblr_table_middlehead_box=\box64
+\l__tblr_table_lasthead_box=\box65
+\l__tblr_table_firstfoot_box=\box66
+\l__tblr_table_middlefoot_box=\box67
+\l__tblr_table_lastfoot_box=\box68
+\l__tblr_remain_height_dim=\dimen193
+\l__tblr_long_from_int=\count435
+\l__tblr_long_to_int=\count436
+\l__tblr_curr_i_int=\count437
+\l__tblr_prev_i_int=\count438
+\l__tblr_table_page_int=\count439
+\l__tblr_table_head_box=\box69
+\l__tblr_table_foot_box=\box70
+\l__tblr_table_head_foot_dim=\dimen194
+\l__tblr_table_head_body_foot_dim=\dimen195
+\l__tblr_table_box=\box71
+\l__tblr_table_hlines_box=\box72
+\l__tblr_hline_box=\box73
+\l__tblr_row_box=\box74
+\l__tblr_col_o_wd_dim=\dimen196
+\l__tblr_col_b_wd_dim=\dimen197
+\l__tblr_hline_leftskip_dim=\dimen198
+\l__tblr_hline_rightskip_dim=\dimen199
+\l__tblr_row_ht_dim=\dimen256
+\l__tblr_row_dp_dim=\dimen257
+\l__tblr_row_abovesep_dim=\dimen258
+\l__tblr_row_belowsep_dim=\dimen259
+\l__tblr_row_vlines_box=\box75
+\l__tblr_vline_box=\box76
+\l__tblr_cell_box=\box77
+\l__row_upper_dim=\dimen260
+\l__row_lower_dim=\dimen261
+\l__row_vpace_dim=\dimen262
+\l__tblr_vline_aboveskip_dim=\dimen263
+\l__tblr_vline_belowskip_dim=\dimen264
+\l__tblr_cell_wd_dim=\dimen265
+\l__tblr_cell_ht_dim=\dimen266
+\l__tblr_diag_box=\box78
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-02-27 v3.4.6 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count440
+\l__siunitx_number_exponent_fixed_int=\count441
+\l__siunitx_number_min_decimal_int=\count442
+\l__siunitx_number_min_integer_int=\count443
+\l__siunitx_number_round_precision_int=\count444
+\l__siunitx_number_lower_threshold_int=\count445
+\l__siunitx_number_upper_threshold_int=\count446
+\l__siunitx_number_group_first_int=\count447
+\l__siunitx_number_group_size_int=\count448
+\l__siunitx_number_group_minimum_int=\count449
+\l__siunitx_angle_tmp_dim=\dimen267
+\l__siunitx_angle_marker_box=\box79
+\l__siunitx_angle_unit_box=\box80
+\l__siunitx_compound_count_int=\count450
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box81
+\l__siunitx_table_tmp_dim=\dimen268
+\l__siunitx_table_column_width_dim=\dimen269
+\l__siunitx_table_integer_box=\box82
+\l__siunitx_table_decimal_box=\box83
+\l__siunitx_table_uncert_box=\box84
+\l__siunitx_table_before_box=\box85
+\l__siunitx_table_after_box=\box86
+\l__siunitx_table_before_dim=\dimen270
+\l__siunitx_table_carry_dim=\dimen271
+\l__siunitx_unit_tmp_int=\count451
+\l__siunitx_unit_position_int=\count452
+\l__siunitx_unit_total_int=\count453
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen169
-\ar@mcellbox=\box55
-\extrarowheight=\dimen170
+\col@sep=\dimen272
+\ar@mcellbox=\box87
+\extrarowheight=\dimen273
 \NC@list=\toks24
-\extratabsurround=\skip76
-\backup@length=\skip77
-\ar@cellbox=\box56
-)
-\TX@col@width=\dimen171
-\TX@old@table=\dimen172
-\TX@old@col=\dimen173
-\TX@target=\dimen174
-\TX@delta=\dimen175
-\TX@cols=\count417
-\TX@ftn=\toks25
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip78
-\RaggedLeftLeftskip=\skip79
-\RaggedRightLeftskip=\skip80
-\CenteringRightskip=\skip81
-\RaggedLeftRightskip=\skip82
-\RaggedRightRightskip=\skip83
-\CenteringParfillskip=\skip84
-\RaggedLeftParfillskip=\skip85
-\RaggedRightParfillskip=\skip86
-\JustifyingParfillskip=\skip87
-\CenteringParindent=\skip88
-\RaggedLeftParindent=\skip89
-\RaggedRightParindent=\skip90
-\JustifyingParindent=\skip91
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+\extratabsurround=\skip90
+\backup@length=\skip91
+\ar@cellbox=\box88
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count418
-\mult@box=\box57
-\multicol@leftmargin=\dimen176
-\c@unbalance=\count419
-\c@collectmore=\count420
-\doublecol@number=\count421
-\multicoltolerance=\count422
-\multicolpretolerance=\count423
-\full@width=\dimen177
-\page@free=\dimen178
-\premulticols=\dimen179
-\postmulticols=\dimen180
+\c@tracingmulticols=\count454
+\mult@box=\box89
+\multicol@leftmargin=\dimen274
+\c@unbalance=\count455
+\c@collectmore=\count456
+\doublecol@number=\count457
+\multicoltolerance=\count458
+\multicolpretolerance=\count459
+\full@width=\dimen275
+\page@free=\dimen276
+\premulticols=\dimen277
+\postmulticols=\dimen278
 \multicolsep=\skip92
 \multicolbaselineskip=\skip93
-\partial@page=\box58
-\last@line=\box59
-\mc@boxedresult=\box60
-\maxbalancingoverflow=\dimen181
-\mult@rightbox=\box61
-\mult@grightbox=\box62
-\mult@firstbox=\box63
-\mult@gfirstbox=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
+\partial@page=\box90
+\last@line=\box91
+\mc@boxedresult=\box92
+\maxbalancingoverflow=\dimen279
+\mult@rightbox=\box93
+\mult@grightbox=\box94
+\mult@firstbox=\box95
+\mult@gfirstbox=\box96
 \@tempa=\box97
 \@tempa=\box98
 \@tempa=\box99
 \@tempa=\box100
-\c@minrows=\count424
-\c@columnbadness=\count425
-\c@finalcolumnbadness=\count426
-\last@try=\dimen182
-\multicolovershoot=\dimen183
-\multicolundershoot=\dimen184
-\mult@nat@firstbox=\box101
-\colbreak@box=\box102
-\mc@col@check@num=\count427
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\c@minrows=\count460
+\c@columnbadness=\count461
+\c@finalcolumnbadness=\count462
+\last@try=\dimen280
+\multicolovershoot=\dimen281
+\multicolundershoot=\dimen282
+\mult@nat@firstbox=\box133
+\colbreak@box=\box134
+\mc@col@check@num=\count463
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count428
-\l__lipsum_a_int=\count429
-\l__lipsum_b_int=\count430
+\g__lipsum_par_int=\count464
+\l__lipsum_a_int=\count465
+\l__lipsum_b_int=\count466
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
-\MT@toks=\toks26
-\MT@tempbox=\box103
-\MT@count=\count431
+\MT@toks=\toks25
+\MT@tempbox=\box135
+\MT@count=\count467
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
-\MT@prot@toks=\toks27
+\MT@prot@toks=\toks26
 LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen185
+\MT@outer@kern=\dimen283
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count432
+\MT@listname@count=\count468
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
@@ -560,25 +673,26 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
-\@quotelevel=\count433
-\@quotereset=\count434
+\@quotelevel=\count469
+\@quotereset=\count470
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 56.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -627,32 +741,32 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
-LaTeX Info: Redefining \celsius on input line 53.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 53.
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
+LaTeX Info: Redefining \celsius on input line 56.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 56.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 53.
-Package gensymb Info: Using \Omega for \ohm on input line 53.
+LaTeX Info: Redefining \ohm on input line 56.
+Package gensymb Info: Using \Omega for \ohm on input line 56.
 
 Package gensymb Warning: Not defining \micro.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
-\scratchdimen=\dimen186
-\scratchbox=\box104
-\nofMPsegments=\count436
-\nofMParguments=\count437
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count438
-\MPscratchDim=\dimen187
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count471
+\scratchdimen=\dimen284
+\scratchbox=\box136
+\nofMPsegments=\count472
+\nofMParguments=\count473
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count474
+\MPscratchDim=\dimen285
+\MPnumerator=\count475
+\makeMPintoPDFobject=\count476
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -661,20 +775,26 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 53.
-Package microtype Info: Applying patch `item' on input line 53.
-Package microtype Info: Applying patch `toc' on input line 53.
-Package microtype Info: Applying patch `eqnum' on input line 53.
-Package microtype Info: Applying patch `footnote' on input line 53.
-Package microtype Info: Applying patch `verbatim' on input line 53.
-LaTeX Info: Redefining \microtypesetup on input line 53.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 56.
+LaTeX Info: Redefining \microtypecontext on input line 56.
+Package microtype Info: Applying patch `item' on input line 56.
+Package microtype Info: Applying patch `toc' on input line 56.
+Package microtype Info: Applying patch `eqnum' on input line 56.
+Package microtype Info: Applying patch `footnote' on input line 56.
+Package microtype Info: Applying patch `verbatim' on input line 56.
+LaTeX Info: Redefining \microtypesetup on input line 56.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 53.
+LaTeX Info: Redefining \showhyphens on input line 56.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -725,17 +845,34 @@ Package pdftex.def Info: Images/PolymerisableRange.png  used on input line 143.
 <Images/OptimisationAlgorithm.png, id=42, 258.29298pt x 533.3526pt>
 File: Images/OptimisationAlgorithm.png Graphic file (type png)
 <use Images/OptimisationAlgorithm.png>
-Package pdftex.def Info: Images/OptimisationAlgorithm.png  used on input line 244.
+Package pdftex.def Info: Images/OptimisationAlgorithm.png  used on input line 248.
 (pdftex.def)             Requested size: 217.42267pt x 448.97343pt.
  [7 <./Images/OptimisationAlgorithm.png>]
-<Images/BayesianPriors90Degrees.png, id=49, 317.185pt x 536.0025pt>
-File: Images/BayesianPriors90Degrees.png Graphic file (type png)
-<use Images/BayesianPriors90Degrees.png>
-Package pdftex.def Info: Images/BayesianPriors90Degrees.png  used on input line 294.
-(pdftex.def)             Requested size: 217.42267pt x 367.4294pt.
- [8 <./Images/BayesianPriors90Degrees.png>]) (./Sections/E1_Results.tex) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [9])
-
-[10]
+<Images/BayesianPriorsAbbreviated.png, id=49, 352.81813pt x 317.185pt>
+File: Images/BayesianPriorsAbbreviated.png Graphic file (type png)
+<use Images/BayesianPriorsAbbreviated.png>
+Package pdftex.def Info: Images/BayesianPriorsAbbreviated.png  used on input line 298.
+(pdftex.def)             Requested size: 217.42267pt x 195.46205pt.
+ [8 <./Images/BayesianPriorsAbbreviated.png>]
+<Images/Benchmarks.png, id=55, 454.644pt x 143.226pt>
+File: Images/Benchmarks.png Graphic file (type png)
+<use Images/Benchmarks.png>
+Package pdftex.def Info: Images/Benchmarks.png  used on input line 368.
+(pdftex.def)             Requested size: 452.96793pt x 142.70331pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./Sections/E1_Results.tex) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [9]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [10 <./Images/Benchmarks.png>])
 
 [11] (./main.aux)
  ***********
@@ -747,18 +884,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18119 strings out of 473190
- 341693 string characters out of 5715801
- 1277950 words of memory out of 5000000
- 40974 multiletter control sequences out of 15000+600000
- 577224 words of font info for 180 fonts, out of 8000000 for 9000
+ 24096 strings out of 473190
+ 517438 string characters out of 5715801
+ 1394926 words of memory out of 5000000
+ 46917 multiletter control sequences out of 15000+600000
+ 579163 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,16n,81p,1297b,1403s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (11 pages, 1343529 bytes).
+ 66i,16n,111p,1117b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (11 pages, 1510984 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38938 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 39455 words of extra memory for PDF output out of 42996 (max. 10000000)
 

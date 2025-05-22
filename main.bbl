@@ -364,6 +364,37 @@
       \field{title}{Think Bayes}
       \field{year}{2013}
     \endentry
+    \entry{Facebook2024}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=d85544fce402c7a2a96a48078edaf203}{%
+           family={Facebook},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{fullhash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{fullhashraw}{d85544fce402c7a2a96a48078edaf203}
+      \strng{bibnamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorbibnamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authornamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorfullhash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorfullhashraw}{d85544fce402c7a2a96a48078edaf203}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{6}
+      \field{title}{Ax}
+      \field{version}{0.4.3}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/facebook/Ax
+      \endverb
+      \verb{url}
+      \verb https://github.com/facebook/Ax
+      \endverb
+    \endentry
     \entry{Garud2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -393,6 +424,39 @@
       \field{pages}{71\bibrangedash 95}
       \range{pages}{25}
     \endentry
+    \entry{HojlundDodd2024}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=37869c8d000b76d8a5494d7fcad1aca5}{%
+           family={Højlund-Dodd},
+           familyi={H\bibinithyphendelim D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{fullhash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{fullhashraw}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{bibnamehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authorbibnamehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authornamehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authorfullhash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authorfullhashraw}{37869c8d000b76d8a5494d7fcad1aca5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{6}
+      \field{title}{BO4BT}
+      \field{version}{1.0.0}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ThomasDodd97/BO4BT
+      \endverb
+      \verb{url}
+      \verb https://github.com/ThomasDodd97/BO4BT
+      \endverb
+    \endentry
     \entry{Jones1998}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -421,6 +485,37 @@
       \field{year}{1998}
       \field{pages}{455\bibrangedash 492}
       \range{pages}{38}
+    \endentry
+    \entry{Kernc2021}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=02bc14f7d12764202d6dbd7991fd7ea7}{%
+           family={Kernc},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \strng{fullhash}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \strng{fullhashraw}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \strng{bibnamehash}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \strng{authorbibnamehash}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \strng{authornamehash}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \strng{authorfullhash}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \strng{authorfullhashraw}{02bc14f7d12764202d6dbd7991fd7ea7}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{6}
+      \field{title}{scikit-optimize}
+      \field{version}{0.9.0}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/scikit-optimize/scikit-optimize
+      \endverb
+      \verb{url}
+      \verb https://github.com/scikit-optimize/scikit-optimize
+      \endverb
     \endentry
     \entry{Levi2018}{article}{}{}
       \true{moreauthor}

@@ -8,6 +8,8 @@
 \errorcontextlines=3
 % Importing an important maths formatting tool
 \usepackage{amsmath}
+% Importing a package allowing for justification of text.
+\usepackage{ragged2e}
 \DeclareMathOperator*{\argmaxA}{arg\,max} % Declaring an operator using the amsmath package.
 % Import all the mathematical symbols we may need, e.g. \rightarrow
 \usepackage{amssymb}
@@ -27,7 +29,8 @@
 \usepackage{graphicx}
 \graphicspath{{Images/}}
 % Importing package allowing for table creation
-\usepackage{tabularx}
+\usepackage{tabularray}
+\UseTblrLibrary{siunitx} % alignment of numbers in tables
 % Importing a package allowing for justification of text.
 \usepackage{ragged2e}
 % Import the package allowing the invoking of multiple columns of text.

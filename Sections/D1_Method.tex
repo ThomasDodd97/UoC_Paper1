@@ -239,6 +239,10 @@ Samples drawn from the parameter space are processed into stoichiometric variabl
  (\(n_{Ci},n_{It}\)), with which an experimenter can manufacture sample(s) before evaluating 
  the target variables \(\Delta m_{\%}\) value(s) and returning these to the algorithm.
 
+The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented in the Python programming
+ language, with multiple modules written and united into a single package with the acronym "BO4BT" (version 1.0.0)- 
+ Bayesian optimisation for biodegradable thermosets \cite{HojlundDodd2024}.
+
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
     \includegraphics[width=0.48\textwidth]{OptimisationAlgorithm}
@@ -287,13 +291,13 @@ On evaluation of the initial representative set of samples (\([\mathbf{x}^{i=1},
  prior-forming dataset (\(\mathbb{D}^{i=p_{init}}\)) is produced.
 This research employed only two quasirandomly sampled initial prior-forming datasets, facilitating 
  inter-comparison of various Bayesian optimisation routines attempted; the smaller (\(\mathbb{D}^{i=8}\)) 
- and larger (\(\mathbb{D}^{i=16}\)) of these are visualised in Figure~\ref{fig:BayesianPriors}.
+ and larger (\(\mathbb{D}^{i=16}\)) of these are visualised in Figure~\ref{fig:BayesianPriorsAbbreviated}.
 
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
-    \includegraphics[width=0.48\textwidth]{BayesianPriors90Degrees.png}
-    \captionof{figure}{\footnotesize{\textbf{BayesianPriors} These 3D graphs depict the two quasirandom samplings of the parameter space.}}
-    \label{fig:BayesianPriors}
+    \includegraphics[width=0.48\textwidth]{BayesianPriorsAbbreviated.png}
+    \captionof{figure}{\footnotesize{\textbf{BayesianPriorsAbbreviated} These 3D graphs depict the two quasirandom samplings of the parameter space. Coloration of points denote distance from viewer with darker points appearing further away.}}
+    \label{fig:BayesianPriorsAbbreviated}
 \end{center}
 
 \subsubsection{Sequential Bayesian Sampling}
@@ -304,6 +308,7 @@ Sequential sampling used in this research abided by Bayes theorem (see Equation~
  (probability of evidence given hypothesis) divided by the marginal probability \(P(E)\) (probability of evidence).
 As new evidence becomes available, the posterior probability is recycled into the equation as a prior alongside 
  the new evidence and updated to a new posterior \cite{Downey2013}.
+
 \begin{equation}
     \overset{\mathrm{posterior}}{P(H|E)}=\frac{\overset{\mathrm{prior}}{P(H)}\times \overset{\mathrm{likelihood}}{P(E|H)}}{\underset{\mathrm{marginal}}{P(E)}}
     \label{eq:Bayesianism}
@@ -314,6 +319,7 @@ Bayesian optimisation uses a Bayesian statistical model called a Gaussian proces
 Equation~\ref{eq:GaussianProcess} shows how a gaussian process, 
  \(\mathcal{GP}\),  is a distribution over functions which is completely
  described by both a mean function, \(m\), and a covariance function, \(k\).
+ 
 \begin{equation}
     f(\mathbf{x})\sim \mathcal{GP}(m(\mathbf{x}),k(\mathbf{x},\mathbf{x}'))
     \label{eq:GaussianProcess}
@@ -338,14 +344,48 @@ The surrogate model therewith evolves during the course of sequential
  to the updating of beliefs when considering new evidence which hallmarks
  all Bayesian techniques.
 
+On developing a Gaussian process a covariance function must be 
+
+
+During fitting of the Gaussian process a covariance function is used to encode our
+ beliefs regarding the families of functions likely to fit the data observed; this
+ work made use of the Mat\'ern family.
+
+Gaussian processes and acquisition functions were produced using two
+ open-source packages: scikit-optimise ("skopt", v0.9.0) \cite{Kernc2021} and
+ Ax ("ax-platform", v0.4.3) \cite{Facebook2024}.
+
 % ========================================================================================================================================================================================
 \subsection{Benchmarks}
 
-
-
-
-
-
+Sample efficiency of the Bayesian sequential optimisation techniques was proven by
+ employing three simple benchmarks.
+These were derived using one-shot determinstic space-filling sampling techniques
+ including pseudorandom, quasirandom (Sobol), and grid to disperse the maximum allowable
+ number of samples (\(p_{tot}=27\)) across the parameter space \(A\) (See Figure~\ref{fig:Benchmarks}).
+\begin{figure*}[htb]
+    \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
+    \includegraphics[width=\textwidth]{Benchmarks}
+    \captionof{figure}{\footnotesize{\textbf{Benchmarks} Deterministic space-filling one-shot sampling techniques: G - Grid sampling technique, QR - Quasirandom sampling technique, PR - Pseudorandom sampling technique. Coloration of points denote distance from viewer with darker points appearing further away.}}
+    \label{fig:Benchmarks}
+\end{figure*}
+Subsequently, for each of the techniques deployed, all samples \(\mathbf{X}\) were 
+ evaluated \(f(\mathbf{X})\) to retrieve associated target variable values \(\mathbf{\Delta m_{\%}}\)
+ generating a complete dataset \(\mathbb{D}\).
+The highest target variable value was identified within each technique's dataset (\(\Delta m_{\%}^{\circ}\)) and equated to
+the benchmark value (See Table~\ref{tab:BayesianPriorsBestValues}).
+\begin{center}
+    \begin{tblr}{colspec={Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]},row{1}={guard},column{1}={guard}}
+        {Benchmark\\Technique}&{Benchmark Result, \\\(\Delta m_{\%}^{\circ}\) (\%)}\\
+        \hline
+        Grid & 16.24 \\
+        Quasirandom & 14.55 \\
+        Pseudorandom & 14.01 \\
+    \end{tblr}
+    \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
+    \captionof{table}{\footnotesize{\textbf{BayesianPriorsBestValues} Benchmark values obtained by deterministic space-filling one-shot sampling techniques.}}
+    \label{tab:BayesianPriorsBestValues}
+\end{center}
 
 % \subsection{Bayesian Optimisation of the Variables and How it was Implemented Computationally and Practically}
 % Given the target variable and predictor variables, a prior could be built over the parameter space.
