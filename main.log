@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  21 MAY 2025 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  22 MAY 2025 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -676,7 +676,14 @@ Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 \@quotelevel=\count469
 \@quotereset=\count470
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 56.
- (./main.aux)
+ (./main.aux
+
+LaTeX Warning: Label `tab:BayesianPriorsBestValues' multiply defined.
+
+
+LaTeX Warning: Label `tab:BayesianPriorsBestValues@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -854,10 +861,14 @@ File: Images/BayesianPriorsAbbreviated.png Graphic file (type png)
 Package pdftex.def Info: Images/BayesianPriorsAbbreviated.png  used on input line 298.
 (pdftex.def)             Requested size: 217.42267pt x 195.46205pt.
  [8 <./Images/BayesianPriorsAbbreviated.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+[]\OT1/cmr/m/n/12 (+20) WORK IN PROGRESS, NOTE
+ []
+
 <Images/Benchmarks.png, id=55, 454.644pt x 143.226pt>
 File: Images/Benchmarks.png Graphic file (type png)
 <use Images/Benchmarks.png>
-Package pdftex.def Info: Images/Benchmarks.png  used on input line 368.
+Package pdftex.def Info: Images/Benchmarks.png  used on input line 369.
 (pdftex.def)             Requested size: 452.96793pt x 142.70331pt.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -866,36 +877,80 @@ Package pdftex.def Info: Images/Benchmarks.png  used on input line 368.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
+
+Package tabularray Warning: Table width is too small, need 15.55437pt more!
+
 > Step: build the whole table.
-) (./Sections/E1_Results.tex) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [9]
+
+Overfull \hbox (15.55437pt too wide) in paragraph at lines 385--387
+ [] 
+ []
+
+) (./Sections/E1_Results.tex
+<Images/OptimisationProgression.png, id=56, 955.57pt x 372.39125pt>
+File: Images/OptimisationProgression.png Graphic file (type png)
+<use Images/OptimisationProgression.png>
+Package pdftex.def Info: Images/OptimisationProgression.png  used on input line 5.
+(pdftex.def)             Requested size: 452.96793pt x 176.52402pt.
+ [9]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [10 <./Images/Benchmarks.png> <./Images/OptimisationProgression.png>]
+<Images/ResultOverview.png, id=65, 454.644pt x 184.617pt>
+File: Images/ResultOverview.png Graphic file (type png)
+<use Images/ResultOverview.png>
+Package pdftex.def Info: Images/ResultOverview.png  used on input line 28.
+(pdftex.def)             Requested size: 452.96793pt x 183.94325pt.
+<Images/AllResultsConcatenated.png, id=66, 453.695pt x 339.2675pt>
+File: Images/AllResultsConcatenated.png Graphic file (type png)
+<use Images/AllResultsConcatenated.png>
+Package pdftex.def Info: Images/AllResultsConcatenated.png  used on input line 37.
+(pdftex.def)             Requested size: 452.96793pt x 338.72827pt.
+ [11]
+<Images/RepresentativeSampling.png, id=70, 454.644pt x 198.7425pt>
+File: Images/RepresentativeSampling.png Graphic file (type png)
+<use Images/RepresentativeSampling.png>
+Package pdftex.def Info: Images/RepresentativeSampling.png  used on input line 46.
+(pdftex.def)             Requested size: 452.96793pt x 198.01721pt.
+) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [12 <./Images/ResultOverview.png>] [13 <./Images/AllResultsConcatenated.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [10 <./Images/Benchmarks.png>])
+ [14 <./Images/RepresentativeSampling.png>])
 
-[11] (./main.aux)
+[15] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24096 strings out of 473190
- 517438 string characters out of 5715801
- 1394926 words of memory out of 5000000
- 46917 multiletter control sequences out of 15000+600000
- 579163 words of font info for 192 fonts, out of 8000000 for 9000
+ 24158 strings out of 473190
+ 519549 string characters out of 5715801
+ 1400211 words of memory out of 5000000
+ 46979 multiletter control sequences out of 15000+600000
+ 580399 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,16n,111p,1117b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,16n,112p,1117b,1490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (11 pages, 1510984 bytes).
+Output written on main.pdf (15 pages, 2156368 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 165 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 39455 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 39475 words of extra memory for PDF output out of 42996 (max. 10000000)
 

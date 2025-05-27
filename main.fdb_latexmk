@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1747846334.69633 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1747925407.7157 -1
   "Bibliography/Bibliography.bib" 1747231142.01049 8120 df37c791f90a8d7d3c7bd8e620a43d08 ""
-  "main.bcf" 1747846334.61522 111207 17fa8dfef23231c5b898e580847852ed "pdflatex"
+  "main.bcf" 1747925407.63528 111207 17fa8dfef23231c5b898e580847852ed "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1747846332.03746 "/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex" "main.pdf" "main" 1747846334.69658 0
-  "/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex" 1747841249.52126 2794 078da491496089d74d9830a6ce3c7c42 ""
+["pdflatex"] 1747925404.09222 "/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex" "main.pdf" "main" 1747925407.71599 0
+  "/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex" 1747919511.27413 2794 078da491496089d74d9830a6ce3c7c42 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -131,24 +131,28 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743764417 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743764335 3345733 aa940858a04c426e0c2c69cc646a289e ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "Images/AllResultsConcatenated.png" 1747922243.41317 252922 1e68e8ba2c675202f8462418655163b3 ""
   "Images/BayesianPriorsAbbreviated.png" 1747846262.71605 155339 27c6fd22b413ebf61bd6ddb4a9768236 ""
   "Images/Benchmarks.png" 1747839118.60967 273386 9b0c1b5acdeb11de47f10c847f04bb4d ""
   "Images/OptimisationAlgorithm.png" 1746107256.08111 1198320 41e9d881dbfbae5f10b98afeea2d80df ""
+  "Images/OptimisationProgression.png" 1743438092.09662 236975 d1ee81a69245b222ff08f5795085e438 ""
   "Images/PolymerisableRange.png" 1745752617.71763 250390 d3a4abc619e9ceb7dc06db384ca1fd3c ""
+  "Images/RepresentativeSampling.png" 1747925358.26231 113049 984bb5590935b0a8e061906a2d607f02 ""
+  "Images/ResultOverview.png" 1747922111.94514 148805 650f594e9937c867dbb3ca402d1171bb ""
   "Images/SimpleLinearEsterification.png" 1745748741.07893 47862 d16d920c06a3715980c4876be8cdb9e5 ""
   "Images/SimpleReactionOverview.png" 1745748257.84237 47000 9794e8f55e59ced9dd037f8624ebd5e9 ""
   "Sections/A1_Title.tex" 1743781878.33885 253 9af403518cda237981c5ce09765c6cfe ""
   "Sections/B1_Abstract.tex" 1743767659.01584 1340 78b57780d0e01a02b36efeeb17fa2ee6 ""
   "Sections/C1_Introduction.tex" 1745853813.46995 8130 0ff54623a2d5b87b312d042512a536fe ""
-  "Sections/D1_Method.tex" 1747846331.70856 25724 84fe08b1008812df846e00ce8684519d ""
-  "Sections/E1_Results.tex" 1745672422.99893 3462 06f8e6872a769dcc70cbd60335dda616 ""
+  "Sections/D1_Method.tex" 1747924873.25641 24892 2a0e7c754ea41e84e5d2d792d607bf5f ""
+  "Sections/E1_Results.tex" 1747925400.5824 1709 ceb8bd0bcf0cb759110404def8d64971 ""
   "Sections/F1_Discussion.tex" 1745672428.94343 513 20c67d980dfe3a927951ed618bfd2125 ""
   "Sections/G1_Conclusion.tex" 1745672433.56311 36 b3297a5addd3a938876ad58d46bb9939 ""
   "Sections/H1_Bibliography.tex" 1743757242.92826 56 d68231be097735b5f34655fcf2cf7c01 ""
-  "main.aux" 1747846334.61288 12600 c8a6ede52b92c81a268959e488c70b45 "pdflatex"
+  "main.aux" 1747925407.63295 14064 d5944a99a648854ff2563e6743fe9aa0 "pdflatex"
   "main.bbl" 1747830714.55379 41515 994db7bd133ffa127fa2b0ce6c2b556b "biber main"
-  "main.run.xml" 1747846334.61592 2320 b867871a6e071d851ccdb7d946d48351 "pdflatex"
-  "main.tex" 1747841249.52126 2794 078da491496089d74d9830a6ce3c7c42 ""
+  "main.run.xml" 1747925407.63584 2320 b867871a6e071d851ccdb7d946d48351 "pdflatex"
+  "main.tex" 1747919511.27413 2794 078da491496089d74d9830a6ce3c7c42 ""
   (generated)
   "main.aux"
   "main.bcf"
