@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  22 MAY 2025 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  3 JUL 2025 21:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex
+**/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main
 (/Users/thomasdodd/Library/CloudStorage/OneDrive-MillfieldEnterprisesLimited/Cambridge/PhD/writing/papers/UoC_Paper1/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -45,6 +45,59 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks18
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count273
+)
+\csq@reset=\count274
+\csq@gtype=\count275
+\csq@glevel=\count276
+\csq@qlevel=\count277
+\csq@maxlvl=\count278
+\csq@tshold=\count279
+\csq@ltx@everypar=\toks21
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/xpatch/xpatch.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box52
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count281
+\U@D=\dimen150
+\l@unhyphenated=\language90
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count282
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 108.
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -57,16 +110,13 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count273
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count274
+\lrq@indent=\count283
  (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
@@ -75,49 +125,49 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count275
-\c@listtotal=\count276
-\c@listcount=\count277
-\c@liststart=\count278
-\c@liststop=\count279
-\c@citecount=\count280
-\c@citetotal=\count281
-\c@multicitecount=\count282
-\c@multicitetotal=\count283
-\c@instcount=\count284
-\c@maxnames=\count285
-\c@minnames=\count286
-\c@maxitems=\count287
-\c@minitems=\count288
-\c@citecounter=\count289
-\c@maxcitecounter=\count290
-\c@savedcitecounter=\count291
-\c@uniquelist=\count292
-\c@uniquename=\count293
-\c@refsection=\count294
-\c@refsegment=\count295
-\c@maxextratitle=\count296
-\c@maxextratitleyear=\count297
-\c@maxextraname=\count298
-\c@maxextradate=\count299
-\c@maxextraalpha=\count300
-\c@abbrvpenalty=\count301
-\c@highnamepenalty=\count302
-\c@lownamepenalty=\count303
-\c@maxparens=\count304
-\c@parenlevel=\count305
-\blx@tempcnta=\count306
-\blx@tempcntb=\count307
-\blx@tempcntc=\count308
-\c@blx@maxsection=\count309
-\blx@maxsegment@0=\count310
-\blx@notetype=\count311
-\blx@parenlevel@text=\count312
-\blx@parenlevel@foot=\count313
-\blx@sectionciteorder@0=\count314
-\blx@sectionciteorderinternal@0=\count315
-\blx@entrysetcounter=\count316
-\blx@biblioinstance=\count317
+\c@tabx@nest=\count284
+\c@listtotal=\count285
+\c@listcount=\count286
+\c@liststart=\count287
+\c@liststop=\count288
+\c@citecount=\count289
+\c@citetotal=\count290
+\c@multicitecount=\count291
+\c@multicitetotal=\count292
+\c@instcount=\count293
+\c@maxnames=\count294
+\c@minnames=\count295
+\c@maxitems=\count296
+\c@minitems=\count297
+\c@citecounter=\count298
+\c@maxcitecounter=\count299
+\c@savedcitecounter=\count300
+\c@uniquelist=\count301
+\c@uniquename=\count302
+\c@refsection=\count303
+\c@refsegment=\count304
+\c@maxextratitle=\count305
+\c@maxextratitleyear=\count306
+\c@maxextraname=\count307
+\c@maxextradate=\count308
+\c@maxextraalpha=\count309
+\c@abbrvpenalty=\count310
+\c@highnamepenalty=\count311
+\c@lownamepenalty=\count312
+\c@maxparens=\count313
+\c@parenlevel=\count314
+\blx@tempcnta=\count315
+\blx@tempcntb=\count316
+\blx@tempcntc=\count317
+\c@blx@maxsection=\count318
+\blx@maxsegment@0=\count319
+\blx@notetype=\count320
+\blx@parenlevel@text=\count321
+\blx@parenlevel@foot=\count322
+\blx@sectionciteorder@0=\count323
+\blx@sectionciteorderinternal@0=\count324
+\blx@entrysetcounter=\count325
+\blx@biblioinstance=\count326
 \labelnumberwidth=\skip51
 \labelalphawidth=\skip52
 \biblabelsep=\skip53
@@ -126,12 +176,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip56
 \bibparsep=\skip57
 \bibhang=\skip58
-\blx@bcfin=\read2
+\blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language90
-\c@mincomprange=\count318
-\c@maxcomprange=\count319
-\c@mincompwidth=\count320
+\blx@langwohyphens=\language91
+\c@mincomprange=\count327
+\c@maxcomprange=\count328
+\c@mincompwidth=\count329
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -139,74 +189,74 @@ File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count321
-\c@savedafterword=\count322
-\c@annotator=\count323
-\c@savedannotator=\count324
-\c@author=\count325
-\c@savedauthor=\count326
-\c@bookauthor=\count327
-\c@savedbookauthor=\count328
-\c@commentator=\count329
-\c@savedcommentator=\count330
-\c@editor=\count331
-\c@savededitor=\count332
-\c@editora=\count333
-\c@savededitora=\count334
-\c@editorb=\count335
-\c@savededitorb=\count336
-\c@editorc=\count337
-\c@savededitorc=\count338
-\c@foreword=\count339
-\c@savedforeword=\count340
-\c@holder=\count341
-\c@savedholder=\count342
-\c@introduction=\count343
-\c@savedintroduction=\count344
-\c@namea=\count345
-\c@savednamea=\count346
-\c@nameb=\count347
-\c@savednameb=\count348
-\c@namec=\count349
-\c@savednamec=\count350
-\c@translator=\count351
-\c@savedtranslator=\count352
-\c@shortauthor=\count353
-\c@savedshortauthor=\count354
-\c@shorteditor=\count355
-\c@savedshorteditor=\count356
-\c@labelname=\count357
-\c@savedlabelname=\count358
-\c@institution=\count359
-\c@savedinstitution=\count360
-\c@lista=\count361
-\c@savedlista=\count362
-\c@listb=\count363
-\c@savedlistb=\count364
-\c@listc=\count365
-\c@savedlistc=\count366
-\c@listd=\count367
-\c@savedlistd=\count368
-\c@liste=\count369
-\c@savedliste=\count370
-\c@listf=\count371
-\c@savedlistf=\count372
-\c@location=\count373
-\c@savedlocation=\count374
-\c@organization=\count375
-\c@savedorganization=\count376
-\c@origlocation=\count377
-\c@savedoriglocation=\count378
-\c@origpublisher=\count379
-\c@savedorigpublisher=\count380
-\c@publisher=\count381
-\c@savedpublisher=\count382
-\c@language=\count383
-\c@savedlanguage=\count384
-\c@origlanguage=\count385
-\c@savedoriglanguage=\count386
-\c@pageref=\count387
-\c@savedpageref=\count388
+\c@afterword=\count330
+\c@savedafterword=\count331
+\c@annotator=\count332
+\c@savedannotator=\count333
+\c@author=\count334
+\c@savedauthor=\count335
+\c@bookauthor=\count336
+\c@savedbookauthor=\count337
+\c@commentator=\count338
+\c@savedcommentator=\count339
+\c@editor=\count340
+\c@savededitor=\count341
+\c@editora=\count342
+\c@savededitora=\count343
+\c@editorb=\count344
+\c@savededitorb=\count345
+\c@editorc=\count346
+\c@savededitorc=\count347
+\c@foreword=\count348
+\c@savedforeword=\count349
+\c@holder=\count350
+\c@savedholder=\count351
+\c@introduction=\count352
+\c@savedintroduction=\count353
+\c@namea=\count354
+\c@savednamea=\count355
+\c@nameb=\count356
+\c@savednameb=\count357
+\c@namec=\count358
+\c@savednamec=\count359
+\c@translator=\count360
+\c@savedtranslator=\count361
+\c@shortauthor=\count362
+\c@savedshortauthor=\count363
+\c@shorteditor=\count364
+\c@savedshorteditor=\count365
+\c@labelname=\count366
+\c@savedlabelname=\count367
+\c@institution=\count368
+\c@savedinstitution=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+\c@location=\count382
+\c@savedlocation=\count383
+\c@organization=\count384
+\c@savedorganization=\count385
+\c@origlocation=\count386
+\c@savedoriglocation=\count387
+\c@origpublisher=\count388
+\c@savedorigpublisher=\count389
+\c@publisher=\count390
+\c@savedpublisher=\count391
+\c@language=\count392
+\c@savedlanguage=\count393
+\c@origlanguage=\count394
+\c@savedoriglanguage=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
 \shorthandwidth=\skip59
 \shortjournalwidth=\skip60
 \shortserieswidth=\skip61
@@ -230,19 +280,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count389
-\c@textcitetotal=\count390
-\c@textcitemaxnames=\count391
-\c@biburlbigbreakpenalty=\count392
-\c@biburlbreakpenalty=\count393
-\c@biburlnumpenalty=\count394
-\c@biburlucpenalty=\count395
-\c@biburllcpenalty=\count396
+\c@textcitecount=\count398
+\c@textcitetotal=\count399
+\c@textcitemaxnames=\count400
+\c@biburlbigbreakpenalty=\count401
+\c@biburlbreakpenalty=\count402
+\c@biburlnumpenalty=\count403
+\c@biburlucpenalty=\count404
+\c@biburllcpenalty=\count405
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count397
+\c@smartand=\count406
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -252,8 +302,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count398
-\c@bbx:relatedtotal=\count399
+\c@bbx:relatedcount=\count407
+\c@bbx:relatedtotal=\count408
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -278,20 +328,11 @@ File: biblatex.cfg
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
- (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count400
-\l__pdf_internal_box=\box52
-))
 Package biblatex Info: ... and expl3
 (biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
-)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
@@ -302,22 +343,22 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen150
+\@emptytoks=\toks22
+\ex@=\dimen151
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
+\pmbraise@=\dimen152
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count401
+\inf@bad=\count409
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count402
-\leftroot@=\count403
+\uproot@=\count410
+\leftroot@=\count411
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count404
-\DOTSCASE@=\count405
+\classnum@=\count412
+\DOTSCASE@=\count413
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -327,34 +368,34 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen152
+\big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count406
+\macc@depth=\count414
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count407
+\c@MaxMatrixCols=\count415
 \dotsspace@=\muskip22
-\c@parentequation=\count408
-\dspbrk@lvl=\count409
-\tag@help=\toks20
-\row@=\count410
-\column@=\count411
-\maxfields@=\count412
-\andhelp@=\toks21
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
-\@envbody=\toks22
+\c@parentequation=\count416
+\dspbrk@lvl=\count417
+\tag@help=\toks23
+\row@=\count418
+\column@=\count419
+\maxfields@=\count420
+\andhelp@=\toks24
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks25
 \multlinegap=\skip74
 \multlinetaggap=\skip75
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
@@ -382,7 +423,9 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/gensymb/gensymb.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/gensymb/gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -406,24 +449,24 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen159
-\captionmargin=\dimen160
-\caption@leftmargin=\dimen161
-\caption@rightmargin=\dimen162
-\caption@width=\dimen163
-\caption@indent=\dimen164
-\caption@parindent=\dimen165
-\caption@hangindent=\dimen166
+\caption@tempdima=\dimen160
+\captionmargin=\dimen161
+\caption@leftmargin=\dimen162
+\caption@rightmargin=\dimen163
+\caption@width=\dimen164
+\caption@indent=\dimen165
+\caption@parindent=\dimen166
+\caption@hangindent=\dimen167
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count413
-\c@continuedfloat=\count414
+\c@caption@flags=\count421
+\c@continuedfloat=\count422
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count415
+\c@subfigure=\count423
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count416
+\c@subtable=\count424
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
@@ -435,160 +478,160 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
-\Gin@req@height=\dimen167
-\Gin@req@width=\dimen168
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count417
-\l__tblr_c_int=\count418
-\l__tblr_r_int=\count419
-\l__tblr_d_dim=\dimen169
-\l__tblr_h_dim=\dimen170
-\l__tblr_o_dim=\dimen171
-\l__tblr_p_dim=\dimen172
-\l__tblr_q_dim=\dimen173
-\l__tblr_r_dim=\dimen174
-\l__tblr_s_dim=\dimen175
-\l__tblr_t_dim=\dimen176
-\l__tblr_v_dim=\dimen177
-\l__tblr_w_dim=\dimen178
+\l__tblr_a_int=\count425
+\l__tblr_c_int=\count426
+\l__tblr_r_int=\count427
+\l__tblr_d_dim=\dimen170
+\l__tblr_h_dim=\dimen171
+\l__tblr_o_dim=\dimen172
+\l__tblr_p_dim=\dimen173
+\l__tblr_q_dim=\dimen174
+\l__tblr_r_dim=\dimen175
+\l__tblr_s_dim=\dimen176
+\l__tblr_t_dim=\dimen177
+\l__tblr_v_dim=\dimen178
+\l__tblr_w_dim=\dimen179
 \l__tblr_a_box=\box55
 \l__tblr_b_box=\box56
 \l__tblr_c_box=\box57
 \l__tblr_d_box=\box58
-\g__tblr_table_count_int=\count420
-\c@rownum=\count421
-\c@colnum=\count422
-\c@rowcount=\count423
-\c@colcount=\count424
-\abovesep=\dimen179
-\belowsep=\dimen180
-\leftsep=\dimen181
-\rightsep=\dimen182
-\g_tblr_level_int=\count425
-\g__tblr_data_row_key_count_int=\count426
-\g__tblr_data_column_key_count_int=\count427
-\g__tblr_data_cell_key_count_int=\count428
-\g__tblr_array_int=\count429
-\l__tblr_key_count_int=\count430
-\l__tblr_key_quotient_int=\count431
-\l__tblr_key_quotient_two_int=\count432
-\l__tblr_key_remainder_int=\count433
-\g__tblr_data_str_value_count_int=\count434
-\rulewidth=\dimen183
-\l__tblr_strut_dp_dim=\dimen184
-\l__tblr_strut_ht_dim=\dimen185
-\g__tblr_cell_wd_dim=\dimen186
-\g__tblr_cell_ht_dim=\dimen187
-\g__tblr_cell_head_dim=\dimen188
-\g__tblr_cell_foot_dim=\dimen189
-\l__column_target_dim=\dimen190
+\g__tblr_table_count_int=\count428
+\c@rownum=\count429
+\c@colnum=\count430
+\c@rowcount=\count431
+\c@colcount=\count432
+\abovesep=\dimen180
+\belowsep=\dimen181
+\leftsep=\dimen182
+\rightsep=\dimen183
+\g_tblr_level_int=\count433
+\g__tblr_data_row_key_count_int=\count434
+\g__tblr_data_column_key_count_int=\count435
+\g__tblr_data_cell_key_count_int=\count436
+\g__tblr_array_int=\count437
+\l__tblr_key_count_int=\count438
+\l__tblr_key_quotient_int=\count439
+\l__tblr_key_quotient_two_int=\count440
+\l__tblr_key_remainder_int=\count441
+\g__tblr_data_str_value_count_int=\count442
+\rulewidth=\dimen184
+\l__tblr_strut_dp_dim=\dimen185
+\l__tblr_strut_ht_dim=\dimen186
+\g__tblr_cell_wd_dim=\dimen187
+\g__tblr_cell_ht_dim=\dimen188
+\g__tblr_cell_head_dim=\dimen189
+\g__tblr_cell_foot_dim=\dimen190
+\l__column_target_dim=\dimen191
 \l__tblr_caption_box=\box59
 \l__tblr_caption_left_box=\box60
 \l__tblr_row_head_box=\box61
 \l__tblr_row_foot_box=\box62
-\l__tblr_row_head_foot_dim=\dimen191
-\tablewidth=\dimen192
+\l__tblr_row_head_foot_dim=\dimen192
+\tablewidth=\dimen193
 \l__tblr_table_firsthead_box=\box63
 \l__tblr_table_middlehead_box=\box64
 \l__tblr_table_lasthead_box=\box65
 \l__tblr_table_firstfoot_box=\box66
 \l__tblr_table_middlefoot_box=\box67
 \l__tblr_table_lastfoot_box=\box68
-\l__tblr_remain_height_dim=\dimen193
-\l__tblr_long_from_int=\count435
-\l__tblr_long_to_int=\count436
-\l__tblr_curr_i_int=\count437
-\l__tblr_prev_i_int=\count438
-\l__tblr_table_page_int=\count439
+\l__tblr_remain_height_dim=\dimen194
+\l__tblr_long_from_int=\count443
+\l__tblr_long_to_int=\count444
+\l__tblr_curr_i_int=\count445
+\l__tblr_prev_i_int=\count446
+\l__tblr_table_page_int=\count447
 \l__tblr_table_head_box=\box69
 \l__tblr_table_foot_box=\box70
-\l__tblr_table_head_foot_dim=\dimen194
-\l__tblr_table_head_body_foot_dim=\dimen195
+\l__tblr_table_head_foot_dim=\dimen195
+\l__tblr_table_head_body_foot_dim=\dimen196
 \l__tblr_table_box=\box71
 \l__tblr_table_hlines_box=\box72
 \l__tblr_hline_box=\box73
 \l__tblr_row_box=\box74
-\l__tblr_col_o_wd_dim=\dimen196
-\l__tblr_col_b_wd_dim=\dimen197
-\l__tblr_hline_leftskip_dim=\dimen198
-\l__tblr_hline_rightskip_dim=\dimen199
-\l__tblr_row_ht_dim=\dimen256
-\l__tblr_row_dp_dim=\dimen257
-\l__tblr_row_abovesep_dim=\dimen258
-\l__tblr_row_belowsep_dim=\dimen259
+\l__tblr_col_o_wd_dim=\dimen197
+\l__tblr_col_b_wd_dim=\dimen198
+\l__tblr_hline_leftskip_dim=\dimen199
+\l__tblr_hline_rightskip_dim=\dimen256
+\l__tblr_row_ht_dim=\dimen257
+\l__tblr_row_dp_dim=\dimen258
+\l__tblr_row_abovesep_dim=\dimen259
+\l__tblr_row_belowsep_dim=\dimen260
 \l__tblr_row_vlines_box=\box75
 \l__tblr_vline_box=\box76
 \l__tblr_cell_box=\box77
-\l__row_upper_dim=\dimen260
-\l__row_lower_dim=\dimen261
-\l__row_vpace_dim=\dimen262
-\l__tblr_vline_aboveskip_dim=\dimen263
-\l__tblr_vline_belowskip_dim=\dimen264
-\l__tblr_cell_wd_dim=\dimen265
-\l__tblr_cell_ht_dim=\dimen266
+\l__row_upper_dim=\dimen261
+\l__row_lower_dim=\dimen262
+\l__row_vpace_dim=\dimen263
+\l__tblr_vline_aboveskip_dim=\dimen264
+\l__tblr_vline_belowskip_dim=\dimen265
+\l__tblr_cell_wd_dim=\dimen266
+\l__tblr_cell_ht_dim=\dimen267
 \l__tblr_diag_box=\box78
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-02-27 v3.4.6 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count440
-\l__siunitx_number_exponent_fixed_int=\count441
-\l__siunitx_number_min_decimal_int=\count442
-\l__siunitx_number_min_integer_int=\count443
-\l__siunitx_number_round_precision_int=\count444
-\l__siunitx_number_lower_threshold_int=\count445
-\l__siunitx_number_upper_threshold_int=\count446
-\l__siunitx_number_group_first_int=\count447
-\l__siunitx_number_group_size_int=\count448
-\l__siunitx_number_group_minimum_int=\count449
-\l__siunitx_angle_tmp_dim=\dimen267
+\l__siunitx_number_uncert_offset_int=\count448
+\l__siunitx_number_exponent_fixed_int=\count449
+\l__siunitx_number_min_decimal_int=\count450
+\l__siunitx_number_min_integer_int=\count451
+\l__siunitx_number_round_precision_int=\count452
+\l__siunitx_number_lower_threshold_int=\count453
+\l__siunitx_number_upper_threshold_int=\count454
+\l__siunitx_number_group_first_int=\count455
+\l__siunitx_number_group_size_int=\count456
+\l__siunitx_number_group_minimum_int=\count457
+\l__siunitx_angle_tmp_dim=\dimen268
 \l__siunitx_angle_marker_box=\box79
 \l__siunitx_angle_unit_box=\box80
-\l__siunitx_compound_count_int=\count450
+\l__siunitx_compound_count_int=\count458
  (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
 \l__siunitx_table_tmp_box=\box81
-\l__siunitx_table_tmp_dim=\dimen268
-\l__siunitx_table_column_width_dim=\dimen269
+\l__siunitx_table_tmp_dim=\dimen269
+\l__siunitx_table_column_width_dim=\dimen270
 \l__siunitx_table_integer_box=\box82
 \l__siunitx_table_decimal_box=\box83
 \l__siunitx_table_uncert_box=\box84
 \l__siunitx_table_before_box=\box85
 \l__siunitx_table_after_box=\box86
-\l__siunitx_table_before_dim=\dimen270
-\l__siunitx_table_carry_dim=\dimen271
-\l__siunitx_unit_tmp_int=\count451
-\l__siunitx_unit_position_int=\count452
-\l__siunitx_unit_total_int=\count453
+\l__siunitx_table_before_dim=\dimen271
+\l__siunitx_table_carry_dim=\dimen272
+\l__siunitx_unit_tmp_int=\count459
+\l__siunitx_unit_position_int=\count460
+\l__siunitx_unit_total_int=\count461
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen272
+\col@sep=\dimen273
 \ar@mcellbox=\box87
-\extrarowheight=\dimen273
-\NC@list=\toks24
+\extrarowheight=\dimen274
+\NC@list=\toks27
 \extratabsurround=\skip90
 \backup@length=\skip91
 \ar@cellbox=\box88
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count454
+\c@tracingmulticols=\count462
 \mult@box=\box89
-\multicol@leftmargin=\dimen274
-\c@unbalance=\count455
-\c@collectmore=\count456
-\doublecol@number=\count457
-\multicoltolerance=\count458
-\multicolpretolerance=\count459
-\full@width=\dimen275
-\page@free=\dimen276
-\premulticols=\dimen277
-\postmulticols=\dimen278
+\multicol@leftmargin=\dimen275
+\c@unbalance=\count463
+\c@collectmore=\count464
+\doublecol@number=\count465
+\multicoltolerance=\count466
+\multicolpretolerance=\count467
+\full@width=\dimen276
+\page@free=\dimen277
+\premulticols=\dimen278
+\postmulticols=\dimen279
 \multicolsep=\skip92
 \multicolbaselineskip=\skip93
 \partial@page=\box90
 \last@line=\box91
 \mc@boxedresult=\box92
-\maxbalancingoverflow=\dimen279
+\maxbalancingoverflow=\dimen280
 \mult@rightbox=\box93
 \mult@grightbox=\box94
 \mult@firstbox=\box95
@@ -629,36 +672,36 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \@tempa=\box130
 \@tempa=\box131
 \@tempa=\box132
-\c@minrows=\count460
-\c@columnbadness=\count461
-\c@finalcolumnbadness=\count462
-\last@try=\dimen280
-\multicolovershoot=\dimen281
-\multicolundershoot=\dimen282
+\c@minrows=\count468
+\c@columnbadness=\count469
+\c@finalcolumnbadness=\count470
+\last@try=\dimen281
+\multicolovershoot=\dimen282
+\multicolundershoot=\dimen283
 \mult@nat@firstbox=\box133
 \colbreak@box=\box134
-\mc@col@check@num=\count463
+\mc@col@check@num=\count471
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count464
-\l__lipsum_a_int=\count465
-\l__lipsum_b_int=\count466
+\g__lipsum_par_int=\count472
+\l__lipsum_a_int=\count473
+\l__lipsum_b_int=\count474
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
-\MT@toks=\toks25
+\MT@toks=\toks28
 \MT@tempbox=\box135
-\MT@count=\count467
+\MT@count=\count475
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
-\MT@prot@toks=\toks26
+\MT@prot@toks=\toks29
 LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen283
+\MT@outer@kern=\dimen284
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count468
+\MT@listname@count=\count476
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
@@ -673,33 +716,27 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
-\@quotelevel=\count469
-\@quotereset=\count470
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 56.
- (./main.aux
-
-LaTeX Warning: Label `tab:BayesianPriorsBestValues' multiply defined.
-
-
-LaTeX Warning: Label `tab:BayesianPriorsBestValues@cref' multiply defined.
-
-)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -748,32 +785,31 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
-LaTeX Info: Redefining \celsius on input line 56.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 56.
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 56.
-Package gensymb Info: Using \Omega for \ohm on input line 56.
-
-Package gensymb Warning: Not defining \micro.
-
-(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
+\symgns@font=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 60.
+Package gensymb Info: Math companion symbols declared on input line 60.
+LaTeX Info: Redefining \degree on input line 60.
+LaTeX Info: Redefining \celsius on input line 60.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 60.
+LaTeX Info: Redefining \ohm on input line 60.
+Package gensymb Info: Using \textohm for \ohm on input line 60.
+Package gensymb Info: Using \textmu for \micro on input line 60.
+ (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count471
-\scratchdimen=\dimen284
+\scratchcounter=\count477
+\scratchdimen=\dimen285
 \scratchbox=\box136
-\nofMPsegments=\count472
-\nofMParguments=\count473
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count474
-\MPscratchDim=\dimen285
-\MPnumerator=\count475
-\makeMPintoPDFobject=\count476
-\everyMPtoPDFconversion=\toks28
+\nofMPsegments=\count478
+\nofMParguments=\count479
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count480
+\MPscratchDim=\dimen286
+\MPnumerator=\count481
+\makeMPintoPDFobject=\count482
+\everyMPtoPDFconversion=\toks31
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -787,21 +823,21 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 56.
-LaTeX Info: Redefining \microtypecontext on input line 56.
-Package microtype Info: Applying patch `item' on input line 56.
-Package microtype Info: Applying patch `toc' on input line 56.
-Package microtype Info: Applying patch `eqnum' on input line 56.
-Package microtype Info: Applying patch `footnote' on input line 56.
-Package microtype Info: Applying patch `verbatim' on input line 56.
-LaTeX Info: Redefining \microtypesetup on input line 56.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 60.
+Package microtype Info: Applying patch `item' on input line 60.
+Package microtype Info: Applying patch `toc' on input line 60.
+Package microtype Info: Applying patch `eqnum' on input line 60.
+Package microtype Info: Applying patch `footnote' on input line 60.
+Package microtype Info: Applying patch `verbatim' on input line 60.
+LaTeX Info: Redefining \microtypesetup on input line 60.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 56.
+LaTeX Info: Redefining \showhyphens on input line 60.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -886,13 +922,12 @@ Overfull \hbox (15.55437pt too wide) in paragraph at lines 385--387
  [] 
  []
 
-) (./Sections/E1_Results.tex
-<Images/OptimisationProgression.png, id=56, 955.57pt x 372.39125pt>
-File: Images/OptimisationProgression.png Graphic file (type png)
-<use Images/OptimisationProgression.png>
-Package pdftex.def Info: Images/OptimisationProgression.png  used on input line 5.
-(pdftex.def)             Requested size: 452.96793pt x 176.52402pt.
- [9]
+) (./Sections/E1_Results.tex [9]
+<Images/ResultOverview.png, id=59, 987.69pt x 388.45125pt>
+File: Images/ResultOverview.png Graphic file (type png)
+<use Images/ResultOverview.png>
+Package pdftex.def Info: Images/ResultOverview.png  used on input line 35.
+(pdftex.def)             Requested size: 452.96793pt x 178.14442pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -901,56 +936,35 @@ Package pdftex.def Info: Images/OptimisationProgression.png  used on input line 
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [10 <./Images/Benchmarks.png> <./Images/OptimisationProgression.png>]
-<Images/ResultOverview.png, id=65, 454.644pt x 184.617pt>
-File: Images/ResultOverview.png Graphic file (type png)
-<use Images/ResultOverview.png>
-Package pdftex.def Info: Images/ResultOverview.png  used on input line 28.
-(pdftex.def)             Requested size: 452.96793pt x 183.94325pt.
-<Images/AllResultsConcatenated.png, id=66, 453.695pt x 339.2675pt>
-File: Images/AllResultsConcatenated.png Graphic file (type png)
-<use Images/AllResultsConcatenated.png>
-Package pdftex.def Info: Images/AllResultsConcatenated.png  used on input line 37.
-(pdftex.def)             Requested size: 452.96793pt x 338.72827pt.
- [11]
-<Images/RepresentativeSampling.png, id=70, 454.644pt x 198.7425pt>
-File: Images/RepresentativeSampling.png Graphic file (type png)
-<use Images/RepresentativeSampling.png>
-Package pdftex.def Info: Images/RepresentativeSampling.png  used on input line 46.
-(pdftex.def)             Requested size: 452.96793pt x 198.01721pt.
-) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [12 <./Images/ResultOverview.png>] [13 <./Images/AllResultsConcatenated.png>]
+ [10 <./Images/Benchmarks.png>]) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [11 <./Images/ResultOverview.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [14 <./Images/RepresentativeSampling.png>])
+ [12])
 
-[15] (./main.aux)
+[13] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
+L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24158 strings out of 473190
- 519549 string characters out of 5715801
- 1400211 words of memory out of 5000000
- 46979 multiletter control sequences out of 15000+600000
- 580399 words of font info for 195 fonts, out of 8000000 for 9000
+ 25942 strings out of 473190
+ 551642 string characters out of 5715801
+ 1451060 words of memory out of 5000000
+ 48701 multiletter control sequences out of 15000+600000
+ 582583 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,16n,112p,1117b,1490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,16n,112p,1113b,1740s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (15 pages, 2156368 bytes).
+Output written on main.pdf (13 pages, 1698888 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 39475 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 49700 words of extra memory for PDF output out of 51595 (max. 10000000)
 

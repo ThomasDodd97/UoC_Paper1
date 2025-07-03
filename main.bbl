@@ -73,7 +73,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Faraday Discussions}
       \field{number}{0}
-      \field{title}{Plantics-GX: a biodegradable and cost-effective thermoset plastic that is 100{\%} plant-based}
+      \field{title}{Plantics GX- a biodegradable and cost-effective thermoset plastic that is 100 percent plant-based}
       \field{volume}{202}
       \field{year}{2017}
       \field{pages}{111\bibrangedash 120}
@@ -157,7 +157,7 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Composites: Part A}
+      \field{journaltitle}{Composites- Part A}
       \field{title}{Recycling of shredded composites from wind turbine blades in new thermoset polymer composites}
       \field{volume}{90}
       \field{year}{2016}
@@ -187,8 +187,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymer-Plastics Technology and Engineering}
-      \field{title}{Bio-based thermosetting resins for future generation: a review}
-      \field{volume}{55:17}
+      \field{title}{Bio-based thermosetting resins for future generation- a review}
+      \field{volume}{55}
       \field{year}{2016}
       \field{pages}{1836\bibrangedash 1896}
       \range{pages}{61}
@@ -246,7 +246,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Reinforced Plastics and Composites}
-      \field{title}{Recycling and reuse of composite materials for wind turbine blades: An overview}
+      \field{title}{Recycling and reuse of composite materials for wind turbine blades- An overview}
       \field{volume}{38}
       \field{year}{2019}
       \field{pages}{567\bibrangedash 577}
@@ -345,9 +345,6 @@
            given={Allen},
            giveni={A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {OŔeilly Media Inc}%
-      }
       \strng{namehash}{32e04286cb6c84b49e111a74a34a59b3}
       \strng{fullhash}{32e04286cb6c84b49e111a74a34a59b3}
       \strng{fullhashraw}{32e04286cb6c84b49e111a74a34a59b3}
@@ -418,7 +415,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers and Chemical Engineering}
-      \field{title}{Design of computer experiments: A review}
+      \field{title}{Design of computer experiments- A review}
       \field{volume}{106}
       \field{year}{2017}
       \field{pages}{71\bibrangedash 95}
@@ -540,7 +537,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Environmental Science and Technology}
-      \field{title}{Mapping global flows of chemicals: from fossil fuel feedstocks to chemical products}
+      \field{title}{Mapping global flows of chemicals- from fossil fuel feedstocks to chemical products}
       \field{volume}{52}
       \field{year}{2018}
       \field{pages}{1725\bibrangedash 1734}
@@ -569,7 +566,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Green Chemistry}
-      \field{title}{Closed-loop chemical recyling of thermosetting polymers and their applications: a review}
+      \field{title}{Closed-loop chemical recyling of thermosetting polymers and their applications- a review}
       \field{volume}{24}
       \field{year}{2022}
       \field{pages}{5691\bibrangedash 5708}
@@ -598,7 +595,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Progress in Polymer Science}
-      \field{title}{Degradable thermosets based on labile bonds or linkages: A review}
+      \field{title}{Degradable thermosets based on labile bonds or linkages- A review}
       \field{volume}{76}
       \field{year}{2017}
       \field{pages}{65\bibrangedash 110}
@@ -716,7 +713,6 @@
       \field{labeltitlesource}{title}
       \field{isbn}{978-953-51-0146-8}
       \field{title}{Real-world Applications of Genetic Algorithms}
-      \field{type}{Book}
       \field{year}{2012}
     \endentry
     \entry{Sharma2011}{book}{}{}
@@ -858,8 +854,8 @@
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Synthesis, degradation and practical applications of a glycerol/citric acid condensation polymer}
-      \field{type}{phdthesis}
+      \field{title}{Synthesis, degradation and practical applications of a glycerol-citric acid condensation polymer}
+      \field{type}{phd}
       \field{year}{2008}
     \endentry
     \entry{UN2015}{report}{}{}
@@ -883,9 +879,8 @@
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{number}{A/RES/70/1}
       \field{title}{The 2030 Agenda for Sustainable Development}
-      \field{type}{techreport}
+      \field{type}{technical}
       \field{year}{2015}
     \endentry
     \entry{Utekar2020}{article}{}{}
@@ -939,7 +934,7 @@
       \field{labeltitlesource}{title}
       \field{number}{019282080X}
       \field{title}{Our Common Future}
-      \field{type}{techreport}
+      \field{type}{technical}
       \field{year}{1987}
     \endentry
     \entry{Yamashita2018}{article}{}{}
@@ -992,7 +987,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Macromolecular Rapid Communications}
-      \field{title}{Recent advances in glycerol polymers: chemistry and biomedical applications}
+      \field{title}{Recent advances in glycerol polymers- chemistry and biomedical applications}
       \field{volume}{35}
       \field{year}{2014}
       \field{pages}{1906\bibrangedash 1924}

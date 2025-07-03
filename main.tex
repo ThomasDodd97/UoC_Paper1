@@ -2,6 +2,10 @@
 \documentclass[12pt,a4paper]{article}
 % Importing the geometry package, allowing the tightening of margins.
 \usepackage[nomarginpar,top=25.4mm,bottom=25.4mm,left=25.4mm,right=25.4mm]{geometry}
+% Imported to support biber
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes,xpatch}
+\usepackage[english]{babel}
 % Importing the package allowing referencing
 \usepackage[backend=biber]{biblatex}
 \addbibresource{Bibliography/Bibliography.bib}
@@ -14,7 +18,7 @@
 % Import all the mathematical symbols we may need, e.g. \rightarrow
 \usepackage{amssymb}
 % Importing package allowing for the use of a degrees C symbol e.g. \degree
-\usepackage{gensymb}
+\usepackage{textcomp, gensymb}
 % Colorise the text at will. e.g. \color{red} \textcolor[HTML]{EB7D3C}{CO}
 \usepackage{xcolor}
 \definecolor{CarboxylOrange}{HTML}{EB7D3C}
