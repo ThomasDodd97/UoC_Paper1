@@ -41,7 +41,7 @@ Figure~\ref{fig:SimpleReactionOverview} shows how the monomers employed in the s
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{SimpleLinearEsterification}
-    \captionof{figure}{\footnotesize{\textbf{SimpleLinearEsterification}Archetypical polyesterification between a diol (propylene glycol) and a diacid (succinic acid) forming a linear polyester. Functional groups participating in the reaction are highlighted: hydroxyl groups blue, and carboxyl groups orange.}}
+    \captionof{figure}{\footnotesize{Archetypical polyesterification between a diol (propylene glycol) and a diacid (succinic acid) forming a linear polyester. Functional groups participating in the reaction are highlighted: hydroxyl groups blue, and carboxyl groups orange.}}
     \label{fig:SimpleLinearEsterification}
 \end{figure*}
 
@@ -67,26 +67,26 @@ The monomers glycerol (99+\%), citric acid (99.6\%), and itaconic acid (99+\%) u
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{SimpleReactionOverview}
-    \captionof{figure}{\footnotesize{\textbf{SimpleReactionOverview}Polyesterification between glycerol, citric acid, and itaconic acid forming poly(glycerol citrate itaconate). Functional groups participating in the reaction are highlighted: hydroxyl groups blue, and carboxyl groups orange.}}
+    \captionof{figure}{\footnotesize{Polyesterification between glycerol, citric acid, and itaconic acid forming poly(glycerol citrate itaconate). Functional groups participating in the reaction are highlighted: hydroxyl groups blue, and carboxyl groups orange.}}
     \label{fig:SimpleReactionOverview}
 \end{figure*}
 
 Thermoset synthesis was two-step: firstly, a homogenous prepolymer resin was 
  prepared by stirring solid monomers (acids) together with liquid monomer (glycerol) 
- in-vitro atop a hotplate and raising the temperature (maximum 140\degree C) 
+ \textit{in-vitro} atop a hotplate and raising the temperature (maximum 140\degree C) 
  until the solids were completely dissolved.
 Note, 140\degree C was adopted to accelerate dissolution without encouraging 
  decarboxylation of the citric acid to itaconic acid \cite{Alberts2017}.
 Secondly, prepolymer was cured into the desired thermoset by transferral to
- a silicone mould before being exposed to elevated temperatures (90\degree~C) 
+ a silicone mould before being exposed to elevated temperatures (90\degree C) 
  for an extended period (up to two weeks) within a drying oven.
 
-Preliminary experimentation showed that temperatures exceeding 100\degree~C
+Preliminary experimentation showed that temperatures exceeding 100\degree C
  caused boiling of byproduct water within samples.
 Gaseous water from boiling was entrapped within the curing polyester creating
  vesicles within the final structure, resulting in unpredictable densities of the final material.
 Given both the random and uncontrollable nature of samples generated in this 
-fashion, drying oven temperatures were held below 90\degree~C to avoid this 
+fashion, drying oven temperatures were held below 90\degree C to avoid this 
 imponderables affect upon the experiments.
 
 As seen in Equation \ref{eq:MassLoss}, determination of mass loss associated 
@@ -138,7 +138,7 @@ By making a constant of the glycerol stoichiometric variable (\(n_{G}=1\)),
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{PolymerisableRange}
-    \captionof{figure}{\footnotesize{\textbf{PolymerisableRange}Simplified chemical representations displaying the polymerisable range of the two different triol-acid combinations encountered during poly(glycerol citrate itaconate) synthesis. In the legend: "G" glycerol, "It" itaconic acid, "Ci" citric acid.}}
+    \captionof{figure}{\footnotesize{Simplified chemical representations displaying the polymerisable range of the two different triol-acid combinations encountered during poly(glycerol citrate itaconate) synthesis. In the legend: "G" glycerol, "It" itaconic acid, "Ci" citric acid.}}
     \label{fig:PolymerisableRange}
 \end{figure*}
 
@@ -228,13 +228,13 @@ Samples drawn from the parameter space are processed into stoichiometric variabl
  the target variables \(\Delta m_{\%}\) value(s) and returning these to the algorithm.
 
 The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented in the Python programming
- language, with multiple modules written and united into a single package with the acronym "BO4BT" (version 1.0.0)- 
- Bayesian optimisation for biodegradable thermosets \cite{HojlundDodd2024}.
+ language, with multiple modules written and united into a single package with the acronym ``BO4BT'' (version 1.0.0)- 
+ ``Bayesian optimisation for biodegradable thermosets'' \cite{HojlundDodd2024}.
 
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
     \includegraphics[width=0.48\textwidth]{OptimisationAlgorithm}
-    \captionof{figure}{\footnotesize{\textbf{OptimisationAlgorithm}} Flow diagram depicting the sequential optimisation algorithm developed.}
+    \captionof{figure}{\footnotesize{Flow diagram depicting the sequential optimisation algorithm developed.}}
     \label{fig:OptimisationAlgorithm}
 \end{center}
 
@@ -275,14 +275,16 @@ Sobol sampling was employed as it provides the same or better space-filling prop
 On evaluation of the initial representative set of samples (\([\mathbf{x}^{i=1},...,\mathbf{x}^{i=p_{init}}]\)) for 
  the target variable values (\([\Delta m_{\%}^{i=1},...,\Delta m_{\%}^{i=p_{init}}]\)), an initial 
  prior-forming dataset (\(\mathbb{D}^{i=p_{init}}\)) is produced.
-This research employed only two quasirandomly sampled initial prior-forming datasets, facilitating 
- inter-comparison of various Bayesian optimisation routines attempted; the smaller (\(\mathbb{D}^{i=8}\)) 
- and larger (\(\mathbb{D}^{i=16}\)) of these are visualised in Figure~\ref{fig:BayesianPriorsAbbreviated}.
+
+In practice, only one quasirandomly sampled initial prior-forming dataset 
+ (\(\mathbb{D}^{i=8}\)) was generated and used (visualised in Figure 
+ \ref{fig:BayesianPriorsAbbreviated}); this allowed a fair
+ inter-comparison of the two Bayesian optimisation routines attempted.
 
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
     \includegraphics[width=0.48\textwidth]{BayesianPriorsAbbreviated.png}
-    \captionof{figure}{\footnotesize{\textbf{BayesianPriorsAbbreviated} These 3D graphs depict the two quasirandom samplings of the parameter space. Coloration of points denote distance from viewer with darker points appearing further away.}}
+    \captionof{figure}{\footnotesize{These 3D graphs depict the two quasirandom samplings of the parameter space. Coloration of points denote distance from viewer with darker points appearing further away.}}
     \label{fig:BayesianPriorsAbbreviated}
 \end{center}
 
@@ -350,8 +352,18 @@ This research focussed upon policies that made use of the 'simple reward' utilit
  \cite{Garnett2023}.
 
 \begin{equation}\label{eq:UtilityFunction}
-    u(\mathbb{D})=max\ m(X)(=\Delta m_{\%})
+    u(\mathbb{D})=max\ m(X)
 \end{equation}
+
+% \begin{equation}\label{eq:UtilityFunction}
+%     \begin{split}
+%         u(\mathbb{D})&=max\ m(X)\\
+%         &(=\Delta m_{\%})
+%         % \alpha_{PI}(\mathbf{x})=&Pr(u(\mathbb{D}^{\prime})>\tau)\\
+%         % =&\int_{\tau}^{\infty}\mathcal{N}(m(\mathbf{x}),\sqrt{K(\mathbf{x},\mathbf{x})})dm(x)\\
+%         % =&1-\Phi((\tau-m(\mathbf{x}))/\sqrt{K(\mathbf{x},\mathbf{x})})
+%     \end{split}
+% \end{equation}
 
 In adopting this utility function, two different sampling policies were developed
  and investigated: the first was predicated on the 'probability of improvement'
@@ -373,7 +385,7 @@ Note, this work made the absolute threshold equal to an evaluation of the utilit
 \begin{equation}\label{eq:ProbabilityOfImprovement}
     \begin{split}
         \alpha_{PI}(\mathbf{x})=&Pr(u(\mathbb{D}^{\prime})>\tau)\\
-        =&\int_{\tau}^{\infty}\mathcal{N}(m(\mathbf{x}),\sqrt{K(\mathbf{x},\mathbf{x})})dm(x)\\
+        =&\int_{\tau}^{\infty}\mathcal{N}(m(\mathbf{x}),\sqrt{K(\mathbf{x},\mathbf{x})})dm(\mathbf{x})\\
         =&1-\Phi((\tau-m(\mathbf{x}))/\sqrt{K(\mathbf{x},\mathbf{x})})
     \end{split}
 \end{equation}
@@ -413,13 +425,13 @@ Gaussian processes and acquisition functions were produced using two
 
 Sample efficiency of the Bayesian sequential optimisation techniques was proven by
  employing three simple benchmarks.
-These were derived using one-shot determinstic space-filling sampling techniques
+These were derived using one-shot deterministic space-filling sampling techniques
  including pseudorandom, quasirandom (Sobol), and grid to disperse the maximum allowable
  number of samples (\(p_{tot}=27\)) across the parameter space \(A\) (See Figure~\ref{fig:Benchmarks}).
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{Benchmarks}
-    \captionof{figure}{\footnotesize{\textbf{Benchmarks} Deterministic space-filling one-shot sampling techniques. Coloration of points denote distance from viewer with darker points appearing further away.}}
+    \captionof{figure}{\footnotesize{Deterministic space-filling one-shot sampling techniques. Coloration of points denote distance from viewer with darker points appearing further away.}}
     \label{fig:Benchmarks}
 \end{figure*}
 Subsequently, for each of the techniques deployed, all samples \(\mathbf{X}\) were 
