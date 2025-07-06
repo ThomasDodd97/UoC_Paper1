@@ -96,16 +96,14 @@ As seen in Equation \ref{eq:MassLoss}, determination of mass loss associated
 Measurements were made with a mass balance accurate to 0.01 g ± 0.01 g; since prepolymer 
  samples weighed 3 g and mass loss was confined to between 0.3-0.9 g we assumed
  systematic errors accrued through uncertainty in mass balance readings to be negligible.
-\begin{equation}
+\begin{equation}\label{eq:MassLoss}
     \Delta m=m_{p}-m_{t}
-    \label{eq:MassLoss}
 \end{equation}
 Equation \ref{eq:PctMassLoss} shows how sample mass loss (\(\Delta m\)) is normalised 
  into a percentage format (\(\Delta m_{\%}\)), this allowed inter-comparison since 
  individual samples had slightly varying initial prepolymer resin masses (\(m_{p}\)).
-\begin{equation}
+\begin{equation}\label{eq:PctMassLoss}
     \Delta m_{\%}=\frac{\Delta m\times 100}{m_{p}}
-    \label{eq:PctMassLoss}
 \end{equation}
 Residence time within the drying oven for a sample was controlled by periodic 
  measurement of sample mass; mass was plotted against time, an exponential decay 
@@ -125,12 +123,11 @@ The polyesterification of monomers to polymer seen in Figure~\ref{fig:SimpleReac
 Equation~\ref{eq:StoichiometricEquation} introduces two stoichiometric variables representing
  the moles of glycerol (\(n_{G}\)), citric acid (\(n_{Ci}\)) and itaconic acid (\(n_{It}\)), 
  and a variable representing the unknown number of moles of water produced (\(v\)).
-\begin{equation}
+\begin{equation}\label{eq:StoichiometricEquation}
     \begin{split}
         n_{G}~G+n_{Ci}~Ci&+n_{It}~It\rightarrow\\
         &1~P(GCiIt)+v~H_{2}O
     \end{split}
-    \label{eq:StoichiometricEquation}
 \end{equation}
 The polyesterification reaction can be considered to consist of two possible polymerisation
  reactions between the triol glycerol and either the triacid citric acid or the diacid itaconic acid.
@@ -149,13 +146,11 @@ These stoichiometric bounds are used to directly constrain the stoichiometric va
  Equation~\ref{eq:CitricAcidBounds} describes the lower (\(n_{Ci}^{l}\)) and upper (\(n_{Ci}^{u}\)) 
  bounds placed on the citric acid stoichiometric variable, whilst Equation~\ref{eq:ItaconicAcidBounds} 
  shows those for itaconic acids lower (\(n_{It}^{l}\)) and upper (\(n_{It}^{u}\)) bounds.
-\begin{equation}
+\begin{equation}\label{eq:CitricAcidBounds}
     n_{Ci}^{l}\leq n_{Ci}\leq n_{Ci}^{u}=0.5\leq n_{Ci}\leq 2.0
-    \label{eq:CitricAcidBounds}
 \end{equation}
-\begin{equation}
+\begin{equation}\label{eq:ItaconicAcidBounds}
     n_{It}^{l}\leq n_{It}\leq n_{It}^{u}=1.0\leq n_{It}\leq 2.0
-    \label{eq:ItaconicAcidBounds}
 \end{equation}
 In addition to the basic polymerisable bounds imposed on the two stoichiometric variables,
  a further constraint must be imposed for a successful optimisation: it must be possible for 
@@ -171,33 +166,29 @@ Thirdly, a balancing predictor variable (\(b_1\)) capable of trading off the two
  influencing both the citric and itaconic acid stoichiometric variables.
 Equation~\ref{eq:ParameterSpaceDimensions} describes the parameter space \(A\) as a multi-dimensional
  real of \(d\) dimensions, where \(d=3\) given our three predictor variables.
-\begin{equation}
+\begin{equation}\label{eq:ParameterSpaceDimensions}
     A\subseteq \mathbb{R}^{d}
-    \label{eq:ParameterSpaceDimensions}
 \end{equation}
 All three predictor variables took constrained ranges of between 0 and 1 (\(s_1=[0,1],s_2=[0,1],b_1=[0,1]\)),
  and were linked mathematically to the stoichiometric variables 
  (See Equations~\cref{eq:CitricAcidStoichiometricPredictorLink,eq:ItaconicAcidStoichiometricPredictorLink}).
-\begin{equation}
+\begin{equation}\label{eq:CitricAcidStoichiometricPredictorLink}
     n_{Ci}=(n_{Ci}^{l}+(n_{Ci}^{u}-n_{Ci}^{l})\times s_{1})\times b_{1}
-    \label{eq:CitricAcidStoichiometricPredictorLink}
 \end{equation}
-\begin{equation}
+\begin{equation}\label{eq:ItaconicAcidStoichiometricPredictorLink}
     n_{It}=(n_{It}^{l}+(n_{It}^{u}-n_{It}^{l})\times s_{2})\times (1-b_{1})
-    \label{eq:ItaconicAcidStoichiometricPredictorLink}
 \end{equation}
 In summation, any random set of predictor variable values drawn from their respective constrained
  ranges of 0 to 1 (e.g. \(s_{1}=0.75,s_{2}=0.25,b_{1}=0.5\)) could be used to calculate a unique 
  permutation of stoichiometric variables (e.g. \(N_{Ci}=0.81,N_{It}=0.63\)) which, on mixing of a
  prepolymer in accordance with Equation~\ref{eq:FinalStoichiometricEquation} and curing, would give
  rise to a unique polymer and associated mass loss (e.g. \(\Delta m_{\%}=30\)).
-\begin{equation}
+\begin{equation}\label{eq:FinalStoichiometricEquation}
     \begin{split}
         n_{G}~G+0\leq n_{Ci}\leq& n_{Ci}^{u}~Ci+\\
         0\leq n_{It}&\leq n_{It}^{u}~It\rightarrow \\
         1~P&(GCiIt)+v~H_{2}O
     \end{split}
-    \label{eq:FinalStoichiometricEquation}
 \end{equation}
 The sequence of calculations linking abstract predictor variables (\(s_{1},s_{2},b_{1}\)) 
  to the practical stoichiometric variables (\(n_{Ci},n_{It}\)) and onwards to the target variable
@@ -205,23 +196,20 @@ The sequence of calculations linking abstract predictor variables (\(s_{1},s_{2}
  predictors and targets.
 A black-box mapping is described by Equation~\ref{eq:ParameterSpaceMapping}, where an unknown
  function (\(f\)) maps any point in our parameter space (\(A\)) to a single real number value (\(\mathbb{R}\)).
-\begin{equation}
+\begin{equation}\label{eq:ParameterSpaceMapping}
     f:A\rightarrow \mathbb{R}
-    \label{eq:ParameterSpaceMapping}
 \end{equation}
 Equation~\ref{eq:BlackBoxFunction} more explicitly expresses the black-box function
  in terms of the our target variable and predictor variables at a given sample number (\(i\)).
 Note that sample number is an integer counter used to track the number of function
  evaluations carried out during a sequential optimisation.
-\begin{equation}
+\begin{equation}\label{eq:BlackBoxFunction}
     \Delta m_{\%}=f(\mathbf{x})=f([s_{1}^{i},s_{2}^{i},b_{1}^{i}])
-    \label{eq:BlackBoxFunction}
 \end{equation}
 Our optimisation problem is expressed in Equation~\ref{eq:OptimisingBlackBoxFunction}
  as the maximisation of the black-box function, where the global optimum set of predictor variables (\(\mathbf{x}^{*}\)) is sought.
-\begin{equation}
+\begin{equation}\label{eq:OptimisingBlackBoxFunction}
     \mathbf{x}^{*}=\argmaxA_{\mathbf{x}\in A} f(\mathbf{x})
-    \label{eq:OptimisingBlackBoxFunction}
 \end{equation}
 % ========================================================================================================================================================================================
 \subsection{Optimisation Algorithm}
@@ -253,25 +241,23 @@ The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented in 
 On calculation of stoichiometric variables during an iteration, the algorithm merges 
  all new sets of predictors variable values into a growing predictor-matrix (\(\mathbf{X}\)),
  shown in Equation~\ref{eq:MatrixOfPredictors}.
-\begin{equation}
+\begin{equation}\label{eq:MatrixOfPredictors}
     \begin{split}
         \mathbf{X}=&[\mathbf{x}^{i=1},\mathbf{x}^{i=2},...]\\
         =&[[s_{1}^{i=1},s_{2}^{i=1},b_{1}^{i=1}],[s_{1}^{i=2},...],...]
     \end{split}
-    \label{eq:MatrixOfPredictors}
 \end{equation}
 On conclusion of an iteration, the algorithm merges all data associated with samples 
  evaluated into an optimisation-governing dataset.
 Equation~\ref{eq:OptimisationDataset} presents this dataset (\(\mathbb{D}\)) as a matrix 
  which consists of the predictor-matrix (\(\mathbf{X}\)) and an array of target variable
  values (\(\mathbf{\Delta m_{\%}}\)).
-\begin{equation}
+\begin{equation}\label{eq:OptimisationDataset}
     \begin{split}
         \mathbb{D}=&[\mathbf{X},f(\mathbf{X})]\\
         =&[\mathbf{X},\mathbf{\Delta m_{\%}}]\\
         =&[[\mathbf{x}^{i=1},\mathbf{x}^{i=2},...],[\Delta m_{\%}^{i=1},...]]
     \end{split}
-    \label{eq:OptimisationDataset}
 \end{equation}
 % ========================================================================================================================================================================================
 \subsection{Sampling Procedures}
@@ -309,30 +295,31 @@ Sequential sampling used in this research abided by Bayes theorem (see Equation~
 As new evidence becomes available, the posterior probability is recycled into the equation as a prior alongside 
  the new evidence and updated to a new posterior \cite{Downey2013}.
 
-\begin{equation}
+\begin{equation}\label{eq:Bayesianism}
     \overset{\mathrm{posterior}}{P(H|E)}=\frac{\overset{\mathrm{prior}}{P(H)}\times \overset{\mathrm{likelihood}}{P(E|H)}}{\underset{\mathrm{marginal}}{P(E)}}
-    \label{eq:Bayesianism}
 \end{equation}
+
 Bayesian optimisation uses a Bayesian statistical model called a Gaussian process 
  regression model (a form of Bayesian posterior distribution) derived from Gaussian 
  process regression of a dataset \(\mathbb{D}\) \cite{Rasmussen2005}.
 Equation~\ref{eq:GaussianProcess} shows how a gaussian process, 
  \(\mathcal{GP}\),  is a distribution over functions which is completely
- described by both a mean function, \(m\), and a covariance function, \(k\).
+ described by both a mean function, \(m\), and a covariance function, \(K\).
  
-\begin{equation}
-    f(\mathbf{x})\sim \mathcal{GP}(m(\mathbf{x}),k(\mathbf{x},\mathbf{x}'))
-    \label{eq:GaussianProcess}
+\begin{equation}\label{eq:GaussianProcess}
+    f(\mathbf{x})\sim \mathcal{GP}(m(\mathbf{x}),K(\mathbf{x},\mathbf{x}'))
 \end{equation}
+
 More intuitively, Equation~\ref{eq:SurrogateFunction} describes the gaussian
  process as a surrogate function \(\hat{f}(\cdot)\) describing the link 
  between a candidate array of predictor values \(\mathbf{x}\) and a tuple
  containing the mean and the variance of a normal distribution over values
  of \(f\) at \(x\).
-\begin{equation}
-    \hat{f}(\cdot):\mathbf{x}\mapsto [m(\mathbf{x}),k(\mathbf{x},\mathbf{x}')]
-    \label{eq:SurrogateFunction}
+
+\begin{equation}\label{eq:SurrogateFunction}
+    \hat{f}(\cdot):\mathbf{x}\mapsto [m(\mathbf{x}),K(\mathbf{x},\mathbf{x}')]
 \end{equation}
+
 As an infinite-dimensional generalisation of multivariate normal distributions
  the gaussian process inherits the properties of a conjugate prior \cite{Deisenroth2020}, 
  allowing the initial posterior (e.g. \(\mathcal{GP}^{i=8}\)) to be recycled
@@ -344,13 +331,78 @@ The surrogate model therewith evolves during the course of sequential
  to the updating of beliefs when considering new evidence which hallmarks
  all Bayesian techniques.
 
-On developing a Gaussian process a covariance function must be 
-
-WORK IN PROGRESS, NOTE BAYESIAN HYPERPARAMETERS AND ACQUISITION FUNCTION
-
 During fitting of the Gaussian process a covariance function is used to encode our
  beliefs regarding the families of functions likely to fit the data observed; this
  work made use of the Mat\'ern family.
+When using the Mat\'ern covariance function a hyperparameter controlling smoothness of
+ functions drawn from the Gaussian process was set (\(\nu=2.5\))- this encouraged
+ the generation of relatively smooth functions, which was deemed acceptable given that
+ preliminary sampling of the parameter space indicated a similar topography.
+
+Subsequent of posterior genesis, a simple one-step lookahead sampling policy was
+ used to select a suitable next point \(\mathbf{x}\) within the parameter space \(A\)
+ to sample.
+This research focussed upon policies that made use of the 'simple reward' utility
+ function (see Equation \ref{eq:UtilityFunction}) which takes the current dataset \(\mathbb{D}\),
+ and from the set of sample coordinates evaluated so far \(X\) returns the
+ predicted mean value \(\Delta m_{\%}\) of the point \(\mathbf{x}\) exhibiting 
+ the highest predicted mean (\(max\ m(X)\)) according to the current posterior \(\mathcal{GP}\)
+ \cite{Garnett2023}.
+
+\begin{equation}\label{eq:UtilityFunction}
+    u(\mathbb{D})=max\ m(X)(=\Delta m_{\%})
+\end{equation}
+
+In adopting this utility function, two different sampling policies were developed
+ and investigated: the first was predicated on the 'probability of improvement'
+ acquisition function (see Equation \ref{eq:ProbabilityOfImprovement}) where any 
+ given putative \(\mathbf{x}\) is scored by its probability that it will produce
+ an updated dataset \(\mathbb{D}^{\prime}\) that will generate a higher evaluation
+ from the utility function than an absolute threshold \(\tau\).
+Probability of a sample exceeding the current best is deduced using the current
+ posterior \(\mathcal{GP}\)'s mean (\(m(\textbf{x})\))and standard deviation 
+ (\(\sqrt{K(\mathbf{x},\mathbf{x})}\)) measured at that
+ sample position.
+Note, this work made the absolute threshold equal to an evaluation of the utility
+ function using the current dataset (\(\tau=u(\mathbb{D})\)), eschewing the
+ added complication of deciding upon a marginal threshold parameter \(\varepsilon\) 
+ which could have been used (\(\tau=u(\mathbb{D})+\varepsilon\)) to offset any overly
+ exploitative behaviour induced by rewarding any improvement no matter the scale.
+
+\footnotesize
+\begin{equation}\label{eq:ProbabilityOfImprovement}
+    \begin{split}
+        \alpha_{PI}(\mathbf{x})=&Pr(u(\mathbb{D}^{\prime})>\tau)\\
+        =&\int_{\tau}^{\infty}\mathcal{N}(m(\mathbf{x}),\sqrt{K(\mathbf{x},\mathbf{x})})dm(x)\\
+        =&1-\Phi((\tau-m(\mathbf{x}))/\sqrt{K(\mathbf{x},\mathbf{x})})
+    \end{split}
+\end{equation}
+\normalsize
+
+The second policy made use of the 'expected improvement' acquisition function
+ (see Equation \ref{eq:ExpectedImprovement}), which incorporates an expectation
+ of improvement value (\(u(\mathbb{D}^{\prime})-u(\mathbb{D})\)); this counteracts
+ overtly exploitative behaviour by rewarding both the scale and probability
+ of an improvement above the threshold \(\tau\) \cite{Teh2020}.
+
+\footnotesize
+\begin{equation}\label{eq:ExpectedImprovement}
+    \begin{split}
+        &\alpha_{EI}(\mathbf{x})=\int_{\tau}^{\infty}c\ \mathcal{N}(m(\mathbf{x}),\sqrt{K(\mathbf{x},\mathbf{x})})dm(x)\\
+        &\textnormal{where}\ c=u(\mathbb{D}^{\prime})-u(\mathbb{D})\\
+    \end{split}
+\end{equation}
+\normalsize
+
+Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
+ to be sampled sampled \(\mathbf{x}^{+}\) is found by trivially optimising
+ the cheap acquisition function (many putative samples \(\textbf{x}\) may be
+ evaluated) to find the global optimum within the bounds of the parameter 
+ space \(A\) \cite{Teh2020}.
+
+\begin{equation}\label{eq:AcquisitionFunctionOptimisation}
+    \mathbf{x}^{+}=\argmaxA_{\mathbf{x}\in A}\alpha(\mathbf{x})
+\end{equation}
 
 Gaussian processes and acquisition functions were produced using two
  open-source packages: scikit-optimise ("skopt", v0.9.0) \cite{Kernc2021} and
@@ -367,14 +419,16 @@ These were derived using one-shot determinstic space-filling sampling techniques
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{Benchmarks}
-    \captionof{figure}{\footnotesize{\textbf{Benchmarks} Deterministic space-filling one-shot sampling techniques: G - Grid sampling technique, QR - Quasirandom sampling technique, PR - Pseudorandom sampling technique. Coloration of points denote distance from viewer with darker points appearing further away.}}
+    \captionof{figure}{\footnotesize{\textbf{Benchmarks} Deterministic space-filling one-shot sampling techniques. Coloration of points denote distance from viewer with darker points appearing further away.}}
     \label{fig:Benchmarks}
 \end{figure*}
 Subsequently, for each of the techniques deployed, all samples \(\mathbf{X}\) were 
  evaluated \(f(\mathbf{X})\) to retrieve associated target variable values \(\mathbf{\Delta m_{\%}}\)
  generating a complete dataset \(\mathbb{D}\).
 The highest target variable value was identified within each technique's dataset (\(\Delta m_{\%}^{\circ}\)) and equated to
- the benchmark value (See Table~\ref{tab:BenchmarkBestValues}).
+ the benchmark value (See Table~\ref{tab:BenchmarkBestValues}).\
+
+\footnotesize
 \begin{center}
     \begin{tblr}{colspec={Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]},row{1}={guard},column{1}={guard}}
         {Benchmark\\Technique}&{Max\\(\%)}&{Mean\\(\%)}&{Standard\\Dev. (\%)}\\
@@ -387,3 +441,29 @@ The highest target variable value was identified within each technique's dataset
     \captionof{table}{\footnotesize{\textbf{BenchmarkBestValues} Statistical analysis of results for 27 samples derived via one-shot deterministic sampling techniques.}}
     \label{tab:BenchmarkBestValues}
 \end{center}
+\normalsize
+
+% ========================================================================================================================================================================================
+\subsection{Emulation of Physical System}
+
+An emulation of the physical system investigated facilitated statistical
+ analyses of the various sampling techniques' efficacies in discovery of
+ the experimental global optimum.
+This emulation was developed by firstly concatenating the final datasets 
+ \(\mathbb{D}\) generated from the three benchmark and two sequential 
+ techniques deployed- this master dataset which represented all the
+ knowledge of the objective function's topography within the parameter space
+ investigated.
+Subsequently, a Gaussian process \(\mathcal{GP}\) was trained on this
+ master dataset using the parameterisations described earlier-
+ the resultant mean function \(m(\mathbf{x})\) then being used as a
+ cheap surrogate function of the latent objective function (i.e. the
+ emulator).
+Note, that some data obtained outside the sample limit was included in this
+ master dataset- specifically, the final samples generated by the Bayesian 
+ sequential technique using the 'probability of improvement' acquisition
+ function; these were remarkably high, and represented the experimental
+ global optimum discovered during the course of this work.
+Care was taken to ensure the trained \(\mathcal{GP}\) faithfully
+ replicated this region of optimality within the parameter space as well
+ as the general trends of the objective function.

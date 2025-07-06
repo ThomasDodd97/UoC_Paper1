@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  3 JUL 2025 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  6 JUL 2025 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -882,29 +882,25 @@ Underfull \hbox (badness 7273) in paragraph at lines 74--83
 <Images/PolymerisableRange.png, id=32, 1440.38126pt x 690.58pt>
 File: Images/PolymerisableRange.png Graphic file (type png)
 <use Images/PolymerisableRange.png>
-Package pdftex.def Info: Images/PolymerisableRange.png  used on input line 143.
+Package pdftex.def Info: Images/PolymerisableRange.png  used on input line 140.
 (pdftex.def)             Requested size: 452.96793pt x 217.16504pt.
  [5 <./Images/SimpleReactionOverview.png>] [6 <./Images/PolymerisableRange.png>]
 <Images/OptimisationAlgorithm.png, id=42, 258.29298pt x 533.3526pt>
 File: Images/OptimisationAlgorithm.png Graphic file (type png)
 <use Images/OptimisationAlgorithm.png>
-Package pdftex.def Info: Images/OptimisationAlgorithm.png  used on input line 248.
+Package pdftex.def Info: Images/OptimisationAlgorithm.png  used on input line 236.
 (pdftex.def)             Requested size: 217.42267pt x 448.97343pt.
  [7 <./Images/OptimisationAlgorithm.png>]
 <Images/BayesianPriorsAbbreviated.png, id=49, 352.81813pt x 317.185pt>
 File: Images/BayesianPriorsAbbreviated.png Graphic file (type png)
 <use Images/BayesianPriorsAbbreviated.png>
-Package pdftex.def Info: Images/BayesianPriorsAbbreviated.png  used on input line 298.
+Package pdftex.def Info: Images/BayesianPriorsAbbreviated.png  used on input line 284.
 (pdftex.def)             Requested size: 217.42267pt x 195.46205pt.
- [8 <./Images/BayesianPriorsAbbreviated.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
-[]\OT1/cmr/m/n/12 (+20) WORK IN PROGRESS, NOTE
- []
-
-<Images/Benchmarks.png, id=55, 454.644pt x 143.226pt>
+ [8 <./Images/BayesianPriorsAbbreviated.png>] [9]
+<Images/Benchmarks.png, id=63, 454.644pt x 143.226pt>
 File: Images/Benchmarks.png Graphic file (type png)
 <use Images/Benchmarks.png>
-Package pdftex.def Info: Images/Benchmarks.png  used on input line 369.
+Package pdftex.def Info: Images/Benchmarks.png  used on input line 421.
 (pdftex.def)             Requested size: 452.96793pt x 142.70331pt.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -913,21 +909,13 @@ Package pdftex.def Info: Images/Benchmarks.png  used on input line 369.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-
-Package tabularray Warning: Table width is too small, need 15.55437pt more!
-
 > Step: build the whole table.
-
-Overfull \hbox (15.55437pt too wide) in paragraph at lines 385--387
- [] 
- []
-
-) (./Sections/E1_Results.tex [9]
-<Images/ResultOverview.png, id=59, 987.69pt x 388.45125pt>
+) (./Sections/E1_Results.tex [10]
+<Images/ResultOverview.png, id=67, 978.65625pt x 389.455pt>
 File: Images/ResultOverview.png Graphic file (type png)
 <use Images/ResultOverview.png>
-Package pdftex.def Info: Images/ResultOverview.png  used on input line 35.
-(pdftex.def)             Requested size: 452.96793pt x 178.14442pt.
+Package pdftex.def Info: Images/ResultOverview.png  used on input line 37.
+(pdftex.def)             Requested size: 452.96793pt x 180.26273pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -936,14 +924,25 @@ Package pdftex.def Info: Images/ResultOverview.png  used on input line 35.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [10 <./Images/Benchmarks.png>]) (./Sections/F1_Discussion.tex) (./Sections/G1_Conclusion.tex) (./Sections/H1_Bibliography.tex [11 <./Images/ResultOverview.png>]
+ [11 <./Images/Benchmarks.png>]
+<Images/SimulationResultOverview.png, id=72, 1019.81pt x 364.36125pt>
+File: Images/SimulationResultOverview.png Graphic file (type png)
+<use Images/SimulationResultOverview.png>
+Package pdftex.def Info: Images/SimulationResultOverview.png  used on input line 106.
+(pdftex.def)             Requested size: 452.96793pt x 161.83723pt.
+) (./Sections/F1_Conclusion.tex [12 <./Images/ResultOverview.png>]) (./Sections/G1_Bibliography.tex [13 <./Images/SimulationResultOverview.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [12])
 
-[13] (./main.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+[]\OT1/cmr/m/n/12 (+20) mhstrongman. \OT1/cmr/m/it/12 (+20) ad-vml2020\OT1/cmr/m/n/12 (+20) . Ver-
+ []
+
+[14])
+
+[15] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -953,18 +952,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25942 strings out of 473190
- 551642 string characters out of 5715801
- 1451060 words of memory out of 5000000
- 48701 multiletter control sequences out of 15000+600000
- 582583 words of font info for 212 fonts, out of 8000000 for 9000
+ 26017 strings out of 473190
+ 553106 string characters out of 5715801
+ 1451558 words of memory out of 5000000
+ 48741 multiletter control sequences out of 15000+600000
+ 585515 words of font info for 235 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,16n,112p,1113b,1740s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (13 pages, 1698888 bytes).
+ 65i,17n,112p,1113b,1740s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (15 pages, 2148073 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 187 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 49700 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 59945 words of extra memory for PDF output out of 61914 (max. 10000000)
 

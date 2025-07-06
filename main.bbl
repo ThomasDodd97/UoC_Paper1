@@ -392,6 +392,32 @@
       \verb https://github.com/facebook/Ax
       \endverb
     \endentry
+    \entry{Garnett2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=eaf84e3fe4f887967dc3d793d28b9e94}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{fullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{fullhashraw}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{bibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorfullhashraw}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Optimization}
+      \field{year}{2023}
+    \endentry
     \entry{Garud2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -482,6 +508,33 @@
       \field{year}{1998}
       \field{pages}{455\bibrangedash 492}
       \range{pages}{38}
+    \endentry
+    \entry{Karasuyama2020}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=61bd886a2a0869c095b2db20ec1d9320}{%
+           family={Karasuyama},
+           familyi={K\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{757a7426455973a7b75c5942993632b3}
+      \strng{fullhash}{757a7426455973a7b75c5942993632b3}
+      \strng{fullhashraw}{757a7426455973a7b75c5942993632b3}
+      \strng{bibnamehash}{757a7426455973a7b75c5942993632b3}
+      \strng{authorbibnamehash}{757a7426455973a7b75c5942993632b3}
+      \strng{authornamehash}{757a7426455973a7b75c5942993632b3}
+      \strng{authorfullhash}{757a7426455973a7b75c5942993632b3}
+      \strng{authorfullhashraw}{757a7426455973a7b75c5942993632b3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Materials Science}
+      \field{title}{Computational design of stable and highly ion-conductive materials using multi-objective Bayesian optimization- case studies on diffusion of oxygen and lithium}
+      \field{volume}{184}
+      \field{year}{2020}
     \endentry
     \entry{Kernc2021}{software}{}{}
       \name{author}{1}{}{%
@@ -600,6 +653,37 @@
       \field{year}{2017}
       \field{pages}{65\bibrangedash 110}
       \range{pages}{46}
+    \endentry
+    \entry{Teh2020}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=4ddbc35475ffe7be5641a784ef4fb527}{%
+           family={mhstrongman},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ddbc35475ffe7be5641a784ef4fb527}
+      \strng{fullhash}{4ddbc35475ffe7be5641a784ef4fb527}
+      \strng{fullhashraw}{4ddbc35475ffe7be5641a784ef4fb527}
+      \strng{bibnamehash}{4ddbc35475ffe7be5641a784ef4fb527}
+      \strng{authorbibnamehash}{4ddbc35475ffe7be5641a784ef4fb527}
+      \strng{authornamehash}{4ddbc35475ffe7be5641a784ef4fb527}
+      \strng{authorfullhash}{4ddbc35475ffe7be5641a784ef4fb527}
+      \strng{authorfullhashraw}{4ddbc35475ffe7be5641a784ef4fb527}
+      \field{sortinit}{m}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{advml2020}
+      \field{version}{0.0.1}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/mhstrongman/advml2020
+      \endverb
+      \verb{url}
+      \verb https://github.com/mhstrongman/advml2020
+      \endverb
     \endentry
     \entry{Mockus1978}{article}{}{}
       \true{moreauthor}
