@@ -289,6 +289,87 @@
       \field{pages}{52588\bibrangedash 52608}
       \range{pages}{21}
     \endentry
+    \entry{IPCC2021}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0f7fc6af09f9d8ae5aa35805f7e3d438}{%
+           family={Climate\bibnamedelima Change},
+           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Intergovernmental\bibnamedelima Panel},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={on},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \true{moreeditor}
+      \name{editor}{1}{}{%
+        {{hash=6353363baf7fef1e2b7e6e86d6c23588}{%
+           family={Masson-Delmotte},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={Valérie},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{0f7fc6af09f9d8ae5aa35805f7e3d438}
+      \strng{fullhash}{0f7fc6af09f9d8ae5aa35805f7e3d438}
+      \strng{bibnamehash}{0f7fc6af09f9d8ae5aa35805f7e3d438}
+      \strng{authorbibnamehash}{0f7fc6af09f9d8ae5aa35805f7e3d438}
+      \strng{authornamehash}{0f7fc6af09f9d8ae5aa35805f7e3d438}
+      \strng{authorfullhash}{0f7fc6af09f9d8ae5aa35805f7e3d438}
+      \strng{editorbibnamehash}{ca1b5b789cb8eb8f7d56b09fab481ef5}
+      \strng{editornamehash}{ca1b5b789cb8eb8f7d56b09fab481ef5}
+      \strng{editorfullhash}{ca1b5b789cb8eb8f7d56b09fab481ef5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{year}{2021}
+    \endentry
+    \entry{OWID20251027}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fde445346ee01a6c2881aca3bbca7e18}{%
+           family={Data)},
+           familyi={D\bibinitperiod},
+           given={OWID\bibnamedelimb (Our\bibnamedelima World},
+           giveni={O\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \true{moreeditor}
+      \name{editor}{1}{}{%
+        {{hash=a6d904a648976069036f5eddb4ad0151}{%
+           family={Ritchie},
+           familyi={R\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{fullhash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{bibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authorbibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authornamehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authorfullhash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{editorbibnamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \strng{editornamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \strng{editorfullhash}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Retrieved October 27th, 2025}
+      \field{title}{Population Growth}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://ourworldindata.org/population-growth
+      \endverb
+      \verb{url}
+      \verb https://ourworldindata.org/population-growth
+      \endverb
+    \endentry
     \entry{Deisenroth2020}{book}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -446,6 +527,66 @@
       \endverb
       \verb{url}
       \verb https://github.com/ThomasDodd97/BO4BT
+      \endverb
+    \endentry
+    \entry{IEA20251027}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=18fdbec513c87989c7580f31bb7f03ab}{%
+           family={IEA},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {International Energy Agency}%
+      }
+      \strng{namehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{fullhash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{bibnamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authorbibnamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authornamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authorfullhash}{18fdbec513c87989c7580f31bb7f03ab}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Retrieved 27th October 2025}
+      \field{title}{Energy Statistics Data Browser; Electricity generation by source}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=ElecGenByFuel
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=ElecGenByFuel
+      \endverb
+    \endentry
+    \entry{IEA2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=18fdbec513c87989c7580f31bb7f03ab}{%
+           family={IEA},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {International Energy Agency}%
+      }
+      \strng{namehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{fullhash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{bibnamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authorbibnamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authornamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authorfullhash}{18fdbec513c87989c7580f31bb7f03ab}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Retrieved 16th October 2025}
+      \field{title}{Energy Statistics Data Browser; Total Energy Supply by Source}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=TESbySource
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=TESbySource
       \endverb
     \endentry
     \entry{Jones1998}{article}{}
@@ -692,6 +833,34 @@
       \field{year}{2001}
       \field{pages}{87\bibrangedash 95}
       \range{pages}{9}
+    \endentry
+    \entry{UN20251027}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=23d2be6f9042d21a2f085a3236b862a5}{%
+           family={Nations)},
+           familyi={N\bibinitperiod},
+           given={UN\bibnamedelima (United},
+           giveni={U\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{23d2be6f9042d21a2f085a3236b862a5}
+      \strng{fullhash}{23d2be6f9042d21a2f085a3236b862a5}
+      \strng{bibnamehash}{23d2be6f9042d21a2f085a3236b862a5}
+      \strng{authorbibnamehash}{23d2be6f9042d21a2f085a3236b862a5}
+      \strng{authornamehash}{23d2be6f9042d21a2f085a3236b862a5}
+      \strng{authorfullhash}{23d2be6f9042d21a2f085a3236b862a5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Retrieved October 27th, 2025}
+      \field{title}{World Population Prospects 2024}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used
+      \endverb
+      \verb{url}
+      \verb https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used
+      \endverb
     \endentry
     \entry{Rasmussen2005}{book}{}
       \true{moreauthor}

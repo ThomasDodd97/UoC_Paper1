@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  27 OCT 2025 09:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  27 OCT 2025 10:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -709,6 +709,20 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip94
+\L@UnitsRaiseTextstyle=\skip95
+\L@UnitsRaiseScriptstyle=\skip96
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -717,20 +731,20 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -779,18 +793,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
-\symgns@font=\mathgroup6
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
+\symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 60.
-Package gensymb Info: Math companion symbols declared on input line 60.
-LaTeX Info: Redefining \degree on input line 60.
-LaTeX Info: Redefining \celsius on input line 60.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 60.
-LaTeX Info: Redefining \ohm on input line 60.
-Package gensymb Info: Using \textohm for \ohm on input line 60.
-Package gensymb Info: Using \textmu for \micro on input line 60.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 69.
+Package gensymb Info: Math companion symbols declared on input line 69.
+LaTeX Info: Redefining \degree on input line 69.
+LaTeX Info: Redefining \celsius on input line 69.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 69.
+LaTeX Info: Redefining \ohm on input line 69.
+Package gensymb Info: Using \textohm for \ohm on input line 69.
+Package gensymb Info: Using \textmu for \micro on input line 69.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count465
@@ -817,20 +831,20 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 60.
-LaTeX Info: Redefining \microtypecontext on input line 60.
-Package microtype Info: Applying patch `item' on input line 60.
-Package microtype Info: Applying patch `toc' on input line 60.
-Package microtype Info: Applying patch `eqnum' on input line 60.
-Package microtype Info: Applying patch `footnote' on input line 60.
-Package microtype Info: Applying patch `verbatim' on input line 60.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 69.
+LaTeX Info: Redefining \microtypecontext on input line 69.
+Package microtype Info: Applying patch `item' on input line 69.
+Package microtype Info: Applying patch `toc' on input line 69.
+Package microtype Info: Applying patch `eqnum' on input line 69.
+Package microtype Info: Applying patch `footnote' on input line 69.
+Package microtype Info: Applying patch `verbatim' on input line 69.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 60.
+LaTeX Info: Redefining \showhyphens on input line 69.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -855,12 +869,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--7
 \OT1/cmr/m/n/12 (+20) In op-ti-mis-ing the prop-er-ties of a
  []
 
-<Images//SimpleLinearEsterification.png, id=14, 1326.9575pt x 276.03125pt>
+[3]
+<Images//SimpleLinearEsterification.png, id=20, 1326.9575pt x 276.03125pt>
 File: Images//SimpleLinearEsterification.png Graphic file (type png)
 <use Images//SimpleLinearEsterification.png>
 Package pdftex.def Info: Images//SimpleLinearEsterification.png  used on input line 43.
 (pdftex.def)             Requested size: 452.96793pt x 94.22423pt.
-[3]
 <Images//SimpleReactionOverview.png, id=22, 1027.84pt x 298.11375pt>
 File: Images//SimpleReactionOverview.png Graphic file (type png)
 <use Images//SimpleReactionOverview.png>
@@ -871,13 +885,13 @@ Underfull \hbox (badness 7273) in paragraph at lines 74--83
 []\OT1/cmr/m/n/12 (+20) Thermoset syn-the-sis was two-step:
  []
 
-[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Images//SimpleLinearEsterification.png>]
-<Images//PolymerisableRange.png, id=31, 1440.38126pt x 690.58pt>
+[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<Images//PolymerisableRange.png, id=29, 1440.38126pt x 690.58pt>
 File: Images//PolymerisableRange.png Graphic file (type png)
 <use Images//PolymerisableRange.png>
 Package pdftex.def Info: Images//PolymerisableRange.png  used on input line 140.
 (pdftex.def)             Requested size: 452.96793pt x 217.16504pt.
- [5 <./Images//SimpleReactionOverview.png>] [6 <./Images//PolymerisableRange.png>]
+ [5 <./Images//SimpleLinearEsterification.png> <./Images//SimpleReactionOverview.png>] [6 <./Images//PolymerisableRange.png>]
 <Images//OptimisationAlgorithm.png, id=41, 258.29298pt x 533.3526pt>
 File: Images//OptimisationAlgorithm.png Graphic file (type png)
 <use Images//OptimisationAlgorithm.png>
@@ -929,28 +943,46 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Underfull \hbox (badness 5667) in paragraph at lines 2--2
+\OT1/cmtt/m/n/12 https : / / www . iea . org /
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 2--2
+\OT1/cmtt/m/n/12 https : / / www . iea . org /
+ []
+
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 []\OT1/cmr/m/n/12 (+20) mhstrongman. \OT1/cmr/m/it/12 (+20) ad-vml2020\OT1/cmr/m/n/12 (+20) . Ver-
  []
 
-[14]) [15] (./main.aux)
+
+Underfull \hbox (badness 5217) in paragraph at lines 2--2
+\OT1/cmtt/m/n/12 20Projections & group = Most %
+ []
+
+) [15] [16] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25633 strings out of 476025
- 541868 string characters out of 5790017
- 1875388 words of memory out of 5000000
- 45558 multiletter control sequences out of 15000+600000
- 538134 words of font info for 223 fonts, out of 8000000 for 9000
+ 25823 strings out of 476025
+ 545443 string characters out of 5790017
+ 1876388 words of memory out of 5000000
+ 45727 multiletter control sequences out of 15000+600000
+ 542636 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,17n,112p,1113b,1730s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 58i,17n,112p,1113b,1732s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (15 pages, 2145884 bytes).
+Output written on main.pdf (16 pages, 2151988 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 190 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  59945 words of extra memory for PDF output out of 61914 (max. 10000000)
 
