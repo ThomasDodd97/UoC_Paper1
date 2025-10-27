@@ -2,13 +2,20 @@
 In optimising the properties of a poly(glycerol citrate itaconate) thermoset, 
  interlinking method was developed spanning both practical experimental technique
  and mathematical framing.
-Given this method, a computer program was created providing a command-line 
- interface facilitating human-in-the-loop optimisation.
+Given this method, various computer programs were written spanning the entire 
+ experimental process, primary functionality was the facilitation of
+ human-in-the-loop optimisation in a laboratory setting.
+Programs were written in the Python programming language and developed into
+ modules, whereafter these were united into a single package, ``BO4BT'', which
+ has been made available within it's own Github repository alongside its
+ dependencies; a .yaml file is also provided which allows an identical
+ Conda environment to be setup, allowing a user to run this code
+ \cite{HojlundDodd2024}.
 
 % ========================================================================================================================================================================================
 \subsection{Chemical Background}
 The condensation reaction occurring between carboxyl and hydroxyl groups 
- is an esterification reaction (See Eq. \ref{eq:Esterification}).
+ is an esterification reaction:
 \begin{equation}
     \begin{split}
         R\textcolor{CarboxylOrange}{COOH}+\textcolor{HydroxylBlue}{H}&\textcolor{HydroxylBlue}{O}R'\rightarrow\\
@@ -16,10 +23,9 @@ The condensation reaction occurring between carboxyl and hydroxyl groups
     \end{split}
     \label{eq:Esterification}
 \end{equation}
-It is described as a condensation reaction since a small by-product molecule, 
- water, is generated as each ester bond is formed.
-As opposed to simple esterification, the desired polyester thermoset, 
- poly(glycerol citrate itaconate), is the product of polyesterification between multi-functional monomers.
+As opposed to the simple esterification shown in Equation~\ref{eq:Esterification}, 
+ the desired polyester thermoset, poly(glycerol citrate itaconate), is the 
+ product of polyesterification between multi-functional monomers.
 
 Polyesterification is a form of polycondensation reaction which takes place 
  as follows: an initial ester is formed from two difunctional monomers, where 
@@ -27,87 +33,117 @@ Polyesterification is a form of polycondensation reaction which takes place
  possess a carboxyl and a hydroxyl group), producing a molecule of water and 
  an ester with two spare functional groups- these groups can subsequently react 
  with more difunctional monomers causing polymerisation into a linear polyester 
- (See Fig.~\ref{fig:SimpleLinearEsterification}).
+ (See Figure~\ref{fig:SimpleLinearEsterification}).
 When monomers with a functionality greater than two are introduced into a 
  polyesterification reaction, then side chains can form along the primary backbone 
- of the growing polyester, this causes the development of a branching polymeric 
- structure (See Fig.~\ref{fig:SimpleReactionOverview}).
+ of the growing polyester, which causes the development of a branching polymeric 
+ structure (See Figure~\ref{fig:SimpleReactionOverview}).
 When a side chain reaches another large growing polyester molecule and reacts 
- with it a crosslink is said to have developed; when widespread crosslinking occurs 
- generating a 3D network of polyester molecules a thermoset polyester has been created.
-Figure~\ref{fig:SimpleReactionOverview} shows how the monomers employed in the synthesis 
- of poly(glycerol citrate itaconate) give rise to this branching thermoset structure.
+ with it a crosslink is said to have developed, and when widespread crosslinking
+ occurs generating a 3D network of polyester molecules a thermoset polyester has
+ been created.
+Figure~\ref{fig:SimpleReactionOverview} shows how the monomers employed in the
+ synthesis of poly(glycerol citrate itaconate) give rise to this branching 
+ thermoset structure.
 
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{SimpleLinearEsterification}
-    \captionof{figure}{\footnotesize{Archetypical polyesterification between a diol (propylene glycol) and a diacid (succinic acid) forming a linear polyester. Functional groups participating in the reaction are highlighted: hydroxyl groups blue, and carboxyl groups orange.}}
+    \captionof{figure}{
+            \footnotesize{
+                Archetypical polyesterification between a diol (propylene glycol)
+                and a diacid (succinic acid) forming a linear polyester.
+                Functional groups participating in the reaction are highlighted: 
+                hydroxyl groups blue, and carboxyl groups orange.
+                In the products, ester groups are blue
+                and carbonyl groups and water are also orange in accordance with
+                provenance.
+            }
+        }
     \label{fig:SimpleLinearEsterification}
 \end{figure*}
 
 Importantly, during the polyesterification process water is generated as the
- only by-product, it is therewith assumed that virtually all mass loss between 
+ main by-product, and hence it is assumed that virtually all mass loss between 
  prepolymer and final cured thermoset would be associated with water evaporation.
 Given that each molecule of water produced corresponds to an ester bond formed, 
- mass loss can be said to be a loose proxy for extent of polymerisation within a 
+ mass loss can be said to be a good proxy for extent of polymerisation within a 
  sample \cite{Trenkel2008}.
-This research identifies this as a metric of interest and sought to maximise the 
- mass loss during optimisation of poly(glycerol citrate itaconate) synthesis: 
- increasing the extent of polymerisation and possibly improving the degree of 
- cross-linking and associated strength of these bio-based thermosets.
+Thus, this research identifies mass loss as a metric of interest and sought to 
+ maximise this during optimisation of poly(glycerol citrate itaconate)
+ synthesis: increasing the extent of polymerisation and thereby improving the
+ degree of cross-linking and associated strength of these bio-based thermosets.
 
 \subsection{Experimental Method}
 Synthesis of the poly(glycerol citrate itaconate) thermoset was achieved 
- via an uncatalysed polyesterification reaction (See Figure \ref{fig:SimpleReactionOverview}).
-Acid catalysis was eschewed to avoid corrosion damage to equipment which 
- slowed but failed to halt the polyesterification process \cite{Balachandran2016}.
+ via an uncatalysed polyesterification reaction (See 
+ Figure~\ref{fig:SimpleReactionOverview}).
+Acid catalysis was avoided to reduce corrosion damage to equipment, this
+ ultimately reduced the rate at which this reaction could be carried out
+ but did not prevent polycondensation \cite{Balachandran2016}.
 The monomers glycerol (99+\%), citric acid (99.6\%), and itaconic acid (99+\%) used
- were supplied by \textit{Fisher Scientific International} and manufactured by \textit{Acros Organics}.
+ were supplied by \textit{Fisher Scientific International} and manufactured by 
+ \textit{Acros Organics}.
 
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{SimpleReactionOverview}
-    \captionof{figure}{\footnotesize{Polyesterification between glycerol, citric acid, and itaconic acid forming poly(glycerol citrate itaconate). Functional groups participating in the reaction are highlighted: hydroxyl groups blue, and carboxyl groups orange.}}
+    \captionof{figure}{
+        \footnotesize{
+                Polyesterification between glycerol, citric acid, and itaconic acid
+                forming poly(glycerol citrate itaconate). Functional groups 
+                participating in the reaction are highlighted: hydroxyl groups blue, 
+                and carboxyl groups orange. In the products, ester groups are blue
+                and carbonyl groups and water are also orange in accordance with
+                provenance.
+            }
+        }
     \label{fig:SimpleReactionOverview}
 \end{figure*}
 
 Thermoset synthesis was two-step: firstly, a homogenous prepolymer resin was 
  prepared by stirring solid monomers (acids) together with liquid monomer (glycerol) 
- \textit{in-vitro} atop a hotplate and raising the temperature (maximum 140\degree C) 
- until the solids were completely dissolved.
-Note, 140\degree C was adopted to accelerate dissolution without encouraging 
- decarboxylation of the citric acid to itaconic acid \cite{Alberts2017}.
+ atop a hotplate and raising the temperature to a maximum of 
+ 140~\unit{\degreeCelsius} until the solids were completely dissolved.
+Note, 140~\unit{\degreeCelsius} was adopted to accelerate dissolution without
+ encouraging decarboxylation of the citric acid to itaconic acid \cite{Alberts2017}.
 Secondly, prepolymer was cured into the desired thermoset by transferral to
- a silicone mould before being exposed to elevated temperatures (90\degree C) 
- for an extended period (up to two weeks) within a drying oven.
+ a silicone mould before being exposed to elevated temperatures
+ (90~\unit{\degreeCelsius}) for an extended period (up to two weeks) within a 
+ drying oven.
 
-Preliminary experimentation showed that temperatures exceeding 100\degree C
- caused boiling of byproduct water within samples.
+Preliminary experimentation showed that temperatures exceeding
+ 100~\unit{\degreeCelsius}, caused boiling of byproduct water within samples.
 Gaseous water from boiling was entrapped within the curing polyester creating
- vesicles within the final structure, resulting in unpredictable densities of the final material.
-Given both the random and uncontrollable nature of samples generated in this 
-fashion, drying oven temperatures were held below 90\degree C to avoid this 
-imponderables affect upon the experiments.
+ bubbles within the final structure, resulting in unpredictable densities of the 
+ final material.
+Given the unpredictable nature of samples generated in this 
+fashion, drying oven temperatures were held below 90~\unit{\degreeCelsius} to 
+avoid this uncontrollable effect upon the experiments.
 
-As seen in Equation \ref{eq:MassLoss}, determination of mass loss associated 
+As defined by Equation \ref{eq:MassLoss}, determination of mass loss associated 
  with the synthesis of a thermoset sample (\(\Delta m\)) was obtained by measuring 
  the difference between both the initial mass of prepolymer resin (\(m_{p}\)) and the 
  final mass of cured thermoset (\(m_{t}\)).
-Measurements were made with a mass balance accurate to 0.01 g ± 0.01 g; since prepolymer 
- samples weighed 3 g and mass loss was confined to between 0.3-0.9 g we assumed
- systematic errors accrued through uncertainty in mass balance readings to be negligible.
+Measurements were made with a mass balance with a readability of 0.01~\unit{\gram}
+ and repeatability of 0.01~\unit{\gram} (1\(\sigma\)).
+Since prepolymer masses weighed 3~\unit{\gram} and subsequently recorded mass 
+ losses ranged from between 0.3-0.9\unit{\gram}, this mass balance was deemed
+ accurate enough for the purposes of this experiment.
 \begin{equation}\label{eq:MassLoss}
     \Delta m=m_{p}-m_{t}
 \end{equation}
-Equation \ref{eq:PctMassLoss} shows how sample mass loss (\(\Delta m\)) is normalised 
+Equation~\ref{eq:PctMassLoss} defines sample mass loss (\(\Delta m\)) normalised 
  into a percentage format (\(\Delta m_{\%}\)), this allowed inter-comparison since 
  individual samples had slightly varying initial prepolymer resin masses (\(m_{p}\)).
 \begin{equation}\label{eq:PctMassLoss}
     \Delta m_{\%}=\frac{\Delta m\times 100}{m_{p}}
 \end{equation}
 Residence time within the drying oven for a sample was controlled by periodic 
- measurement of sample mass; mass was plotted against time, an exponential decay 
- curve fitted, and the sample removed from the oven once an arbitrary gradient was reached.
+ measurement of sample mass: mass was plotted against time, an exponential decay 
+ curve fitted, and the sample removed from the oven once a pre-determined rate of
+ mass loss was reached (this equated to around -0.028\unit{\percent\per\hour} of
+ the initial mass).
 
 % ========================================================================================================================================================================================
 \subsection{Optimisation Framing}
@@ -116,24 +152,29 @@ Having selected percentage mass loss within a thermoset sample (\(\Delta m_{\%}\
  and constrained creating a suitable parameter space describing a full range of 
  prepolymer monomeric compositions.
 
-The polyesterification of monomers to polymer seen in Figure~\ref{fig:SimpleReactionOverview}
- is presented in Equation~\ref{eq:StoichiometricEquation} as an unbalanced stoichiometric 
- equation linking monomeric reagents glycerol (G), itaconic acid (It), and citric acid (Ci)
-  with the product polymer poly(glycerol citrate itaconate) (P(GCiIt)) and byproduct water.
-Equation~\ref{eq:StoichiometricEquation} introduces two stoichiometric variables representing
- the moles of glycerol (\(n_{G}\)), citric acid (\(n_{Ci}\)) and itaconic acid (\(n_{It}\)), 
- and a variable representing the unknown number of moles of water produced (\(v\)).
+The polyesterification of monomers to polymer seen in 
+ Figure~\ref{fig:SimpleReactionOverview} is presented in 
+ Equation~\ref{eq:StoichiometricEquation} as a parameterised stoichiometric 
+ equation linking monomeric reagents glycerol (G), itaconic acid (It), and 
+ citric acid (Ci) with the product polymer poly(glycerol citrate itaconate) 
+ (P(GCiIt)) and byproduct water.
+Equation~\ref{eq:StoichiometricEquation} introduces two stoichiometric variables 
+ representing the moles of glycerol (\(n_{G}\)), citric acid (\(n_{Ci}\)) and 
+ itaconic acid (\(n_{It}\)), and a variable representing the unknown number of 
+ moles of water produced (\(v\)).
 \begin{equation}\label{eq:StoichiometricEquation}
     \begin{split}
         n_{G}~G+n_{Ci}~Ci&+n_{It}~It\rightarrow\\
         &1~P(GCiIt)+v~H_{2}O
     \end{split}
 \end{equation}
-The polyesterification reaction can be considered to consist of two possible polymerisation
- reactions between the triol glycerol and either the triacid citric acid or the diacid itaconic acid.
-By making a constant of the glycerol stoichiometric variable (\(n_{G}=1\)), 
- Figure~\ref{fig:PolymerisableRange} shows how the two separate reactions can be considered 
- as if they were stoichiometric ranges, where there exist stoichiometric bounds between which polymerisation is possible.
+The polyesterification reaction can be considered to consist of two possible 
+ polymerisation reactions between the triol glycerol and either the triacid citric 
+ acid or the diacid itaconic acid.
+By setting the glycerol stoichiometric variable to unity (\(n_{G}=1\)), 
+ Figure~\ref{fig:PolymerisableRange} shows how the two separate reactions can be 
+ considered as if they were stoichiometric ranges, where there exist 
+ stoichiometric bounds between which polymerisation is possible.
 
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
@@ -142,46 +183,51 @@ By making a constant of the glycerol stoichiometric variable (\(n_{G}=1\)),
     \label{fig:PolymerisableRange}
 \end{figure*}
 
-These stoichiometric bounds are used to directly constrain the stoichiometric variables; 
- Equation~\ref{eq:CitricAcidBounds} describes the lower (\(n_{Ci}^{l}\)) and upper (\(n_{Ci}^{u}\)) 
- bounds placed on the citric acid stoichiometric variable, whilst Equation~\ref{eq:ItaconicAcidBounds} 
- shows those for itaconic acids lower (\(n_{It}^{l}\)) and upper (\(n_{It}^{u}\)) bounds.
+These stoichiometric bounds are used to directly constrain the stoichiometric 
+ variables; Equation~\ref{eq:CitricAcidBounds} describes the lower 
+ (\(n_{Ci}^{l}\)) and upper (\(n_{Ci}^{u}\)) bounds placed on the citric acid 
+ stoichiometric variable, whilst Equation~\ref{eq:ItaconicAcidBounds} 
+ shows those for lower (\(n_{It}^{l}\)) and upper (\(n_{It}^{u}\))
+ bounds on proportion of itaconic acid.
 \begin{equation}\label{eq:CitricAcidBounds}
     n_{Ci}^{l}\leq n_{Ci}\leq n_{Ci}^{u}=0.5\leq n_{Ci}\leq 2.0
 \end{equation}
 \begin{equation}\label{eq:ItaconicAcidBounds}
     n_{It}^{l}\leq n_{It}\leq n_{It}^{u}=1.0\leq n_{It}\leq 2.0
 \end{equation}
-In addition to the basic polymerisable bounds imposed on the two stoichiometric variables,
- a further constraint must be imposed for a successful optimisation: it must be possible for 
- permutations of prepolymer monomeric mixtures to allow one acid to entirely marginalise the 
- other whilst ensuring that a prepolymer will still polymerise- this constraint ensures that 
- any polymerisable stoichiometric mixture of monomers is possible.
-To achieve this, a three-dimensional bounded domain (a.k.a parameter space, \(A\)) was devised
- consisting of three fundamental predictor variables: firstly, a citric acid strength predictor
-  variable (\(s_1\)) influencing the citric acid stoichiometric variable.
-Secondly, an itaconic acid strength predictor variable (\(s_2\)) influencing the itaconic
- acid stoichiometric variable.
-Thirdly, a balancing predictor variable (\(b_1\)) capable of trading off the two acid systems,
- influencing both the citric and itaconic acid stoichiometric variables.
-Equation~\ref{eq:ParameterSpaceDimensions} describes the parameter space \(A\) as a multi-dimensional
- real of \(d\) dimensions, where \(d=3\) given our three predictor variables.
-\begin{equation}\label{eq:ParameterSpaceDimensions}
-    A\subseteq \mathbb{R}^{d}
-\end{equation}
-All three predictor variables took constrained ranges of between 0 and 1 (\(s_1=[0,1],s_2=[0,1],b_1=[0,1]\)),
- and were linked mathematically to the stoichiometric variables 
- (See Equations~\cref{eq:CitricAcidStoichiometricPredictorLink,eq:ItaconicAcidStoichiometricPredictorLink}).
+In addition to the basic polymerisable bounds imposed on the two stoichiometric 
+ variables, a further constraint must be imposed for a successful optimisation: it 
+ must be possible for permutations of prepolymer monomeric mixtures to allow one 
+ acid to entirely dominate the other whilst ensuring that a prepolymer will 
+ still polymerise- this constraint ensures that any polymerisable stoichiometric 
+ mixture of monomers is possible.
+To achieve this, a three-dimensional bounded domain (a.k.a parameter space, \(A\)) 
+ was devised consisting of three fundamental predictor variables: firstly, a citric
+ acid strength predictor variable (\(s_1\)) influencing the citric acid 
+ stoichiometric variable.
+Secondly, an itaconic acid strength predictor variable (\(s_2\)) influencing the 
+ itaconic acid stoichiometric variable.
+Thirdly, a balancing predictor variable (\(b_1\)) capable of trading off the two 
+ acid systems, influencing both the citric and itaconic acid stoichiometric 
+ variables.
+\(A\subseteq \mathbb{R}^{d}\) describes the parameter space \(A\) as 
+ a multi-dimensional real of \(d\) dimensions, where \(d=3\) given our three 
+ predictor variables.
+All three predictor variables took constrained ranges of between 0 and 1 
+ (\(s_1=[0,1],s_2=[0,1],b_1=[0,1]\)), and were linked mathematically to the 
+ stoichiometric variables (via equations \ref{eq:CitricAcidStoichiometricPredictorLink}
+ and \ref{eq:ItaconicAcidStoichiometricPredictorLink}).
 \begin{equation}\label{eq:CitricAcidStoichiometricPredictorLink}
     n_{Ci}=(n_{Ci}^{l}+(n_{Ci}^{u}-n_{Ci}^{l})\times s_{1})\times b_{1}
 \end{equation}
 \begin{equation}\label{eq:ItaconicAcidStoichiometricPredictorLink}
     n_{It}=(n_{It}^{l}+(n_{It}^{u}-n_{It}^{l})\times s_{2})\times (1-b_{1})
 \end{equation}
-In summation, any random set of predictor variable values drawn from their respective constrained
- ranges of 0 to 1 (e.g. \(s_{1}=0.75,s_{2}=0.25,b_{1}=0.5\)) could be used to calculate a unique 
- permutation of stoichiometric variables (e.g. \(N_{Ci}=0.81,N_{It}=0.63\)) which, on mixing of a
- prepolymer in accordance with Equation~\ref{eq:FinalStoichiometricEquation} and curing, would give
+In summary, any random set of predictor variable values drawn from their respective
+ constrained ranges of 0 to 1 (e.g. \(s_{1}=0.75,s_{2}=0.25,b_{1}=0.5\)) could be 
+ used to calculate a unique permutation of stoichiometric variables (e.g. 
+ \(N_{Ci}=0.81,N_{It}=0.63\)) which, on mixing of a prepolymer in accordance with
+ Equation~\ref{eq:FinalStoichiometricEquation} and curing, would give
  rise to a unique polymer and associated mass loss (e.g. \(\Delta m_{\%}=30\)).
 \begin{equation}\label{eq:FinalStoichiometricEquation}
     \begin{split}
@@ -190,24 +236,26 @@ In summation, any random set of predictor variable values drawn from their respe
         1~P&(GCiIt)+v~H_{2}O
     \end{split}
 \end{equation}
-The sequence of calculations linking abstract predictor variables (\(s_{1},s_{2},b_{1}\)) 
- to the practical stoichiometric variables (\(n_{Ci},n_{It}\)) and onwards to the target variable
- of mass loss (\(\Delta m_{\%}\)), allows the expression of a black-box mapping between 
+The sequence of calculations linking abstract predictor variables 
+ (\(s_{1},s_{2},b_{1}\)) to the practical stoichiometric variables 
+ (\(n_{Ci},n_{It}\)) and onwards to the target variable of mass loss 
+ (\(\Delta m_{\%}\)), allows the expression of a black-box mapping between 
  predictors and targets.
-A black-box mapping is described by Equation~\ref{eq:ParameterSpaceMapping}, where an unknown
- function (\(f\)) maps any point in our parameter space (\(A\)) to a single real number value (\(\mathbb{R}\)).
-\begin{equation}\label{eq:ParameterSpaceMapping}
-    f:A\rightarrow \mathbb{R}
-\end{equation}
-Equation~\ref{eq:BlackBoxFunction} more explicitly expresses the black-box function
- in terms of the our target variable and predictor variables at a given sample number (\(i\)).
+This black-box mapping is described by \(f:A\rightarrow \mathbb{R}\),
+ where an unknown function (\(f\)) maps any point in our parameter space 
+ (\(A\)) to a single real number value (\(\mathbb{R}\)).
+Equation~\ref{eq:BlackBoxFunction} more explicitly expresses the black-box 
+ function in terms of the our target variable and predictor variables at a 
+ given sample number (\(i\)).
 Note that sample number is an integer counter used to track the number of function
  evaluations carried out during a sequential optimisation.
 \begin{equation}\label{eq:BlackBoxFunction}
     \Delta m_{\%}=f(\mathbf{x})=f([s_{1}^{i},s_{2}^{i},b_{1}^{i}])
 \end{equation}
-Our optimisation problem is expressed in Equation~\ref{eq:OptimisingBlackBoxFunction}
- as the maximisation of the black-box function, where the global optimum set of predictor variables (\(\mathbf{x}^{*}\)) is sought.
+Our optimisation problem is thus expressed in 
+ Equation~\ref{eq:OptimisingBlackBoxFunction} as the maximisation of the 
+ black-box function, where the global optimum set of predictor variables 
+ (\(\mathbf{x}^{*}\)) is sought.
 \begin{equation}\label{eq:OptimisingBlackBoxFunction}
     \mathbf{x}^{*}=\argmaxA_{\mathbf{x}\in A} f(\mathbf{x})
 \end{equation}
