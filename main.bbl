@@ -862,6 +862,36 @@
       \verb https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used
       \endverb
     \endentry
+    \entry{Panic2017}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=9e4f62954044229c3fb7747acfa66a81}{%
+           family={Panic},
+           familyi={P\bibinitperiod},
+           given={Vesna},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{548e4a87e88808480404c5af08b1644d}
+      \strng{fullhash}{548e4a87e88808480404c5af08b1644d}
+      \strng{bibnamehash}{548e4a87e88808480404c5af08b1644d}
+      \strng{authorbibnamehash}{548e4a87e88808480404c5af08b1644d}
+      \strng{authornamehash}{548e4a87e88808480404c5af08b1644d}
+      \strng{authorfullhash}{548e4a87e88808480404c5af08b1644d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biomacromolecules}
+      \field{title}{Simple one-pot synthesis of fully biobased unsaturated polyester resins based on itaconic acid}
+      \field{volume}{18}
+      \field{year}{2017}
+      \field{pages}{3881\bibrangedash 3891}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/acs.biomac.7b00840
+      \endverb
+    \endentry
     \entry{Rasmussen2005}{book}{}
       \true{moreauthor}
       \true{morelabelname}
