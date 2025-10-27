@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  27 OCT 2025 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  27 OCT 2025 17:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -900,13 +900,13 @@ Package pdftex.def Info: Images//OptimisationAlgorithm.png  used on input line 2
 <Images//BayesianPriorsAbbreviated.png, id=50, 352.81813pt x 317.185pt>
 File: Images//BayesianPriorsAbbreviated.png Graphic file (type png)
 <use Images//BayesianPriorsAbbreviated.png>
-Package pdftex.def Info: Images//BayesianPriorsAbbreviated.png  used on input line 339.
+Package pdftex.def Info: Images//BayesianPriorsAbbreviated.png  used on input line 337.
 (pdftex.def)             Requested size: 217.42267pt x 195.46205pt.
  [9 <./Images//BayesianPriorsAbbreviated.png>] [10]
 <Images//Benchmarks.png, id=65, 454.644pt x 143.226pt>
 File: Images//Benchmarks.png Graphic file (type png)
 <use Images//Benchmarks.png>
-Package pdftex.def Info: Images//Benchmarks.png  used on input line 496.
+Package pdftex.def Info: Images//Benchmarks.png  used on input line 494.
 (pdftex.def)             Requested size: 452.96793pt x 142.70331pt.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -917,68 +917,4 @@ Package pdftex.def Info: Images//Benchmarks.png  used on input line 496.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 ) (./Sections/E1_Results.tex [11]
-<Images//ResultOverview.png, id=70, 978.65625pt x 389.455pt>
-File: Images//ResultOverview.png Graphic file (type png)
-<use Images//ResultOverview.png>
-Package pdftex.def Info: Images//ResultOverview.png  used on input line 37.
-(pdftex.def)             Requested size: 452.96793pt x 180.26273pt.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
- [12 <./Images//Benchmarks.png>]
-<Images//SimulationResultOverview.png, id=75, 1019.81pt x 364.36125pt>
-File: Images//SimulationResultOverview.png Graphic file (type png)
-<use Images//SimulationResultOverview.png>
-Package pdftex.def Info: Images//SimulationResultOverview.png  used on input line 106.
-(pdftex.def)             Requested size: 452.96793pt x 161.83723pt.
-) (./Sections/F1_Conclusion.tex [13 <./Images//ResultOverview.png>]) (./Sections/G1_Bibliography.tex [14 <./Images//SimulationResultOverview.png>]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 5667) in paragraph at lines 2--2
-\OT1/cmtt/m/n/12 https : / / www . iea . org /
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 2--2
-\OT1/cmtt/m/n/12 https : / / www . iea . org /
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-[]\OT1/cmr/m/n/12 (+20) mhstrongman. \OT1/cmr/m/it/12 (+20) ad-vml2020\OT1/cmr/m/n/12 (+20) . Ver-
- []
-
-
-Underfull \hbox (badness 5217) in paragraph at lines 2--2
-\OT1/cmtt/m/n/12 20Projections & group = Most %
- []
-
-) [16] [17] (./main.aux)
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 25817 strings out of 476025
- 545389 string characters out of 5790017
- 1875388 words of memory out of 5000000
- 45724 multiletter control sequences out of 15000+600000
- 542612 words of font info for 238 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 58i,17n,112p,1113b,1730s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 2155403 bytes).
-PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 59945 words of extra memory for PDF output out of 61914 (max. 10000000)
-
+<Images//ResultOverview.png, id=70, 978.65625pt x 38
