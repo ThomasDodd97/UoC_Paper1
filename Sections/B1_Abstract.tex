@@ -4,35 +4,40 @@
     \end{large}
     \begin{justify}
         \begin{normalsize}
-            Glass reinforced plastic composites are ubiquitous in the wind
+            Glass reinforced composites are used in the wind
              turbine manufacturing industry, and are commonly manufactured 
              using general-purpose unsaturated polyester resin thermosets.
-            Unfortunately, these resins are derived from oil-derived aromatic
+            These resins are derived from oil-derived aromatic
              monomers making them both unsustainably sourced and hard to
              recycle.
             Bio-based and biodegradable alternatives exist but have not 
-             seen widespread commercial success; this paper seeks to address 
+             seen widespread commercial success, this paper seeks to address 
              the question of whether bio-based branching thermoset polyesters
              can be optimised using Bayesian optimisation such that desirable
-             properties are improved upon.
+             properties such as extent of reaction might be improved upon.
             This is achieved by identifying a bio-based and biodegradable
              polymer (poly(glycerol citrate itaconate)), identifying a
-             desirable objective variable (mass loss under esterification)
+             desirable objective variable (mass loss under esterification
+             as proxy for reaction extent)
              and some tunable predictor variables (monomeric stoichiometry),
-             after which sequential Bayesian techniques are used to 
+             after which sequential Bayesian techniques 
              sample-efficiently uncover well-performing samples.
-            A Bayesian technique employing the 'probability of improvement'
+            A Bayesian technique employing the `probability of improvement'
              acquisition function discovered the experimental global optimum
-             stoichiometry resulting in a mass loss of 20.77\% in curing
-             polyester samples.
+             stoichiometry producing a mass loss of 20.77~\% in curing 
+             polyester samples, this constituted 72~\% of the theoretical 
+             maximum, indicating a high extent of polymerisation.
             Meanwhile, an alternate sequential Bayesian technique deploying
-             the 'expected improvement' acquisition function displayed high
-             sample efficiency, beating the strongest benchmark set by a
+             the `expected improvement' acquisition function displayed high
+             sample efficiency, outperforming the strongest benchmark set by a
              one-shot grid sampler in 63\% of the samples.
             Both these sequential Bayesian techniques were simulated 1,000
              times by querying an emulation of the practical experiment,
              respectively exhibiting a probability of discovering the 
              experimental global optimum of 1.1\% and 5.3\%.
+            Bayesian optimisation techniques represent a practically
+             deployable and sample-efficient means by which desirable
+             properties of bio-based thermesets may be improved.
         \end{normalsize}
     \end{justify}
 \end{center}
