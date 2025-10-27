@@ -85,11 +85,9 @@ Interestingly, the evidence collated above allayed fears that the
         \footnotesize{
             Statistical overview of mass loss, \(\Delta m_{\%}\), target
             variable evaluations obtained from the two 27-sample sequential
-            datasets: these co-derived from an initial 8-sample one-shot
-            quasirandom technique, but either utilising the EI
-            (`expected improvement’) or PI (`probability of improvement’)
-            acquisition functions during the subsequent 16-sample sequential
-            Bayesian sampling routine.
+            datasets: these either utilising the EI (`expected improvement’)
+            or PI (`probability of improvement’) acquisition functions
+            during Bayesian optimisation.
             `Max' equates to the highest discovered mass loss,
             (\(\Delta m_{\%}^{\circ}\)), `Mean' is the population mean, and
             `Standard Dev.' relates to a single standard deviation.
@@ -107,40 +105,49 @@ Notably, the Bayesian sequential technique employing the 'probability of
 
 % ========================================================================================================================================================================================
 \subsection{Emulated System Optimisation}
-Given the temporal expense of sampling the objective function, repetition of 
- sequential sampling techniques was infeasible. This precluded statistically
- proving the utility of Bayesian optimisation in this field within reasonable
- timeframes.
-By developing a cheap surrogate function capable of emulating the physical
- system, a much larger number of function evaluations could be carried out
- computationally, facilitating statistical analysis of sampling methods'
- efficacy.
+
+Since curing of a single prepolymer sample could take up to 2~weeks to
+ complete, the temporal expense of sampling the objective function was
+ to high to allow for repeat experiments involving the sequential
+ techniques deployed.
+This precluded statistically proving the utility of Bayesian optimisation
+ in this field within reasonable timeframes.
+However, by developing a cheap surrogate function capable of emulating the
+ physical system, a much larger number of function evaluations could be
+ carried out computationally, facilitating statistical analysis of
+ sampling methods' efficacy.
 By despatching 1,000 simulations of each of the two random benchmark one-shot
  techniques and the two Bayesian sequential techniques, and returning the
  best target variable values \(\Delta m_{\%}^{\circ}\) discovered by each
  of these, basic statistical conclusions could be drawn.
 Note that each simulation of the sequential techniques was initiated 
  with a separate quasirandomly drawn prior of 8 samples and that the grid
- sampler was precluded since its outcomes were not affected by chance.
+ sampler was deprecated since its outcomes were not affected by chance.
 
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{SimulationResultOverview.png}
-    \captionof{figure}{\footnotesize{Swarm plot showing the best function evaluations derived from each of 1,000 simulations run for each sampling technique predicated on initial random sampling.}}
+    \captionof{figure}{
+        \footnotesize{
+            Swarm plot showing the best function evaluations derived from
+            each of 1,000 simulations run for each sampling technique
+            predicated on initial random sampling.
+        }
+    }
     \label{fig:SimulationResultOverview}
 \end{figure*}
 
 Figure \ref{fig:SimulationResultOverview} presents a swarmplot showing
- dispersion of outcomes for the 4,000 simulations across the four sampling
+ distribution of outcomes for the 4,000 simulations across the four sampling
  techniques studied.
 On comparison of the mean \(\Delta m_{\%}^{\circ}\) values discovered by the
  various sampling techniques, sequential Bayesian techniques were shown to
  generally perform better (PI=14.6\%, EI=15.4\% for 
  \(\Delta m_{\%}^{\circ}\)) than one-shot techniques (PR=14.0\%, 
  QR=14.1\% for \(\Delta m_{\%}^{\circ}\)).
-The Bayesian sequential technique adopting the 'expected improvement'
+The Bayesian sequential technique adopting the `expected improvement'
  acquisition function in its sampling policy not only outperformed the
- 'probability of improvement' technique in terms of mean value attained,
+ `probability of improvement' technique in terms of mean value attained,
  but also in number of simulations obtaining \(\Delta m_{\%}^{\circ}\)
  values which resided within the small region of global optimality.
 This region was characterised as containing function evaluations exceeding
@@ -154,7 +161,7 @@ Notably, neither of the one-shot techniques was able to uncover the
 Given the above, and a (particularly) tentative assumption that the final 
  emulation was an accurate description of the underlying objective function,
  we could venture that the probability of having discovered the experimental
- global optimum using the 'expected improvement' and 'probability of 
+ global optimum using the `expected improvement' and `probability of 
  improvement' techniques was 5.3\% and 1.1\% respectively.
 This would make the practical reality of having discovered these points
  remote but most definitely not impossible; and, importantly, the
