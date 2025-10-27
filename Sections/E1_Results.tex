@@ -2,10 +2,9 @@
 \section{Results}
 This work produced two sets of results: firstly, those derived from
  optimisation conducted via sampling directly from the latent objective
- function described by the physical system.
-Secondly, those stemming from the optimisation of a surrogate function
- trained to emulate the latent objective function and the associated
- physical system.
+ function described by the physical system and secondly, those stemming
+ from the optimisation of a surrogate function trained to emulate the
+ latent objective function and the associated physical system.
 The latter set of results were generated to provide statistical support for
  the former.
 
@@ -13,11 +12,12 @@ The latter set of results were generated to provide statistical support for
 \subsection{Physical System Optimisation}
 Two Bayesian sequential optimisation experiments were run, each with the same
  sample limit (\(p_{tot}=27\)), number of samples drawn per Bayesian 
- iteration (\(p_{iter}=3\)), and prior-forming dataset of 8 quasirandomly
+ iteration (\(p_{iter}=3\)), and a prior-forming dataset of 8 quasirandomly
  sampled targets (See Figure \ref{fig:BayesianPriorsAbbreviated}).
-Differing between these two methods was the acquisition function employed: the
- first using the 'probability of improvement' whilst the second used the
- 'expected improvement' function.
+The difference between these two methods was the acquisition function
+ employed: the first using the `probability of improvement'
+ (Equation~\ref{eq:ProbabilityOfImprovement}) whilst the second used the
+ `expected improvement' function (Equation~\ref{eq:ExpectedImprovement}).
 Figure \ref{fig:ResultOverview} shows the optimisation progression of these 
  two sequential techniques when compared with the one-shot deterministic 
  methods; mass losses plotted on the y-axis are the best values uncovered 
@@ -27,39 +27,48 @@ A statistical overview is presented in Table
  and 16 sequential samples for each of the two Bayesian techniques.
 Note, that given the sequential samples available (\(p_{tot}-p_{init}=19\))
  and the samples per iteration (\(p_{iter}=3\)), an extra iteration of 
- sequential sampling was run, which breached the sample limit- these extra
- samples are included in Figure \ref{fig:ResultOverview}, but are not
- considered in the preparation of Table 
- \ref{tab:BayesianSequentialsBestValues}.
+ sequential sampling was run which resultantly breached the sample limit-
+ these extra samples are included in Figure \ref{fig:ResultOverview}, but
+ are not considered in the preparation of Table 
+ \ref{tab:BayesianSequentialsBestValues} (as it would be unfair to compare
+ two different sampling techniques which were allowed an unequal number of
+ samples over which to optimise).
 
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{ResultOverview.png}
-    \captionof{figure}{\footnotesize{A plot describing the optimisation progression for the two Bayesian sequential techniques deployed. EI denotes 'expected improvement', whilst PI intends 'probability of improvement' acquisition function.}}
+    \captionof{figure}{
+        \footnotesize{
+            A plot describing the optimisation progression for the two
+            Bayesian sequential techniques deployed.
+            EI denotes `expected improvement', whilst PI intends
+            `probability of improvement' acquisition function.
+        }
+    }
     \label{fig:ResultOverview}
 \end{figure*}
 
 By comparing Tables \ref{tab:BayesianSequentialsBestValues} and 
- \ref{tab:BenchmarkBestValues} it is apparent that both sequential routines
+ \ref{tab:BenchmarkBestValues}, it is apparent that both sequential routines
  outperformed the one-shot techniques in terms of best sample discovered.
 Figure \ref{fig:ResultOverview} shows that the sequential Bayesian technique 
- employing the 'expected improvement' acquisition function discovered a 
+ employing the `expected improvement' acquisition function discovered a 
  point exceeding the strongest one-shot technique in almost half the 
  allowable samples (63\% \(p_{tot}\)).
-In contrast, the 'probability of improvement' acquisition function only 
+In contrast, the `probability of improvement' acquisition function only 
  managed to discover a point surpassing the grid sampling benchmark at the
- sample limit itself (100\% \(p_{tot}\))- this hinted at the 'probability
+ sample limit itself (100\% \(p_{tot}\))- which suggests the `probability
  of improvement' acquisition function exhibiting more exploratory
- behaviour than the 'expected improvement' acquisition function.
-Further evidence of the 'probability of improvement' acquisition functions
+ behaviour than the `expected improvement' acquisition function.
+Further evidence of the `probability of improvement' acquisition function's
  exploratory bias is seen in Table \ref{tab:BayesianSequentialsBestValues},
  where the samples generated by this sequential routine obtain a markedly
- lower mean than that of those drawn by the 'expected improvement'
+ lower mean than that of those drawn by the `expected improvement'
  acquisition function; anecdotally, on reviewing the placement of samples 
  in 3D space it was noted that these were generally placed in exploratory
  locations within the parameter space.
 Interestingly, the evidence collated above allayed fears that the
- 'probability of improvement' acquisition function would exhibit overtly
+ `probability of improvement' acquisition function would exhibit overtly
  exploitative behaviour due to the lack of a marginal threshold parameter
  \(\varepsilon\) being manually tuned.
 
@@ -72,7 +81,20 @@ Interestingly, the evidence collated above allayed fears that the
         EI & 17.99 & 13.67 & 1.91 \\
     \end{tblr}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
-    \captionof{table}{\footnotesize{\textbf{BayesianSequentialsBestValues} Statistical analysis of results for samples derived via sequential Bayesian sampling techniques. EI denotes ’expected improvement’, whilst PI intends ’probability of improvement’ acquisition function.}}
+    \captionof{table}{
+        \footnotesize{
+            Statistical overview of mass loss, \(\Delta m_{\%}\), target
+            variable evaluations obtained from the two 27-sample sequential
+            datasets: these co-derived from an initial 8-sample one-shot
+            quasirandom technique, but either utilising the EI
+            (`expected improvement’) or PI (`probability of improvement’)
+            acquisition functions during the subsequent 16-sample sequential
+            Bayesian sampling routine.
+            `Max' equates to the highest discovered mass loss,
+            (\(\Delta m_{\%}^{\circ}\)), `Mean' is the population mean, and
+            `Standard Dev.' relates to a single standard deviation.
+        }
+    }
     \label{tab:BayesianSequentialsBestValues}
 \end{center}
 \normalsize
