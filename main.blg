@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[37] biber-darwin:340> INFO - === Mon Oct 27, 2025, 16:17:57
+[37] biber-darwin:340> INFO - === Mon Oct 27, 2025, 16:30:02
 [46] Biber.pm:419> INFO - Reading 'main.bcf'
-[96] Biber.pm:979> INFO - Found 42 citekeys in bib section 0
-[104] Biber.pm:4419> INFO - Processing section 0
-[109] Biber.pm:4610> INFO - Looking for bibtex file 'Bibliography/Bibliography.bib' for section 0
+[95] Biber.pm:979> INFO - Found 42 citekeys in bib section 0
+[103] Biber.pm:4419> INFO - Processing section 0
+[108] Biber.pm:4610> INFO - Looking for bibtex file 'Bibliography/Bibliography.bib' for section 0
 [110] bibtex.pm:1713> INFO - LaTeX decoding ...
 [128] bibtex.pm:1519> INFO - Found BibTeX data source 'Bibliography/Bibliography.bib'
-[255] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[255] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[255] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[255] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[277] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[286] bbl.pm:763> INFO - Output to main.bbl
-[286] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[286] Biber.pm:133> INFO - WARNINGS: 1
+[254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[254] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[254] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[275] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[284] bbl.pm:763> INFO - Output to main.bbl
+[284] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[284] Biber.pm:133> INFO - WARNINGS: 1

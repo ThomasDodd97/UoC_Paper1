@@ -201,7 +201,7 @@ In addition to the basic polymerisable bounds imposed on the two stoichiometric
  acid to entirely dominate the other whilst ensuring that a prepolymer will 
  still polymerise- this constraint ensures that any polymerisable stoichiometric 
  mixture of monomers is possible.
-To achieve this, a three-dimensional bounded domain (a.k.a parameter space, \(A\)) 
+To achieve this, a three-dimensional bounded domain (a.k.a. parameter space, \(A\)) 
  was devised consisting of three fundamental predictor variables: firstly, a citric
  acid strength predictor variable (\(s_1\)) influencing the citric acid 
  stoichiometric variable.
@@ -262,22 +262,27 @@ Our optimisation problem is thus expressed in
 % ========================================================================================================================================================================================
 \subsection{Optimisation Algorithm}
 The sequential optimisation algorithm employed during this work is summarised
- in Figure~\ref{fig:OptimisationAlgorithm}.
-Cessation of the optimisation is controlled by an if-else clause comparing an 
- initially specified permissable number of function evaluations (a.k.a. sample limit, \(p_{tot}\))
- with the current sample number (\(i\)): when \(i<p_{tot}\) the algorithm continues.
-A second if-else statement controls whether a dataset exists from which a Gaussian process
- prior might be built for Bayesian sampling, when available, the algorithm uses the Gaussian
- process to draw a pre-defined number of samples (\(p_{iter}\)) from the parameter space for evaluation.
-If the prior-forming dataset is lacking, an initial quasirandom (Sobol) sampling of 
- the parameter space with a pre-defined number of deterministic samples (\(p_{init}\)) is initiated.
+ by the flow diagram in Figure~\ref{fig:OptimisationAlgorithm}.
+Succesful conclusion of the optimisation is controlled by an if-else clause 
+ comparing an initially specified permissable number of function evaluations 
+ (a.k.a. sample limit, \(p_{tot}\)) with the current sample number (\(i\)): when 
+ \(i<p_{tot}\) the algorithm continues.
+A second if-else statement controls whether a dataset exists from which a Gaussian
+ process prior might be built for Bayesian sampling. 
+When available, the algorithm uses the Gaussian process to draw a pre-defined 
+ number of samples (\(p_{iter}\)) from the parameter space for evaluation.
+If the prior-forming dataset is lacking, an initial quasirandom (Sobol) sampling 
+ of the parameter space with a pre-defined number of deterministic samples 
+ (\(p_{init}\)) is initiated.
 Samples drawn from the parameter space are processed into stoichiometric variables
- (\(n_{Ci},n_{It}\)), with which an experimenter can manufacture sample(s) before evaluating 
- the target variables \(\Delta m_{\%}\) value(s) and returning these to the algorithm.
+ (\(n_{Ci},n_{It}\)), with which an experimenter can manufacture sample(s) before 
+ evaluating the target variables \(\Delta m_{\%}\) value(s) and returning these 
+ to the algorithm.
 
-The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented in the Python programming
- language, with multiple modules written and united into a single package with the acronym ``BO4BT'' (version 1.0.0)- 
- ``Bayesian optimisation for biodegradable thermosets'' \cite{HojlundDodd2024}.
+The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented in 
+ the Python programming language, with multiple modules written and united into a 
+ single package with the acronym ``BO4BT'' (version 1.0.0)- ``Bayesian optimisation
+ for biodegradable thermosets'' \cite{HojlundDodd2024}.
 
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
@@ -332,7 +337,17 @@ In practice, only one quasirandomly sampled initial prior-forming dataset
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
     \includegraphics[width=0.48\textwidth]{BayesianPriorsAbbreviated.png}
-    \captionof{figure}{\footnotesize{These 3D graphs depict the two quasirandom samplings of the parameter space. Coloration of points denote distance from viewer with darker points appearing further away.}}
+    \captionof{figure}{
+        \footnotesize{
+            This 3D graphic depicts the initial 8 samples quasirandomly drawn from
+            across the parameter space, \(A\), comprised of \(s_{1}\), \(s_{2}\),
+            and \(b_{1}\) (as in equations \ref{eq:CitricAcidStoichiometricPredictorLink} 
+            and \ref{eq:ItaconicAcidStoichiometricPredictorLink}), which provide
+            the prior-initialising dataset for the Bayesion routines.
+            Coloration of points denote distance from viewer with darker 
+            points appearing further away.
+        }
+    }
     \label{fig:BayesianPriorsAbbreviated}
 \end{center}
 
