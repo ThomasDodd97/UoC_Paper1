@@ -39,8 +39,9 @@ Note, that given the sequential samples available (\(p_{tot}-p_{init}=19\))
     \includegraphics[width=\textwidth]{ResultOverview.png}
     \captionof{figure}{
         \footnotesize{
-            A plot describing the optimisation progression for the two
-            Bayesian sequential techniques deployed.
+            A plot comparing the optimisation progression for the two
+            Bayesian sequential techniques deployed alongside the
+            three one-shot benchmark techniques.
             EI denotes `expected improvement', whilst PI intends
             `probability of improvement' acquisition function.
         }
@@ -129,9 +130,12 @@ Note that each simulation of the sequential techniques was initiated
     \includegraphics[width=\textwidth]{SimulationResultOverview.png}
     \captionof{figure}{
         \footnotesize{
-            Swarm plot showing the best function evaluations derived from
-            each of 1,000 simulations run for each sampling technique
-            predicated on initial random sampling.
+            Swarm plot of maximum function evaluations obtained,
+            \(\Delta m_{\%}^{\circ}\), for each of the 4,000 simulated 
+            optimisations carried out.
+            All optimisations used 27 samples, each technique was 
+            simulated 1,000 times, and the Bayesian routines were
+            initiated with 8 quasirandomly sampled points.
         }
     }
     \label{fig:SimulationResultOverview}
@@ -145,6 +149,12 @@ On comparison of the mean \(\Delta m_{\%}^{\circ}\) values discovered by the
  generally perform better (PI=14.6\%, EI=15.4\% for 
  \(\Delta m_{\%}^{\circ}\)) than one-shot techniques (PR=14.0\%, 
  QR=14.1\% for \(\Delta m_{\%}^{\circ}\)).
+Although standard deviation values associated with these mean values would
+ preclude a straightforward conclusion that these values are statistically
+ significantly different, it may be noted that the simulations are 
+ distributed in a lognormal fashion which shows that only the Bayesian 
+ techniques are capable of discovering well-above-average-performing 
+ samples.
 The Bayesian sequential technique adopting the `expected improvement'
  acquisition function in its sampling policy not only outperformed the
  `probability of improvement' technique in terms of mean value attained,
