@@ -85,8 +85,8 @@ Synthesis of the poly(glycerol citrate itaconate) thermoset was achieved
 Acid catalysis was avoided to reduce corrosion damage to equipment, this
  ultimately reduced the rate at which this reaction could be carried out
  but did not prevent polycondensation \cite{Balachandran2016}.
-The monomers glycerol (99+\%), citric acid (99.6\%), and itaconic acid
- (99+\%) used were supplied by \textit{Fisher Scientific International}
+The monomers glycerol (99+~\unit{\percent}), citric acid (99.6~\unit{\percent}), and itaconic acid
+ (99+~\unit{\percent}) used were supplied by \textit{Fisher Scientific International}
  and manufactured by \textit{Acros Organics}.
 
 \begin{figure*}[htb]
@@ -151,7 +151,7 @@ Residence time within the drying oven for a sample was controlled by
  periodic measurement of sample mass: mass was plotted against time, an
  exponential decay curve fitted, and the sample removed from the oven once
  a pre-determined rate of mass loss was reached (this equated to around
- -0.028\unit{\percent\per\hour} of the initial mass).
+ -0.028~\unit{\percent\per\hour} of the initial mass).
 
 % ========================================================================================================================================================================================
 \subsection{Optimisation Framing}
@@ -193,7 +193,7 @@ By setting the glycerol stoichiometric variable to unity (\(n_{G}=1\)),
             Simplified chemical representations displaying the polymerisable
             range of the two different triol-acid combinations encountered
             during poly(glycerol citrate itaconate) synthesis.
-            In the legend: "G" glycerol, "It" itaconic acid, "Ci" citric acid.
+            In the legend: ``G" glycerol, ``It" itaconic acid, `Ci" citric acid.
         }
     }
     \label{fig:PolymerisableRange}
@@ -299,11 +299,9 @@ Samples drawn from the parameter space are processed into stoichiometric
  variables (\(n_{Ci},n_{It}\)), with which an experimenter can manufacture
  sample(s) before evaluating the target variables \(\Delta m_{\%}\)
  value(s) and returning these to the algorithm.
-
 The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented
- in the Python programming language, with multiple modules written and
- united into a single package with the acronym ``BO4BT'' (version 1.0.0)-
- ``Bayesian optimisation for biodegradable thermosets'' \cite{HojlundDodd2024}.
+ in the Python programming language, and is incorporated into the wider 
+ package described earlier \cite{HojlundDodd2024}.
 
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
