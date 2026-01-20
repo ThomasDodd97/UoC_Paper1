@@ -7,7 +7,7 @@
 \usepackage{csquotes,xpatch}
 \usepackage[english]{babel}
 % Importing the package allowing referencing
-\usepackage[backend=biber]{biblatex}
+\usepackage[natbib=true,style=numeric,sorting=none,backend=biber]{biblatex}
 \addbibresource{Bibliography/Bibliography.bib}
 \errorcontextlines=3
 % Importing an important maths formatting tool
@@ -45,8 +45,6 @@
 \usepackage{microtype}
 % Allow urls to be used in the document
 \usepackage{url}
-% Import a package capable of more complicated cross-referencing e.g. \cref{eq:StoichiometricEquation,eq:CitricAcidBounds,eq:ItaconicAcidBounds}
-\usepackage{cleveref}
 % Package for typesetting units. Example: \qty{1.55}{\micro\metre}
 \usepackage{siunitx}
 \DeclareSIUnit\bar{bar}
@@ -56,6 +54,11 @@
 \usepackage{bm}
 % Package used to write fractions in a side slanted fashion e.g. \nicefrac{3}{2}
 \usepackage{nicefrac}
+% Package for creating hyperlinks. e.g. \href{http://www.overleaf.com}{Linky}
+% \usepackage{hyperref}
+% \hypersetup{colorlinks=false,linkcolor=blue,filecolor=magenta,urlcolor=cyan}
+% Import a package capable of more complicated cross-referencing e.g. \cref{eq:StoichiometricEquation,eq:CitricAcidBounds,eq:ItaconicAcidBounds}
+\usepackage{cleveref}
 
 % % This is a code snipped stolen from online which fixes spacing above and below any equations I have written.
 % \expandafter\def\expandafter\normalsize\expandafter{%

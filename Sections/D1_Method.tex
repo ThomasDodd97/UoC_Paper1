@@ -1,14 +1,13 @@
 \section{Method}
-In optimising the properties of a poly(glycerol citrate itaconate) thermoset, 
- interlinking method was developed spanning both practical experimental
- technique and mathematical framing.
-Given this method, various computer programs were written spanning the entire 
- experimental process, primary functionality was the facilitation of
- human-in-the-loop optimisation in a laboratory setting.
+An integrated experimental-computational methodology was developed to optimise
+ the properties of the poly(glycerol citrate itaconate) thermoset, supported
+ by custom software enabling human-in-the-loop optimisation in a laboratory
+ setting.
 Programs were written in the Python programming language and developed into
- modules, whereafter these were united into a single package, ``BO4BT'',
- which has been made available within it's own Github repository alongside
- its dependencies; a .yaml file is also provided which allows an identical
+ modules, whereafter these were united into a single package, ``BO4BT'', 
+ available from it's Github repository (https://github.com/ThomasDodd97/BO4BT)
+ alongside its dependencies.
+A .yaml configuration file is also provided which allows an identical
  Conda environment to be setup, allowing a user to run this code
  \cite{HojlundDodd2024}.
 
@@ -18,8 +17,8 @@ The condensation reaction occurring between carboxyl and hydroxyl groups
  is an esterification reaction:
 \begin{equation}
     \begin{split}
-        R\textcolor{CarboxylOrange}{COOH}+\textcolor{HydroxylBlue}{H}&\textcolor{HydroxylBlue}{O}R'\rightarrow\\
-        &R\textcolor{CarboxylOrange}{CO}\textcolor{HydroxylBlue}{O}R'+\textcolor{CarboxylOrange}{HO}\textcolor{HydroxylBlue}{H}
+        RCOOH+H&OR'\rightarrow\\
+        &RCOOR'+HOH
     \end{split}
     \label{eq:Esterification}
 \end{equation}
@@ -86,8 +85,8 @@ Acid catalysis was avoided to reduce corrosion damage to equipment, this
  ultimately reduced the rate at which this reaction could be carried out
  but did not prevent polycondensation \cite{Balachandran2016}.
 The monomers glycerol (99+~\unit{\percent}), citric acid (99.6~\unit{\percent}), and itaconic acid
- (99+~\unit{\percent}) used were supplied by \textit{Fisher Scientific International}
- and manufactured by \textit{Acros Organics}.
+ (99+~\unit{\percent}) used were supplied by Fisher Scientific International
+ and manufactured by Acros Organics.
 
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
@@ -135,8 +134,8 @@ As defined by Equation \ref{eq:MassLoss}, determination of mass loss
 Measurements were made with a mass balance with a readability of
  0.01~\unit{\gram} and repeatability of 0.01~\unit{\gram} (1\(\sigma\)).
 Since prepolymer masses weighed 3~\unit{\gram} and subsequently recorded
- mass losses ranged from between 0.3-0.9\unit{\gram}, this mass balance
- was deemed accurate enough for the purposes of this experiment.
+ mass losses ranged from between 0.3-0.9~\unit{\gram}, this mass balance
+ was deemed sufficiently accurate for the purposes of this experiment.
 \begin{equation}\label{eq:MassLoss}
     \Delta m=m_{p}-m_{t}
 \end{equation}
@@ -168,19 +167,19 @@ The polyesterification of monomers to polymer seen in
  citric acid (Ci) with the product polymer poly(glycerol citrate itaconate) 
  (P(GCiIt)) and byproduct water.
 Equation~\ref{eq:StoichiometricEquation} introduces two stoichiometric
- variables representing the moles of glycerol (\(n_{G}\)), citric acid
- (\(n_{Ci}\)) and itaconic acid (\(n_{It}\)), and a variable representing
+ variables representing the moles of glycerol (\(n_{\text{G}}\)), citric acid
+ (\(n_{\text{Ci}}\)) and itaconic acid (\(n_{\text{It}}\)), and a variable representing
  the unknown number of moles of water produced (\(v\)).
 \begin{equation}\label{eq:StoichiometricEquation}
     \begin{split}
-        n_{G}~G+n_{Ci}~Ci&+n_{It}~It\rightarrow\\
-        &1~P(GCiIt)+v~H_{2}O
+        n_{\text{G}}~\text{G}+n_{\text{Ci}}~\text{Ci}&+n_{\text{It}}~\text{It}\rightarrow\\
+        &1~\text{P(GCiIt)}+v~\text{H}_{2}\text{O}
     \end{split}
 \end{equation}
 The polyesterification reaction can be considered to consist of two possible 
  polymerisation reactions between the triol glycerol and either the triacid
  citric acid or the diacid itaconic acid.
-By setting the glycerol stoichiometric variable to unity (\(n_{G}=1\)), 
+By setting the glycerol stoichiometric variable to unity (\(n_{\text{G}}=1\)), 
  Figure~\ref{fig:PolymerisableRange} shows how the two separate reactions
  can be considered as if they were stoichiometric ranges, where there exist 
  stoichiometric bounds between which polymerisation is possible.
@@ -193,6 +192,9 @@ By setting the glycerol stoichiometric variable to unity (\(n_{G}=1\)),
             Simplified chemical representations displaying the polymerisable
             range of the two different triol-acid combinations encountered
             during poly(glycerol citrate itaconate) synthesis.
+            These ranges represent the stoichiometric intervals where
+            difunctional and trifunctional monomers allow network formation; outside
+            these bounds gelation may not occur.
             In the legend: ``G" glycerol, ``It" itaconic acid, `Ci" citric acid.
         }
     }
@@ -201,15 +203,15 @@ By setting the glycerol stoichiometric variable to unity (\(n_{G}=1\)),
 
 These stoichiometric bounds are used to directly constrain the stoichiometric 
  variables; Equation~\ref{eq:CitricAcidBounds} describes the lower 
- (\(n_{Ci}^{l}\)) and upper (\(n_{Ci}^{u}\)) bounds placed on the citric acid 
+ (\(n_{\text{Ci}}^{l}\)) and upper (\(n_{\text{Ci}}^{u}\)) bounds placed on the citric acid 
  stoichiometric variable, whilst Equation~\ref{eq:ItaconicAcidBounds} 
- shows those for lower (\(n_{It}^{l}\)) and upper (\(n_{It}^{u}\))
+ shows those for lower (\(n_{\text{It}}^{l}\)) and upper (\(n_{\text{It}}^{u}\))
  bounds on proportion of itaconic acid.
 \begin{equation}\label{eq:CitricAcidBounds}
-    n_{Ci}^{l}\leq n_{Ci}\leq n_{Ci}^{u}=0.5\leq n_{Ci}\leq 2.0
+    n_{\text{Ci}}^{l}\leq n_{\text{Ci}}\leq n_{\text{Ci}}^{u}=0.5\leq n_{\text{Ci}}\leq 2.0
 \end{equation}
 \begin{equation}\label{eq:ItaconicAcidBounds}
-    n_{It}^{l}\leq n_{It}\leq n_{It}^{u}=1.0\leq n_{It}\leq 2.0
+    n_{\text{It}}^{l}\leq n_{\text{It}}\leq n_{\text{It}}^{u}=1.0\leq n_{\text{It}}\leq 2.0
 \end{equation}
 In addition to the basic polymerisable bounds imposed on the two
  stoichiometric variables, a further constraint must be imposed for a
@@ -236,29 +238,29 @@ All three predictor variables took constrained ranges of between 0 and 1
  \ref{eq:CitricAcidStoichiometricPredictorLink}
  and \ref{eq:ItaconicAcidStoichiometricPredictorLink}).
 \begin{equation}\label{eq:CitricAcidStoichiometricPredictorLink}
-    n_{Ci}=(n_{Ci}^{l}+(n_{Ci}^{u}-n_{Ci}^{l})\times s_{1})\times b_{1}
+    n_{\text{Ci}}=(n_{\text{Ci}}^{l}+(n_{\text{Ci}}^{u}-n_{\text{Ci}}^{l})\times s_{1})\times b_{1}
 \end{equation}
 \begin{equation}\label{eq:ItaconicAcidStoichiometricPredictorLink}
-    n_{It}=(n_{It}^{l}+(n_{It}^{u}-n_{It}^{l})\times s_{2})\times (1-b_{1})
+    n_{\text{It}}=(n_{\text{It}}^{l}+(n_{\text{It}}^{u}-n_{\text{It}}^{l})\times s_{2})\times (1-b_{1})
 \end{equation}
 In summary, any random set of predictor variable values drawn from their
  respective constrained ranges of 0 to 1
  (e.g. \(s_{1}=0.75,s_{2}=0.25,b_{1}=0.5\)) could be used to calculate a
  unique permutation of stoichiometric variables (e.g. 
- \(N_{Ci}=0.81,N_{It}=0.63\)) which, on mixing of a prepolymer in
+ \(N_{\text{Ci}}=0.81,N_{\text{It}}=0.63\)) which, on mixing of a prepolymer in
  accordance with Equation~\ref{eq:FinalStoichiometricEquation} and curing,
  would give rise to a unique polymer and associated mass loss
  (e.g. \(\Delta m_{\%}=30\)).
 \begin{equation}\label{eq:FinalStoichiometricEquation}
     \begin{split}
-        n_{G}~G+0\leq n_{Ci}\leq& n_{Ci}^{u}~Ci+\\
-        0\leq n_{It}&\leq n_{It}^{u}~It\rightarrow \\
-        1~P&(GCiIt)+v~H_{2}O
+        n_{\text{G}}~\text{G}+0\leq n_{\text{Ci}}\leq& n_{\text{Ci}}^{u}~\text{Ci}+\\
+        0\leq n_{\text{It}}&\leq n_{\text{It}}^{u}~\text{It}\rightarrow \\
+        1~\text{P}&\text{(GCiIt)}+v~\text{H}_{2}\text{O}
     \end{split}
 \end{equation}
 The sequence of calculations linking abstract predictor variables 
  (\(s_{1},s_{2},b_{1}\)) to the practical stoichiometric variables 
- (\(n_{Ci},n_{It}\)) and onwards to the target variable of mass loss 
+ (\(n_{\text{Ci}},n_{\text{It}}\)) and onwards to the target variable of mass loss 
  (\(\Delta m_{\%}\)), allows the expression of a black-box mapping between 
  predictors and targets.
 This black-box mapping is described by \(f:A\rightarrow \mathbb{R}\),
@@ -283,24 +285,24 @@ Our optimisation problem is thus expressed in
 \subsection{Optimisation Algorithm}
 The sequential optimisation algorithm employed during this work is summarised
  by the flow diagram in Figure~\ref{fig:OptimisationAlgorithm}.
-Succesful conclusion of the optimisation is controlled by an if-else clause 
+Successful conclusion of the optimisation is controlled by an if-else clause 
  comparing an initially specified permissable number of function evaluations 
- (a.k.a. sample limit, \(p_{tot}\)) with the current sample number (\(i\)):
- when \(i<p_{tot}\) the algorithm continues.
+ (a.k.a. sample limit, \(p_{\text{tot}}\)) with the current sample number (\(i\)):
+ when \(i<p_{\text{tot}}\) the algorithm continues.
 A second if-else statement controls whether a dataset exists from which a
  Gaussian process prior might be built for Bayesian sampling. 
 When available, the algorithm uses the Gaussian process to draw a
- pre-defined number of samples (\(p_{iter}\)) from the parameter space for
+ pre-defined number of samples (\(p_{\text{iter}}\)) from the parameter space for
  evaluation.
 If the prior-forming dataset is lacking, an initial quasirandom (Sobol)
  sampling of the parameter space with a pre-defined number of deterministic
- samples (\(p_{init}\)) is initiated.
+ samples (\(p_{\text{init}}\)) is initiated.
 Samples drawn from the parameter space are processed into stoichiometric
- variables (\(n_{Ci},n_{It}\)), with which an experimenter can manufacture
+ variables (\(n_{\text{Ci}},n_{\text{It}}\)), with which an experimenter can manufacture
  sample(s) before evaluating the target variables \(\Delta m_{\%}\)
  value(s) and returning these to the algorithm.
 The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented
- in the Python programming language, and is incorporated into the wider 
+ in the Python programming language, and is incorporated into the `BO4BT' 
  package described earlier \cite{HojlundDodd2024}.
 
 \begin{center}
@@ -344,30 +346,34 @@ During a sequential optimisation two forms of sampling were employed:
  used to representatively sample the parameter space when initialising the
  optimisation.
 Subequently, a Bayesian sampling technique was used to sample-efficiently
- guide the optimisation's search for the global optimimum \(x^{*}\).
+ guide the search for the global optimimum \(x^{*}\).
 \subsubsection{Initial Quasirandom Sampling}
 Optimisation routines were initiated by representatively sampling across
  the parameter space \(A\); achieved using the quasirandom Sobol sampling
- algorithm to draw a preset number (\(p_{init}\)) of samples from
+ algorithm to draw a preset number (\(p_{\text{init}}\)) of samples from
  across \(A\).
 Sobol sampling was employed as it provides the same or better
  space-filling properties across \(\mathbb{R}^{1\leq d\leq 40}\) domains
  as compared with pseudorandom or grid techniques \cite{Garud2017}.
 On evaluation of the initial representative set of samples
- (\([\mathbf{x}^{i=1},...,\mathbf{x}^{i=p_{init}}]\)) for the target
- variable values (\([\Delta m_{\%}^{i=1},...,\Delta m_{\%}^{i=p_{init}}]\)),
- an initial prior-forming dataset (\(\mathbb{D}^{i=p_{init}}\)) is produced.
+ (\([\mathbf{x}^{i=1},...,\mathbf{x}^{i=p_{\text{init}}}]\)) for the target
+ variable values (\([\Delta m_{\%}^{i=1},...,\Delta m_{\%}^{i=p_{\text{init}}}]\)),
+ an initial prior-forming dataset (\(\mathbb{D}^{i=p_{\text{init}}}\)) is produced.
 In practice, only one quasirandomly sampled initial prior-forming dataset 
  (\(\mathbb{D}^{i=8}\)) was generated and used (visualised in Figure 
  \ref{fig:BayesianPriorsAbbreviated}); this allowed a fair
  inter-comparison of the two Bayesian optimisation routines attempted.
+As an aside, a relatively smooth topography witnessed during preliminary
+ experimentation in lower dimensions was the justification for the
+ use of only 8 samples during initial quasirandom sampling.
+
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
     \includegraphics[width=0.48\textwidth]{BayesianPriorsAbbreviated.png}
     \captionof{figure}{
         \footnotesize{
-            This 3D graphic depicts the initial 8 samples quasirandomly drawn
-            from across the parameter space, \(A\), comprised of \(s_{1}\),
+            Initial 8 samples quasirandomly from across the parameter 
+            space, \(A\), comprised of \(s_{1}\),
             \(s_{2}\), and \(b_{1}\) (as in equations
             \ref{eq:CitricAcidStoichiometricPredictorLink} and
             \ref{eq:ItaconicAcidStoichiometricPredictorLink}), which provide
@@ -432,24 +438,24 @@ As an infinite-dimensional generalisation of multivariate normal
  (e.g. \(\mathcal{GP}^{i=8}\)) to be recycled as a prior alongside new
  data (e.g. \(\mathbb{D}+[\mathbf{x}^{i=9},\Delta m^{i=9}]\)) to generate
  an updated posterior (e.g. \(\mathcal{GP}^{i=9}\)) in accordance
- with Bayes theorem.
-The surrogate model therewith evolves during the course of sequential
- optimisation as the number of iterations, \(i\), increases: corresponding
- to the updating of beliefs when considering new evidence.
+ with Bayes' theorem.
+The surrogate model evolves during sequential optimisation as new data 
+ are incorporated at each iteration, \(i\).
 
-During fitting of the Gaussian process a covariance function is used to
+During the fitting of the Gaussian process, a covariance function is used to
  encode beliefs regarding the families of functions likely to fit the
- data observed; this work made use of the Mat\'ern family.
-When using the Mat\'ern covariance function a hyperparameter controlling
- smoothness of functions drawn from the Gaussian process was set
- (\(\nu=2.5\))- this encouraged the generation of relatively smooth
+ data observed.
+In this work we used a Mat\'ern covariance function containing a 
+hyperparameter controlling smoothness of functions drawn from the 
+Gaussian process.
+This was set to \(\nu=2.5\), encouraging the generation of relatively smooth
  functions, which was deemed acceptable given that preliminary sampling of
  the parameter space indicated a similar topography.
 
-Subsequent of posterior genesis, a simple one-step lookahead sampling
+After generating a posterior, a simple one-step lookahead sampling
  policy was used to select a suitable next point \(\mathbf{x}\) within the
  parameter space \(A\) to sample.
-This research focused upon policies that made use of the `simple reward'
+In this work, we focused on policies making use of the `simple reward'
  utility function (see Equation \ref{eq:UtilityFunction}) which takes the
  current dataset \(\mathbb{D}\), and from the set of sample coordinates
  evaluated so far \(X\) returns the predicted mean value \(\Delta m_{\%}\)
@@ -462,22 +468,27 @@ This research focused upon policies that made use of the `simple reward'
 \end{equation}
 
 In adopting this utility function, two different sampling policies were
- developed and investigated: the first was predicated on the `probability of
- improvement' acquisition function (defined in
- Equation~\ref{eq:ProbabilityOfImprovement}) where any given putative
- \(\mathbf{x}\) is scored by its probability that it will produce an
- updated dataset \(\mathbb{D}^{\prime}\) that will generate a higher
- evaluation from the utility function than an absolute threshold \(\tau\).
+ developed and investigated.
+The first was predicated on the `probability of improvement' acquisition 
+ function (defined in Equation~\ref{eq:ProbabilityOfImprovement}), where any 
+ given putative \(\mathbf{x}\) is scored by the probability that it will 
+ produce an updated dataset \(\mathbb{D}^{\prime}\) which generates a higher
+ evaluation from the utility function than some absolute threshold \(\tau\).
 The probability of a sample exceeding the current best is deduced using the
  current posterior \(\mathcal{GP}\)'s mean (\(m(\textbf{x})\))and standard
  deviation (\(\sqrt{K(\mathbf{x},\mathbf{x})}\)) measured at that sample
  position.
-Note, this work made the absolute threshold equal to an evaluation of the
- utility function using the current dataset (\(\tau=u(\mathbb{D})\)),
- eschewing the added complication of deciding upon a marginal threshold
- parameter \(\varepsilon\) which could have been used
- (\(\tau=u(\mathbb{D})+\varepsilon\)) to offset any overly exploitative
- behaviour induced by rewarding any improvement no matter the scale.
+% Note, this work made the absolute threshold equal to an evaluation of the
+%  utility function using the current dataset (\(\tau=u(\mathbb{D})\)),
+%  eschewing the added complication of deciding upon a marginal threshold
+%  parameter \(\varepsilon\) which could have been used
+%  (\(\tau=u(\mathbb{D})+\varepsilon\)) to offset any overly exploitative
+%  behaviour induced by rewarding any improvement no matter the scale.
+Here, the improvement threshold was defined as the current best observed
+ value (\(\tau=u(\mathbb{D})\)), rather than introducing an additional
+ offset parameter \(\varepsilon\).
+This simplified the optimisation while avoiding unecessary hyperparameter
+ tuning.
 
 \footnotesize
 \begin{equation}\label{eq:ProbabilityOfImprovement}
@@ -492,9 +503,9 @@ Note, this work made the absolute threshold equal to an evaluation of the
 The second policy made use of the `expected improvement' acquisition
  function (defined in Equation \ref{eq:ExpectedImprovement}), which
  incorporates an expectation of improvement value
- (\(u(\mathbb{D}^{\prime})-u(\mathbb{D})\)); this counteracts overtly
- exploitative behaviour by rewarding both the scale and probability of an
- improvement above the threshold \(\tau\) \cite{Teh2020}.
+ (\(u(\mathbb{D}^{\prime})-u(\mathbb{D})\)).
+This counteracts any overtly exploitative behaviour by rewarding both the scale and 
+ probability of an improvement above the threshold \(\tau\) \cite{Teh2020}.
 
 \footnotesize
 \begin{equation}\label{eq:ExpectedImprovement}
@@ -506,7 +517,7 @@ The second policy made use of the `expected improvement' acquisition
 \normalsize
 
 Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
- to be sampled sampled \(\mathbf{x}^{+}\) is found by trivially optimising
+ to be sampled sampled, \(\mathbf{x}^{+}\), is found by trivially optimising
  the cheap acquisition function (many putative samples \(\textbf{x}\) may be
  evaluated) to find the global optimum within the bounds of the parameter 
  space \(A\) \cite{Teh2020}.
@@ -525,19 +536,21 @@ Gaussian processes and acquisition functions were implemented using two
 The sampling efficiency of the Bayesian sequential optimisation techniques
  was demonstrated by employing three simple benchmarks.
 These were derived using one-shot deterministic space-filling sampling techniques
- including pseudorandom, quasirandom (Sobol), and grid to disperse the maximum allowable
- number of samples (\(p_{tot}=27\)) across the parameter space \(A\) (See Figure~\ref{fig:Benchmarks}).
+ including pseudorandom, quasirandom (Sobol), and grid sampling to disperse the 
+ maximum allowable number of samples (\(p_{\text{tot}}=27\)) across the parameter 
+ space \(A\) (See Figure~\ref{fig:Benchmarks}).
 \begin{figure*}[htb]
     \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
     \includegraphics[width=\textwidth]{Benchmarks}
     \captionof{figure}{\footnotesize{Deterministic space-filling one-shot sampling techniques. Coloration of points denote distance from viewer with darker points appearing further away.}}
     \label{fig:Benchmarks}
 \end{figure*}
-Subsequently, for each of the techniques deployed, all samples \(\mathbf{X}\) were 
- evaluated \(f(\mathbf{X})\) to retrieve associated target variable values \(\mathbf{\Delta m_{\%}}\)
- generating a complete dataset \(\mathbb{D}\).
-The highest target variable value was identified within each technique's dataset (\(\Delta m_{\%}^{\circ}\)) and equated to
- the benchmark value (See Table~\ref{tab:BenchmarkBestValues}).\
+Subsequently, for each of the techniques deployed, all samples, \(\mathbf{X}\), were 
+ evaluated, \(f(\mathbf{X})\), to retrieve associated target variable 
+ values, \(\mathbf{\Delta m_{\%}}\), generating a complete dataset \(\mathbb{D}\).
+The highest target variable value was identified within each technique's dataset 
+(\(\Delta m_{\%}^{\circ}\)) and equated to the benchmark value 
+(See Table~\ref{tab:BenchmarkBestValues}).\
 
 \footnotesize
 \begin{center}
@@ -557,7 +570,7 @@ The highest target variable value was identified within each technique's dataset
             techniques used as benchmarks.
             `Max' equates to the highest discovered mass loss,
             (\(\Delta m_{\%}^{\circ}\)), `Mean' is the population mean, and
-            `Standard Dev.' relates to a single standard deviation.
+            `Standard Dev.' relates to the standard deviation.
         }
     }
     \label{tab:BenchmarkBestValues}
@@ -567,14 +580,13 @@ The highest target variable value was identified within each technique's dataset
 % ========================================================================================================================================================================================
 \subsection{Emulation of Physical System}
 
-An emulation of the physical system investigated facilitated statistical
- analyses of the various sampling techniques' efficacies in discovery of
- the experimental global optimum.
-This emulation was developed by firstly concatenating the final datasets 
- \(\mathbb{D}\) generated from the three benchmark and two sequential 
- techniques deployed- this master dataset which represented all the
- knowledge of the objective function's topography within the parameter space
- investigated.
+Since repeated experimental optimisation was impractical, a computational
+ emulator of the physical system was constructed to facilitate statistical
+ comparison of the sampling strategies.
+The emulator was trained on a combined dataset of all experimentally evaluated
+samples from both the benchmark and sequential optimisation methods and was used
+as an approximate, data-driven, representation of the objective function within
+the region of parameter space explored experimentally.
 Subsequently, a Gaussian process \(\mathcal{GP}\) was trained on this
  master dataset using the parameterisations described earlier-
  the resultant mean function \(m(\mathbf{x})\) then being used as an
@@ -583,7 +595,8 @@ Subsequently, a Gaussian process \(\mathcal{GP}\) was trained on this
 Note, that some data obtained outside the sample limit was included in this
  master dataset- specifically, the final samples generated by the Bayesian 
  sequential technique using the `probability of improvement' acquisition
- function; these were remarkably high, and represented the experimental
+ function.
+These were remarkably high, and represented the experimental
  global optimum discovered during the course of this work.
 Care was taken to ensure the trained \(\mathcal{GP}\) faithfully
  replicated this region of optimality within the parameter space as well
