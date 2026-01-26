@@ -2,66 +2,66 @@
 % In 1987, the concept of `sustainable development' was defined by the United
 %  Nations (UN) Brundtland Commission as a development which seeks to ``meet
 %  the needs and aspirations of the present without compromising the ability
-%  to meet those of the future'' \cite{WCED1987}.
+%  to meet those of the future'' \autocite{WCED1987}.
 % Wind turbine manufacturing is an industry shaped by this ideal, with its 
 %  end-products contributing towards the UN's 13\textsuperscript{th} sustainable 
 %  development goal (SDG) which urges ``urgent action to combat climate change
-%  and its impacts'' \cite{UN2015}.
+%  and its impacts'' \autocite{UN2015}.
 
 The early 21\textsuperscript{st} century has seen continued growth in both
  the global human population (from \(6.17\) to \(8.09\)~billion people) and 
  total energy supply required to sustain them (from \(416\) to 
  \(634\)~\unit{\exa\joule}) between 2000 and 2023 
- \cite{OWID20251027,UN20251027,IEA2025}.
+ \autocite{OWID20251027,UN20251027,IEA2025}.
 In spite of continued strong reliance upon coal, natural gas, and oil for
  the provision of this demand, concerns regarding global climate and the
  finite nature of fossil reserves have galvanised investment in alternative
- renewable power systems \cite{IEA2025,IPCC2021}.
+ renewable power systems \autocite{IEA2025,IPCC2021}.
 Of these renewable, wind power saw the greatest growth in capacity to
  generate electricity (+2.33~\unit{\peta\watt\hour}) ahead of both
  hydroelectric (+1.69~\unit{\peta\watt\hour})
- and solar photovoltaics (+1.60~\unit{\peta\watt\hour}) \cite{IEA20251027}.
+ and solar photovoltaics (+1.60~\unit{\peta\watt\hour}) \autocite{IEA20251027}.
 Wind turbine blades are commonly manufactured from a composite 
  comprised of thermosetting polymer matrix and reinforcing material, these
  strong thermoset matrices are chemically cross-linked which makes them
- difficult to reprocess or remould \cite{Ma2017}.
+ difficult to reprocess or remould \autocite{Ma2017}.
 Given the relatively low rate of recycling and a common rate of 
- replacement (ca. every fifteen years in China \cite{ChenJ2019}) the
+ replacement (ca. every fifteen years in China \autocite{ChenJ2019}) the
  industry generates a large volume of practically unrecyclable thermoset
  waste which contravenes the UN's 12\textsuperscript{th} SDG to ``ensure
- sustainable consumption and production'' \cite{UN2015}.
+ sustainable consumption and production'' \autocite{UN2015}.
 In addressing the industry's sustainability shortcoming identified above, the
  literature is divided into two groups: firstly, papers which focus upon
  improving the recyclability of contemporary materials, whether by thermal,
  chemical, mechanical or high-voltage fragmentation methods
- \cite{Utekar2020,Beauson2016,ChenR2019}; and secondly, papers aimed at the 
+ \autocite{Utekar2020,Beauson2016,ChenR2019}; and secondly, papers aimed at the 
  development of properties in future replacement materials that would 
- facilitate recycling \cite{Liu2022}, such as introduction of chemically 
- cleavable bonds into the thermoset polymers used \cite{Tesoro1990}.
+ facilitate recycling \autocite{Liu2022}, such as introduction of chemically 
+ cleavable bonds into the thermoset polymers used \autocite{Tesoro1990}.
 The motivation for present work was to ascertain whether Bayesian optimisation
  could be used to sample efficiently improve the degree of polymerisation in
  a novel biodegradable bio-based thermoset.
 
 The composite matrix used for wind turbine blades is comprised of a moulding 
  thermoset, with the most prevalently manufactured pre-thermoset form being 
- general-purpose unsaturated polyester resin (GP-UPR) \cite{Bobade2016}.
+ general-purpose unsaturated polyester resin (GP-UPR) \autocite{Bobade2016}.
 These GP-UPRs are based on a mixture of a reactive diluent (e.g. styrene) and 
  a linear aromatic unsaturated polyester (e.g. poly(propylene glycol maleate
  phthalate)), which are cured chemically or thermally to generate the final
- thermosetting matrix \cite{Ahamad2001}.
+ thermosetting matrix \autocite{Ahamad2001}.
 Although polyesters are known to exhibit limited biodegradability (due to 
  their labile ester bonds being prone to both biotic and abiotic hydrolysis
- \cite{Sharma2011}) it is the case that polyesters with aromatic moieties
+ \autocite{Sharma2011}) it is the case that polyesters with aromatic moieties
  are more resistant than aliphatic counterparts to such degradation
- \cite{Muller2001}.
+ \autocite{Muller2001}.
 Consequently, thermosets derived from GP-UPRs synthesised from the aromatic 
- monomer phthalic acid \cite{Ahamad2001} can be reasonably expected to
+ monomer phthalic acid \autocite{Ahamad2001} can be reasonably expected to
  exhibit a high resistance to biodegradation; which was part of the reason
  for their original choice as a material.
 An archetypical example of an aliphatic polyester would be poly(glycerol
  sebacate), which uses the monomers glycerol (triol) and sebacic acid
  (dicarboxylic acid) to form a branching polyester thermoset on thermal
- curing via polyesterification \cite{Zhang2014}.
+ curing via polyesterification \autocite{Zhang2014}.
 Given their natural biodegradability, in the present work we chose to focus 
  upon aliphatic polyesters.
 
@@ -74,12 +74,12 @@ If the underlying chemistry of a polymer is petrochemical in origin, then
 Since GP-UPRs are synthesised from the oil-derived
  feedstock monomers propylene glycol, maleic acid, and phthalic acid, the
  resultant thermosets contain endogenic (fossil-derived) carbon
- \cite{Levi2018}.
+ \autocite{Levi2018}.
 In the present work we aim to avoid these feedstocks and focussed instead
  upon a bio-based alternative, with inspiration drawn from a chemical 
  system presented in the literature by Alberts, where a combination of 
  glycerol and citric acid were cured to form a bio-based branched 
- aliphatic polyester thermoset \cite{Alberts2017}.
+ aliphatic polyester thermoset \autocite{Alberts2017}.
 We build upon this research by adopting the chemical system and adapting it
  to include a third monomer, itaconic acid, which provides a second
  carboxylic acid with a lower degree of functionality (dicarboxylic acid);
@@ -87,7 +87,7 @@ We build upon this research by adopting the chemical system and adapting it
  encourage the emergence of alternative thermoset networks.
 Notably, Alberts found that physical properties of the end thermoset
  poly(glycerol citrate) could be tuned by modifying the monomeric
- stoichiometries of the prepolymer resin synthesised \cite{Alberts2017}.
+ stoichiometries of the prepolymer resin synthesised \autocite{Alberts2017}.
 Given this, we identified mass loss as a variable of interest during the
  synthesis of poly(glycerol citrate itaconate) as it is a proxy for
  polymerised content within a sample, and sought to optimise this by 
@@ -95,7 +95,7 @@ Given this, we identified mass loss as a variable of interest during the
 Polymerised content could be an indicator of the cross-link density of 
  these samples; a characteristic, which, if maximised, yields improvements
  in mechanical properties such as ultimate tensile strength, Young's modulus,
- and glass transition temperature \cite{Panic2017}.
+ and glass transition temperature \autocite{Panic2017}.
 Note that the link between sample mass loss and polymerised content is
  predicated on various assumptions: negligible volatilisation of monomers
  during curing, a lack of side-reactions between monomers, and a negligible
@@ -104,10 +104,10 @@ Note that the link between sample mass loss and polymerised content is
 Poly(glycerol citrate itaconate) is formed from its monomers by
  polyesterification, a process which is dependent upon variables
  such as temperature, stoichiometric ratios, and additive presence 
- \cite{Alberts2017}.
+ \autocite{Alberts2017}.
 Additionally, reaction times for rigid solid thermoset materials are on the
- order of weeks when uncatalyzed \cite{Trenkel2008} (catalysis commonly
- involves strong fuming acids which can corrode equipment \cite{Shukla2022}).
+ order of weeks when uncatalyzed \autocite{Trenkel2008} (catalysis commonly
+ involves strong fuming acids which can corrode equipment \autocite{Shukla2022}).
 Given the high dimensionality and temporally expensive function evaluation 
  exhibited by this family of polyesters, a sample efficient global
  optimisation technique, namely Bayesian optimisation, was selected to 
@@ -116,14 +116,14 @@ Alternative global optimisation techniques were considered but ruled out;
  for example, the hill-climbing class gradient descent algorithm is reliant on
  derivatives of the objective function which would have
  been uncertain given the noisy function evaluations associated
- with physical systems as opposed to simulated ones \cite{Stork2022}.
+ with physical systems as opposed to simulated ones \autocite{Stork2022}.
 The population class evolutionary and particle swarm optimisation algorithms
  were suitable but avoided in favour of the more sample efficient surrogate
  class of algorithms.
 Surrogate class algorithms are variously formulated, but the three major
  forms are distinguished by the surrogate models they leverage: polynomial
  response surface model, kriging (also known as gaussian process regression)
- and radial basis functions \cite{Roeva2012}.
+ and radial basis functions \autocite{Roeva2012}.
 Kriging is preferable to response surface modelling since it makes no
  assumption of polynomial order, avoiding a priori bias in surrogate models
  generated.
@@ -137,20 +137,20 @@ Hence, for the development of a part-computational and
  poly(glycerol citrate itaconate) we decided to use Bayesian optimisation
  predicated on kriging.
 
-Originally coined in the 1970s by Mockus et al. \cite{Mockus1978}, Bayesian 
+Originally coined in the 1970s by Mockus et al. \autocite{Mockus1978}, Bayesian 
  optimisation was later developed further in the 1990s by Jones et al. into a 
  technique called the efficient global optimisation algorithm
- \cite{Jones1998}- this name and technique was thereafter adopted and
+ \autocite{Jones1998}- this name and technique was thereafter adopted and
  popularised by the DoE community.
 More recently, the original name has seen a revival as the technique and
  several adaptations have been re-discovered and implemented in a range
- of contemporary communities including robotics \cite{Calandra2016},
- bioengineering \cite{Bader2023}, and machine learning \cite{Cho2020}.
+ of contemporary communities including robotics \autocite{Calandra2016},
+ bioengineering \autocite{Bader2023}, and machine learning \autocite{Cho2020}.
 In materials science, Bayesian optimisation has been used to predict 
- crystalline structures \cite{Yamashita2018}, carry out sample-efficient 
+ crystalline structures \autocite{Yamashita2018}, carry out sample-efficient 
  optimisation of density functional theory simulations 
- \cite{Balachandran2016}, and multi-objective optimisation of stability 
- and ion-conductivity in materials \cite{Karasuyama2020}.
+ \autocite{Balachandran2016}, and multi-objective optimisation of stability 
+ and ion-conductivity in materials \autocite{Karasuyama2020}.
 
 This paper begins by detailing the polymeric system
  considered, experimental means by which samples were manufactured

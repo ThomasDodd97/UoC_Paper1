@@ -7,7 +7,7 @@
 \usepackage{csquotes,xpatch}
 \usepackage[english]{babel}
 % Importing the package allowing referencing
-\usepackage[natbib=true,style=numeric,sorting=none,backend=biber]{biblatex}
+\usepackage[natbib=true,style=nature,sorting=none,backend=biber,autocite=superscript]{biblatex}
 \addbibresource{Bibliography/Bibliography.bib}
 \errorcontextlines=3
 % Importing an important maths formatting tool
@@ -72,11 +72,15 @@
 \begin{document}
     \input{Sections/A1_Title}
     \input{Sections/B1_Abstract}
+    \input{Sections/B2_Sustainability}
     \begin{multicols}{2}
         \input{Sections/C1_Introduction}
         \input{Sections/D1_Method}
         \input{Sections/E1_Results}
         \input{Sections/F1_Conclusion}
-        \input{Sections/G1_Bibliography}
+        \input{Sections/G1_Conflicts}
+        \input{Sections/H1_Data}
+        \input{Sections/I1_Acknowledgements}
+        \input{Sections/J1_Bibliography}
     \end{multicols}
 \end{document}

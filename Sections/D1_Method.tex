@@ -9,7 +9,7 @@ Programs were written in the Python programming language and developed into
  alongside its dependencies.
 A .yaml configuration file is also provided which allows an identical
  Conda environment to be setup, allowing a user to run this code
- \cite{HojlundDodd2024}.
+ \autocite{HojlundDodd2024}.
 
 % ========================================================================================================================================================================================
 \subsection{Chemical Background}
@@ -70,7 +70,7 @@ Importantly, during the polyesterification process water is generated as
  water evaporation.
 Given that each molecule of water produced corresponds to an ester bond
  formed, mass loss can be said to be a good proxy for extent of
- polymerisation within a sample \cite{Trenkel2008}.
+ polymerisation within a sample \autocite{Trenkel2008}.
 Thus, this research identifies mass loss as a metric of interest and sought
  to maximise this during optimisation of poly(glycerol citrate itaconate)
  synthesis: increasing the extent of polymerisation and thereby improving
@@ -83,7 +83,7 @@ Synthesis of the poly(glycerol citrate itaconate) thermoset was achieved
  Figure~\ref{fig:SimpleReactionOverview}).
 Acid catalysis was avoided to reduce corrosion damage to equipment, this
  ultimately reduced the rate at which this reaction could be carried out
- but did not prevent polycondensation \cite{Balachandran2016}.
+ but did not prevent polycondensation \autocite{Balachandran2016}.
 The monomers glycerol (99+~\unit{\percent}), citric acid (99.6~\unit{\percent}), and itaconic acid
  (99+~\unit{\percent}) used were supplied by Fisher Scientific International
  and manufactured by Acros Organics.
@@ -111,7 +111,7 @@ Thermoset synthesis was two-step: firstly, a homogenous prepolymer resin was
  140~\unit{\degreeCelsius} until the solids were completely dissolved.
 Note, 140~\unit{\degreeCelsius} was adopted to accelerate dissolution
  without encouraging decarboxylation of the citric acid to itaconic
- acid \cite{Alberts2017}.
+ acid \autocite{Alberts2017}.
 Secondly, prepolymer was cured into the desired thermoset by transferral to
  a silicone mould before being exposed to elevated temperatures
  (90~\unit{\degreeCelsius}) for an extended period (up to two weeks) within
@@ -303,7 +303,7 @@ Samples drawn from the parameter space are processed into stoichiometric
  value(s) and returning these to the algorithm.
 The algorithm seen in Figure~\ref{fig:OptimisationAlgorithm} was implemented
  in the Python programming language, and is incorporated into the `BO4BT' 
- package described earlier \cite{HojlundDodd2024}.
+ package described earlier \autocite{HojlundDodd2024}.
 
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
@@ -354,7 +354,7 @@ Optimisation routines were initiated by representatively sampling across
  across \(A\).
 Sobol sampling was employed as it provides the same or better
  space-filling properties across \(\mathbb{R}^{1\leq d\leq 40}\) domains
- as compared with pseudorandom or grid techniques \cite{Garud2017}.
+ as compared with pseudorandom or grid techniques \autocite{Garud2017}.
 On evaluation of the initial representative set of samples
  (\([\mathbf{x}^{i=1},...,\mathbf{x}^{i=p_{\text{init}}}]\)) for the target
  variable values (\([\Delta m_{\%}^{i=1},...,\Delta m_{\%}^{i=p_{\text{init}}}]\)),
@@ -369,7 +369,7 @@ As an aside, a relatively smooth topography witnessed during preliminary
 
 \begin{center}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
-    \includegraphics[width=0.48\textwidth]{BayesianPriorsAbbreviated.png}
+    \includegraphics[width=0.48\textwidth]{BayesianPriorsAbbreviated}
     \captionof{figure}{
         \footnotesize{
             Initial 8 samples quasirandomly from across the parameter 
@@ -397,13 +397,13 @@ As an aside, a relatively smooth topography witnessed during preliminary
 %  marginal probability \(P(E)\) (probability of evidence).
 % As new evidence becomes available, the posterior probability is recycled into 
 %  the equation as an updated prior alongside the new evidence and used to produce
-%  a new posterior \cite{Downey2013}.
+%  a new posterior \autocite{Downey2013}.
 % \begin{equation}\label{eq:Bayesianism}
 %     \overset{\mathrm{posterior}}{P(H|E)}=\frac{\overset{\mathrm{prior}}{P(H)}\times \overset{\mathrm{likelihood}}{P(E|H)}}{\underset{\mathrm{marginal}}{P(E)}}
 % \end{equation}
 % Bayesian optimisation uses a Bayesian statistical model called a Gaussian process 
 %  regression model (a form of Bayesian posterior distribution) derived from Gaussian 
-%  process regression of a dataset \(\mathbb{D}\) \cite{Rasmussen2005}.
+%  process regression of a dataset \(\mathbb{D}\) \autocite{Rasmussen2005}.
 % Equation~\ref{eq:GaussianProcess} shows how a gaussian process, 
 %  \(\mathcal{GP}\),  is a distribution over functions which is completely
 %  described by both a mean function, \(m\), and a covariance function, \(K\).
@@ -434,7 +434,7 @@ Equation~\ref{eq:GaussianProcess} shows how the Gaussian process,
 
 As an infinite-dimensional generalisation of multivariate normal
  distributions the Gaussian process inherits the properties of a conjugate
- prior \cite{Deisenroth2020}, allowing the initial posterior
+ prior \autocite{Deisenroth2020}, allowing the initial posterior
  (e.g. \(\mathcal{GP}^{i=8}\)) to be recycled as a prior alongside new
  data (e.g. \(\mathbb{D}+[\mathbf{x}^{i=9},\Delta m^{i=9}]\)) to generate
  an updated posterior (e.g. \(\mathcal{GP}^{i=9}\)) in accordance
@@ -461,7 +461,7 @@ In this work, we focused on policies making use of the `simple reward'
  evaluated so far \(X\) returns the predicted mean value \(\Delta m_{\%}\)
  of the point \(\mathbf{x}\) exhibiting the highest predicted mean
  (\(\mathrm{max}\ m(X)\)) according to the current posterior \(\mathcal{GP}\)
- \cite{Garnett2023}.
+ \autocite{Garnett2023}.
 
 \begin{equation}\label{eq:UtilityFunction}
     u(\mathbb{D})=\mathrm{max}\ m(X)
@@ -505,7 +505,7 @@ The second policy made use of the `expected improvement' acquisition
  incorporates an expectation of improvement value
  (\(u(\mathbb{D}^{\prime})-u(\mathbb{D})\)).
 This counteracts any overtly exploitative behaviour by rewarding both the scale and 
- probability of an improvement above the threshold \(\tau\) \cite{Teh2020}.
+ probability of an improvement above the threshold \(\tau\) \autocite{Teh2020}.
 
 \footnotesize
 \begin{equation}\label{eq:ExpectedImprovement}
@@ -520,15 +520,15 @@ Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
  to be sampled sampled, \(\mathbf{x}^{+}\), is found by trivially optimising
  the cheap acquisition function (many putative samples \(\textbf{x}\) may be
  evaluated) to find the global optimum within the bounds of the parameter 
- space \(A\) \cite{Teh2020}.
+ space \(A\) \autocite{Teh2020}.
 
 \begin{equation}\label{eq:AcquisitionFunctionOptimisation}
     \mathbf{x}^{+}=\argmaxA_{\mathbf{x}\in A}\alpha(\mathbf{x})
 \end{equation}
 
 Gaussian processes and acquisition functions were implemented using two
- open-source packages: scikit-optimise ("skopt", v0.9.0) \cite{Kernc2021}
- and Ax ("ax-platform", v0.4.3) \cite{Facebook2024}.
+ open-source packages: scikit-optimise ("skopt", v0.9.0) \autocite{Kernc2021}
+ and Ax ("ax-platform", v0.4.3) \autocite{Facebook2024}.
 
 % ========================================================================================================================================================================================
 \subsection{Benchmarks}
