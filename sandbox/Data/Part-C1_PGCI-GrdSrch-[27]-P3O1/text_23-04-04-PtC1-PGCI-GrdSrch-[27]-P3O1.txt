@@ -1,0 +1,384 @@
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.59
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.15
+						Sample A1
+					1.0 G + 0.5 CA + 0.0 IA
+					3.59g G + 3.74g CA + 0.0g IA
+
+	What is the mass of mould A1 and its prepolymer contents? (x.xx g)
+		Input:  6.87
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.53
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.26
+						Sample A2
+					1.0 G + 0.25 CA + 0.5 IA
+					3.53g G + 1.84g CA + 2.49g IA
+
+	What is the mass of mould A2 and its prepolymer contents? (x.xx g)
+		Input:  6.92
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  4.21
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  2.98
+						Sample A3
+					1.0 G + 0.0 CA + 1.0 IA
+					4.21g G + 0.0g CA + 5.95g IA
+
+	What is the mass of mould A3 and its prepolymer contents? (x.xx g)
+		Input:  6.55
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.54
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.11
+						Sample A4
+					1.0 G + 1.25 CA + 0.0 IA
+					3.54g G + 9.23g CA + 0.0g IA
+
+	What is the mass of mould A4 and its prepolymer contents? (x.xx g)
+Please enter a number.
+		Input:  6.31
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.5
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.06
+						Sample A5
+					1.0 G + 0.62 CA + 0.5 IA
+					3.5g G + 4.56g CA + 2.47g IA
+
+	What is the mass of mould A5 and its prepolymer contents? (x.xx g)
+		Input:  6.43
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.52
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.14
+						Sample A6
+					1.0 G + 0.0 CA + 1.0 IA
+					3.52g G + 0.0g CA + 4.97g IA
+
+	What is the mass of mould A6 and its prepolymer contents? (x.xx g)
+		Input:  6.68
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.51
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.09
+						Sample B1
+					1.0 G + 2.0 CA + 0.0 IA
+					3.51g G + 14.65g CA + 0.0g IA
+
+	What is the mass of mould B1 and its prepolymer contents? (x.xx g)
+		Input:  6.07
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.52
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.08
+						Sample B2
+					1.0 G + 1.0 CA + 0.5 IA
+					3.52g G + 7.34g CA + 2.49g IA
+
+	What is the mass of mould B2 and its prepolymer contents? (x.xx g)
+		Input:  7.53
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.51
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  2.97
+						Sample B3
+					1.0 G + 0.0 CA + 1.0 IA
+					3.51g G + 0.0g CA + 4.96g IA
+
+	What is the mass of mould B3 and its prepolymer contents? (x.xx g)
+		Input:  6.49
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.53
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.21
+						Sample B4
+					1.0 G + 0.5 CA + 0.0 IA
+					3.53g G + 3.68g CA + 0.0g IA
+
+	What is the mass of mould B4 and its prepolymer contents? (x.xx g)
+		Input:  6.69
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.49
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.25
+						Sample B5
+					1.0 G + 0.25 CA + 0.75 IA
+					3.49g G + 1.82g CA + 3.7g IA
+
+	What is the mass of mould B5 and its prepolymer contents? (x.xx g)
+		Input:  6.82
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.51
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.17
+						Sample B6
+					1.0 G + 0.0 CA + 1.5 IA
+					3.51g G + 0.0g CA + 7.44g IA
+
+	What is the mass of mould B6 and its prepolymer contents? (x.xx g)
+		Input:  6.7
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.5
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.18
+						Sample C1
+					1.0 G + 1.25 CA + 0.0 IA
+					3.5g G + 9.13g CA + 0.0g IA
+
+	What is the mass of mould C1 and its prepolymer contents? (x.xx g)
+		Input:  6.39
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.53
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.09
+						Sample C2
+					1.0 G + 0.62 CA + 0.75 IA
+					3.53g G + 4.6g CA + 3.74g IA
+
+	What is the mass of mould C2 and its prepolymer contents? (x.xx g)
+		Input:  6.45
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.52
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.25
+						Sample C3
+					1.0 G + 0.0 CA + 1.5 IA
+					3.52g G + 0.0g CA + 7.46g IA
+
+	What is the mass of mould C3 and its prepolymer contents? (x.xx g)
+		Input:  6.85
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.52
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.3
+						Sample C4
+					1.0 G + 2.0 CA + 0.0 IA
+					3.52g G + 14.69g CA + 0.0g IA
+
+	What is the mass of mould C4 and its prepolymer contents? (x.xx g)
+Please enter a number.
+		Input:  6.26
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.49
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.1
+						Sample C5
+					1.0 G + 1.0 CA + 0.75 IA
+					3.49g G + 7.28g CA + 3.7g IA
+
+	What is the mass of mould C5 and its prepolymer contents? (x.xx g)
+		Input:  6.52
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.51
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.16
+						Sample C6
+					1.0 G + 0.0 CA + 1.5 IA
+					3.51g G + 0.0g CA + 7.44g IA
+
+	What is the mass of mould C6 and its prepolymer contents? (x.xx g)
+		Input:  6.44
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.5
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.25
+						Sample D1
+					1.0 G + 0.5 CA + 0.0 IA
+					3.5g G + 3.65g CA + 0.0g IA
+
+	What is the mass of mould D1 and its prepolymer contents? (x.xx g)
+		Input:  6.69
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.52
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.15
+						Sample D2
+					1.0 G + 0.25 CA + 1.0 IA
+					3.52g G + 1.84g CA + 4.97g IA
+
+	What is the mass of mould D2 and its prepolymer contents? (x.xx g)
+		Input:  6.45
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.52
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.0
+						Sample D3
+					1.0 G + 0.0 CA + 2.0 IA
+					3.52g G + 0.0g CA + 9.95g IA
+
+	What is the mass of mould D3 and its prepolymer contents? (x.xx g)
+		Input:  6.18
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.52
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.19
+						Sample D4
+					1.0 G + 1.25 CA + 0.0 IA
+					3.52g G + 9.18g CA + 0.0g IA
+
+	What is the mass of mould D4 and its prepolymer contents? (x.xx g)
+		Input:  7.07
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.49
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.22
+						Sample D5
+					1.0 G + 0.62 CA + 1.0 IA
+					3.49g G + 4.55g CA + 4.93g IA
+
+	What is the mass of mould D5 and its prepolymer contents? (x.xx g)
+		Input:  6.49
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.5
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.15
+						Sample D6
+					1.0 G + 0.0 CA + 2.0 IA
+					3.5g G + 0.0g CA + 9.89g IA
+
+	What is the mass of mould D6 and its prepolymer contents? (x.xx g)
+		Input:  6.37
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.48
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.2
+						Sample E1
+					1.0 G + 2.0 CA + 0.0 IA
+					3.48g G + 14.52g CA + 0.0g IA
+
+	What is the mass of mould E1 and its prepolymer contents? (x.xx g)
+		Input:  5.98
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.49
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.19
+						Sample E2
+					1.0 G + 1.0 CA + 1.0 IA
+					3.49g G + 7.28g CA + 4.93g IA
+
+	What is the mass of mould E2 and its prepolymer contents? (x.xx g)
+		Input:  6.64
+
+Please place command here. (n/b for next/break)
+		Input:  n
+	What is the mass of Glycerol in the beaker? (x.xx g)
+		Input:  3.5
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  2.96
+						Sample E3
+					1.0 G + 0.0 CA + 2.0 IA
+					3.5g G + 0.0g CA + 9.89g IA
+
+	What is the mass of mould E3 and its prepolymer contents? (x.xx g)
+		Input:  6.29
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Sample Preparation Finished
+
+
+Final Information-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Silicone Mould Positions List:
+['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'E1', 'E2', 'E3']
+s1 Bayes' Dimension List:
+[0.0, 0.0, 0.0, 0.5, 0.5, 0.5, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.5, 0.5, 0.5, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.5, 0.5, 0.5, 1.0, 1.0, 1.0]
+s2 Bayes' Dimension List:
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+b1 Bayes' Dimension List:
+[0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0]
+G Stoichiometry List:
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+CA Stoichiometry List:
+[0.5, 0.25, 0.0, 1.25, 0.625, 0.0, 2.0, 1.0, 0.0, 0.5, 0.25, 0.0, 1.25, 0.625, 0.0, 2.0, 1.0, 0.0, 0.5, 0.25, 0.0, 1.25, 0.625, 0.0, 2.0, 1.0, 0.0]
+IA Stoichiometry List:
+[0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.5, 1.0, 0.0, 0.75, 1.5, 0.0, 0.75, 1.5, 0.0, 0.75, 1.5, 0.0, 1.0, 2.0, 0.0, 1.0, 2.0, 0.0, 1.0, 2.0]
+Silicone Mould Masses List:
+[3.15, 3.26, 2.98, 3.11, 3.06, 3.14, 3.09, 3.08, 2.97, 3.21, 3.25, 3.17, 3.18, 3.09, 3.25, 3.3, 3.1, 3.16, 3.25, 3.15, 3.0, 3.19, 3.22, 3.15, 3.2, 3.19, 2.96]
+Silicone Mould & Prepolymer Masses List:
+[6.87, 6.92, 6.55, 6.31, 6.43, 6.68, 6.07, 7.53, 6.49, 6.69, 6.82, 6.7, 6.39, 6.45, 6.85, 6.26, 6.52, 6.44, 6.69, 6.45, 6.18, 7.07, 6.49, 6.37, 5.98, 6.64, 6.29]
+Prepolymer Masses List:
+[3.72, 3.66, 3.57, 3.1999999999999997, 3.3699999999999997, 3.5399999999999996, 2.9800000000000004, 4.45, 3.52, 3.4800000000000004, 3.5700000000000003, 3.5300000000000002, 3.2099999999999995, 3.3600000000000003, 3.5999999999999996, 2.96, 3.4199999999999995, 3.2800000000000002, 3.4400000000000004, 3.3000000000000003, 3.1799999999999997, 3.8800000000000003, 3.27, 3.22, 2.7800000000000002, 3.4499999999999997, 3.33]
+Time of Oven Insertion List:
+['2023-04-04 13:03:56', '2023-04-04 13:09:42', '2023-04-04 13:16:08', '2023-04-04 13:25:05', '2023-04-04 13:33:15', '2023-04-04 13:39:51', '2023-04-04 13:48:01', '2023-04-04 13:55:19', '2023-04-04 14:00:19', '2023-04-04 14:05:53', '2023-04-04 14:13:40', '2023-04-04 14:20:22', '2023-04-04 14:26:34', '2023-04-04 14:32:58', '2023-04-04 14:39:20', '2023-04-04 14:50:16', '2023-04-04 14:58:07', '2023-04-04 15:04:07', '2023-04-04 15:10:01', '2023-04-04 15:15:48', '2023-04-04 15:22:42', '2023-04-04 15:28:27', '2023-04-04 15:38:17', '2023-04-04 15:45:08', '2023-04-04 15:52:24', '2023-04-04 16:02:12', '2023-04-04 16:12:29']
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
