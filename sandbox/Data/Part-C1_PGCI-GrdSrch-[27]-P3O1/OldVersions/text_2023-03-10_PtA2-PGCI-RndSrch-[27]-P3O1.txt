@@ -1,0 +1,713 @@
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: A1 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 1.0745 CA + 0.1451 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.64
+
+Masses required are therefore:
+Glycerol = 3.64g, Citric Acid = 8.16g, Itaconic Acid = 0.75g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.22
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould A1 and its prepolymer contents? (x.xx g)
+		Input:  5.87
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: A2 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.7682 CA + 0.1251 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.45
+
+Masses required are therefore:
+Glycerol = 3.45g, Citric Acid = 5.53g, Itaconic Acid = 0.61g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.11
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould A2 and its prepolymer contents? (x.xx g)
+		Input:  6.04
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: A3 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.4086 CA + 0.8539 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.52
+
+Masses required are therefore:
+Glycerol = 3.52g, Citric Acid = 3.0g, Itaconic Acid = 4.25g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.27
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould A3 and its prepolymer contents? (x.xx g)
+		Input:  6.29
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: A4 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.6365 CA + 0.3958 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.52
+
+Masses required are therefore:
+Glycerol = 3.52g, Citric Acid = 4.67g, Itaconic Acid = 1.97g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.25
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould A4 and its prepolymer contents? (x.xx g)
+		Input:  6.44
+
+Please place command here. (n/b for next/break)
+		Input:  3.50
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: A5 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 1.8593 CA + 0.085 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 13.58g, Itaconic Acid = 0.42g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.23
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould A5 and its prepolymer contents? (x.xx g)
+		Input:  5.6
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: A6 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.3477 CA + 1.0551 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 2.54g, Itaconic Acid = 5.22g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.29
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould A6 and its prepolymer contents? (x.xx g)
+		Input:  6.48
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: B1 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 1.1403 CA + 0.3492 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 8.33g, Itaconic Acid = 1.73g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.34
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould B1 and its prepolymer contents? (x.xx g)
+		Input:  6.15
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: B2 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.1707 CA + 1.2545 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.48
+
+Masses required are therefore:
+Glycerol = 3.48g, Citric Acid = 1.24g, Itaconic Acid = 6.17g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.16
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould B2 and its prepolymer contents? (x.xx g)
+		Input:  6.27
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: B3 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 1.1997 CA + 0.1165 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 8.76g, Itaconic Acid = 0.58g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.27
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould B3 and its prepolymer contents? (x.xx g)
+		Input:  6.28
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: B4 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.0482 CA + 1.5142 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 0.35g, Itaconic Acid = 7.49g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.3
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould B4 and its prepolymer contents? (x.xx g)
+		Input:  6.33
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: B5 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.377 CA + 0.9907 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.48
+
+Masses required are therefore:
+Glycerol = 3.48g, Citric Acid = 2.74g, Itaconic Acid = 4.87g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.28
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould B5 and its prepolymer contents? (x.xx g)
+		Input:  6.2
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: B6 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.2107 CA + 1.0849 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.53
+
+Masses required are therefore:
+Glycerol = 3.53g, Citric Acid = 1.55g, Itaconic Acid = 5.41g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.31
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould B6 and its prepolymer contents? (x.xx g)
+		Input:  6.5
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: C1 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.6972 CA + 0.177 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 5.09g, Itaconic Acid = 0.88g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.48
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould C1 and its prepolymer contents? (x.xx g)
+		Input:  6.6
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: C2 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.9398 CA + 0.5607 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.51
+
+Masses required are therefore:
+Glycerol = 3.51g, Citric Acid = 6.88g, Itaconic Acid = 2.78g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.33
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould C2 and its prepolymer contents? (x.xx g)
+		Input:  6.35
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: C3 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.1268 CA + 1.7872 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.48
+
+Masses required are therefore:
+Glycerol = 3.48g, Citric Acid = 0.92g, Itaconic Acid = 8.79g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.15
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould C3 and its prepolymer contents? (x.xx g)
+		Input:  6.31
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: C4 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 1.2794 CA + 0.2362 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.53
+
+Masses required are therefore:
+Glycerol = 3.53g, Citric Acid = 9.42g, Itaconic Acid = 1.18g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.19
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould C4 and its prepolymer contents? (x.xx g)
+		Input:  6.03
+
+Please place command here. (n/b for next/break)
+		Input:  3.50
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: C5 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.1434 CA + 1.0113 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 1.05g, Itaconic Acid = 5.0g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.27
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould C5 and its prepolymer contents? (x.xx g)
+		Input:  6.33
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: C6 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.6826 CA + 0.7075 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.45
+
+Masses required are therefore:
+Glycerol = 3.45g, Citric Acid = 4.91g, Itaconic Acid = 3.45g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.01
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould C6 and its prepolymer contents? (x.xx g)
+		Input:  6.02
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: D1 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.7451 CA + 0.2251 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.51
+
+Masses required are therefore:
+Glycerol = 3.51g, Citric Acid = 5.46g, Itaconic Acid = 1.12g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.11
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould D1 and its prepolymer contents? (x.xx g)
+		Input:  6.25
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: D2 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.3322 CA + 0.9372 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.49
+
+Masses required are therefore:
+Glycerol = 3.49g, Citric Acid = 2.42g, Itaconic Acid = 4.62g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.23
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould D2 and its prepolymer contents? (x.xx g)
+		Input:  6.43
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: D3 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 1.1318 CA + 0.5488 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.45
+
+Masses required are therefore:
+Glycerol = 3.45g, Citric Acid = 8.15g, Itaconic Acid = 2.67g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.23
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould D3 and its prepolymer contents? (x.xx g)
+		Input:  6.17
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: D4 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.7357 CA + 0.9742 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.51
+
+Masses required are therefore:
+Glycerol = 3.51g, Citric Acid = 5.39g, Itaconic Acid = 4.83g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.22
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould D4 and its prepolymer contents? (x.xx g)
+		Input:  6.41
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: D5 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.9365 CA + 0.4588 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 6.84g, Itaconic Acid = 2.27g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.14
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould D5 and its prepolymer contents? (x.xx g)
+		Input:  6.43
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: D6 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.0791 CA + 1.6202 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.39
+
+Masses required are therefore:
+Glycerol = 3.39g, Citric Acid = 0.56g, Itaconic Acid = 7.76g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.19
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould D6 and its prepolymer contents? (x.xx g)
+		Input:  6.44
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: E1 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.0383 CA + 1.4426 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.52
+
+Masses required are therefore:
+Glycerol = 3.52g, Citric Acid = 0.28g, Itaconic Acid = 7.17g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.29
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould E1 and its prepolymer contents? (x.xx g)
+		Input:  6.5
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: E2 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 0.4445 CA + 0.453 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.5
+
+Masses required are therefore:
+Glycerol = 3.5g, Citric Acid = 3.25g, Itaconic Acid = 2.24g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.34
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould E2 and its prepolymer contents? (x.xx g)
+		Input:  6.65
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Current sample to be prepared: E3 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The current stoichiometry considered is:
+1.0 G + 1.1286 CA + 0.5203 IA
+
+
+~~~~~~~~~~~~ Retrieve glycerol required ~~~~~~~~~~~~
+	What is the mass of glycerol in the beaker? (x.xx g)
+		Input:  3.0
+
+Masses required are therefore:
+Glycerol = 3.0g, Citric Acid = 7.06g, Itaconic Acid = 2.21g
+
+
+~~~~~~~~~~~~ Add acids required ~~~~~~~~~~~~
+	What is the mass of the silicone mould? (x.xx g)
+		Input:  3.31
+
+~~~~~~~~~~~~ Retrieve aliquot of prepolymer ~~~~~~~~~~~~
+
+	What is the mass of mould E3 and its prepolymer contents? (x.xx g)
+		Input:  6.25
+
+Please place command here. (n/b for next/break)
+		Input:  n
+
+Sample Preparation Finished
+
+
+Final Information-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Silicone Mould Positions Array:
+['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'E1', 'E2', 'E3']
+X1 Predictor Array:
+[0.4952069813528176, 0.24557902488640893, 0.6198010737771744, 0.2884722977300098, 0.9653693744231749, 0.8082724352571364, 0.7378559982474614, 0.4509764492412395, 0.5457371177127676, 0.006631981812194376, 0.49815324104343683, 0.5628871605238882, 0.21571428749444188, 0.8237663723221894, 0.4705390040125953, 0.6417350634466547, 0.7611939325958335, 0.3928827796193024, 0.264750337627886, 0.7685730684647134, 0.945513702847004, 0.9385818953063104, 0.629970747028586, 0.2342901243114267, 0.3498762206665037, 0.10612835589618652, 0.7091675795275943]
+X2 Predictor Array:
+[0.07120141191327989, 0.0849824347928041, 0.19556438428457612, 0.2462578937924692, 0.8657009862107888, 0.32386268820773956, 0.20263822935055043, 0.46734032463762853, 0.2922452635682794, 0.6723756863625971, 0.4198073329694816, 0.28651767591326704, 0.15333366250363822, 0.2229587852343372, 0.997286488474368, 0.885975996122172, 0.10808964034014368, 0.8949322168481921, 0.32782136281596796, 0.17288834076377424, 0.33868963891715453, 0.5856048624048489, 0.30377880622644793, 0.7862503843141083, 0.498554109426424, 0.3908042772367143, 0.8694586463503529]
+X3 Predictor Array:
+[0.8645610798763307, 0.8846835724374356, 0.2857769378487435, 0.6824423386788782, 0.9544627275509906, 0.20302824248587614, 0.7096610123907814, 0.14506370536018798, 0.9098615041358358, 0.09455983274956647, 0.30225190052198614, 0.1566951563394814, 0.8465718784597411, 0.5414929157505689, 0.1051649579352597, 0.8747404035439431, 0.08732326208187513, 0.6266274390569312, 0.8305002409423592, 0.20096396712231623, 0.5900344033030628, 0.38561019772946514, 0.6481032677472873, 0.0929434060129688, 0.03732832528892094, 0.6743122081561146, 0.7216948083869331]
+Glycerol Stoichiometry Array:
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1.]
+Citric Acid Stoichiometry Array:
+[1.0745, 0.7682, 0.4086, 0.6365, 1.8593, 0.3477, 1.1403, 0.1707, 1.1997, 0.0482, 0.377, 0.2107, 0.6972, 0.9398, 0.1268, 1.2794, 0.1434, 0.6826, 0.7451, 0.3322, 1.1318, 0.7357, 0.9365, 0.0791, 0.0383, 0.4445, 1.1286]
+Itaconic Acid Stoichiometry Array:
+[0.1451, 0.1251, 0.8539, 0.3958, 0.085, 1.0551, 0.3492, 1.2545, 0.1165, 1.5142, 0.9907, 1.0849, 0.177, 0.5607, 1.7872, 0.2362, 1.0113, 0.7075, 0.2251, 0.9372, 0.5488, 0.9742, 0.4588, 1.6202, 1.4426, 0.453, 0.5203]
+Silicone Mould Masses Array:
+[3.22, 3.11, 3.27, 3.25, 3.23, 3.29, 3.34, 3.16, 3.27, 3.3, 3.28, 3.31, 3.48, 3.33, 3.15, 3.19, 3.27, 3.01, 3.11, 3.23, 3.23, 3.22, 3.14, 3.19, 3.29, 3.34, 3.31]
+Silicone Mould & Prepolymer Masses Array:
+[5.87, 6.04, 6.29, 6.44, 5.6, 6.48, 6.15, 6.27, 6.28, 6.33, 6.2, 6.5, 6.6, 6.35, 6.31, 6.03, 6.33, 6.02, 6.25, 6.43, 6.17, 6.41, 6.43, 6.44, 6.5, 6.65, 6.25]
+Prepolymer Masses Array:
+[2.65, 2.93, 3.02, 3.1900000000000004, 2.3699999999999997, 3.1900000000000004, 2.8100000000000005, 3.1099999999999994, 3.0100000000000002, 3.0300000000000002, 2.9200000000000004, 3.19, 3.1199999999999997, 3.0199999999999996, 3.1599999999999997, 2.8400000000000003, 3.06, 3.01, 3.14, 3.1999999999999997, 2.94, 3.19, 3.2899999999999996, 3.2500000000000004, 3.21, 3.3100000000000005, 2.94]
+Time of Oven Insertion Array:
+['2023-03-14 13:16:55', '2023-03-14 13:22:48', '2023-03-14 13:31:35', '2023-03-14 13:39:21', '2023-03-14 13:47:38', '2023-03-14 13:57:14', '2023-03-14 14:04:58', '2023-03-14 14:13:25', '2023-03-14 14:21:57', '2023-03-14 14:30:59', '2023-03-14 14:38:21', '2023-03-14 14:43:54', '2023-03-14 14:49:32', '2023-03-14 14:56:03', '2023-03-14 15:05:23', '2023-03-14 15:11:40', '2023-03-14 15:17:30', '2023-03-14 15:22:59', '2023-03-14 15:29:51', '2023-03-14 15:36:41', '2023-03-14 15:43:31', '2023-03-14 15:49:54', '2023-03-14 15:56:16', '2023-03-14 16:05:06', '2023-03-14 16:14:13', '2023-03-14 16:21:09', '2023-03-14 16:27:43']
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

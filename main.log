@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  23 APR 2026 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  23 APR 2026 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -881,19 +881,19 @@ Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) (./Sections/A1_Title.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+) (./Sections/A1_Title.tex) (./Sections/B1_Abstract.tex) (./Sections/C1_Introduction.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)) (./Sections/B1_Abstract.tex) (./Sections/C1_Introduction.tex [1
+) [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./Sections/D1_Method.tex [3]
 Underfull \hbox (badness 6125) in paragraph at lines 2--13
@@ -928,7 +928,7 @@ File: Images/PolymerisableRange.png Graphic file (type png)
 Package pdftex.def Info: Images/PolymerisableRange.png  used on input line 189.
 (pdftex.def)             Requested size: 452.96793pt x 250.63354pt.
  [6 <./Images/SimpleReactionOverview.png>] [7 <./Images/PolymerisableRange.png>]
-<Images/OptimisationAlgorithm.png, id=39, 178.95859pt x 349.42545pt>
+<Images/OptimisationAlgorithm.png, id=40, 178.95859pt x 349.42545pt>
 File: Images/OptimisationAlgorithm.png Graphic file (type png)
 <use Images/OptimisationAlgorithm.png>
 Package pdftex.def Info: Images/OptimisationAlgorithm.png  used on input line 310.
@@ -1010,18 +1010,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26342 strings out of 473190
- 559782 string characters out of 5715801
+ 26321 strings out of 473190
+ 559400 string characters out of 5715801
  1457626 words of memory out of 5000000
- 49023 multiletter control sequences out of 15000+600000
- 589912 words of font info for 253 fonts, out of 8000000 for 9000
+ 49007 multiletter control sequences out of 15000+600000
+ 587617 words of font info for 243 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,18n,112p,1113b,1939s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 3143788 bytes).
+Output written on main.pdf (17 pages, 3143462 bytes).
 PDF statistics:
  178 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 57897 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 55849 words of extra memory for PDF output out of 61914 (max. 10000000)
 
