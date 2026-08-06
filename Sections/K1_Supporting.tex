@@ -1,0 +1,95 @@
+\section{Supporting Information}
+Here we include some peripheral elements of work that support
+ the paper.
+
+\subsection{Notes on Process-Energy Calculations}
+\label{subsec:NoPEC}
+
+\textcolor{blue}{
+Although this paper has focussed upon branching polyester
+ thermosets as an alternative to unsaturated polyester resin
+ derived thermosets on account of the relative ease with
+ which these materials may be prepared from bio-based feedstocks,
+ we acknowledge the fact that this does not inherently make this
+ family of polymer more sustainable than their conventional
+ counterparts.
+To prove this, one would first have to choose a suitable 
+ quantitative definition of sustainability (e.g. embodied carbon),
+ before engaging in a comprehensive life-cycle analysis for both
+ the methods by which thermosets were manufactured.
+}
+
+\textcolor{blue}{
+Although by no means a full life-cycle analysis of either route,
+ we have undertaken some modelling of the two system with a view
+ to elucidating whether the prolonged thermal cure time used for
+ branched poly(glycerol citrate itaconate) thermosets is likely
+ to impose an energy penalty relative to the unsaturated polyester 
+ resin route.
+This model is presented within a Jupyter notebook file 
+ entitled `calcs\_restructured\_uncertainty' (within the 
+ `Sandbox/EnergyCalculations' directory) in
+ the github repository associated with this paper.
+}
+
+\textcolor{blue}{
+Here, we establish two separate models, one for the branched system
+ and the other for the unsaturated polyester system.
+These models both consider the energy required to form prepolymers
+ from feedstocks and the subsequent energy required to cure these
+ prepolymers.
+Each model is based on a set of parameters, each parameter being
+ described by a triangular distribution, which allows propagation 
+ of uncertainty to be considered over the course of a large number
+ of simulations in a Monte Carlo fashion.
+}
+
+\textcolor{blue}{
+On conclusion of 20,000 Monte Carlo draws, it was concluded that
+ the more energy intensive route was that of branched polyester
+ thermoset manufacture (requiring an average of 5.4x the 
+ kWh~kg\textsuperscript{-1} of thermoset).
+Table~\ref{tab:SummaryOfEnergyModelling} provides an overview of
+ this exercise, and shows how the progagated error bounds 
+ surrounding the median values.
+Estimates of kWh~kg\textsuperscript{-1} yielded by the branched 
+ model were particularly sensitive toward power required to
+ maintain the oven temperature as well as the cure duration,
+ whilst the unsaturated polyester model was most sensitive toward
+ energy required to maintain reactor temperature, auxiliary power
+ requirements, and heat capacity of various elements.
+ }
+
+\small
+\begin{figure*}[htb]
+    \begin{center}
+        \begin{tblr}{
+            row{1} = {c},
+            cell{2}{2} = {r},
+            cell{2}{3} = {r},
+            cell{2}{4} = {r},
+            cell{3}{2} = {r},
+            cell{3}{3} = {r},
+            cell{3}{4} = {r},
+            cell{4}{2} = {r},
+            cell{4}{3} = {r},
+            cell{4}{4} = {r},
+            vline{2} = {-}{},
+            hline{2} = {-}{},
+            hline{4} = {-}{dashed},
+            }
+            Metric                                                  & 5\textsuperscript{th} Percentile & Median & 95\textsuperscript{th} Percentile \\
+            Branched Polyester Route (kWh kg\textsuperscript{-1})   & 24.4                             & 49.9   & 84.1           \\
+            Conventional UPR Route (kWh kg\textsuperscript{-1})     & 5.4                              & 9.2    & 14.6            \\
+            UPR/Branched Ratio                                      & 0.087                            & 0.186  & 0.431           
+        \end{tblr}
+        \captionof{table}{
+                \footnotesize{
+                    Summary of process-energy 
+                    modelling exercise.
+                }
+            }
+        \label{tab:SummaryOfEnergyModelling}
+    \end{center}
+\end{figure*}
+\normalsize
