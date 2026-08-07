@@ -74,7 +74,7 @@ Given that each molecule of water produced corresponds to an ester bond
 Thus, this research identifies mass loss as a metric of interest and sought
  to maximise this during optimisation of poly(glycerol citrate itaconate)
  synthesis: increasing the extent of polymerisation and thereby improving
- the degree of cross-linking and associated strength of these bio-based
+ the degree of crosslinking and associated strength of these bio-based
  thermosets.
 
 \subsection{Experimental Method}
@@ -114,7 +114,7 @@ Note, 140~\unit{\degreeCelsius} was adopted to accelerate dissolution
  acid \autocite{Alberts2017}.
 Secondly, prepolymer was cured into the desired thermoset by transferral to
  a silicone mould before being exposed to elevated temperatures
- (90~\unit{\degreeCelsius}) for an extended period (up to two weeks) within
+ (90~\unit{\degreeCelsius}) for an extended period (up to a week) within
  a drying oven.
 
 Preliminary experimentation showed that temperatures exceeding
@@ -131,11 +131,6 @@ As defined by Equation \ref{eq:MassLoss}, determination of mass loss
  obtained by measuring the difference between both the initial mass of
  prepolymer resin (\(m_{p}\)) and the final mass of cured thermoset
  (\(m_{t}\)).
-Measurements were made with a mass balance with a readability of
- 0.01~\unit{\gram} and repeatability of 0.01~\unit{\gram} (1\(\sigma\)).
-Since prepolymer masses weighed 3~\unit{\gram} and subsequently recorded
- mass losses ranged from between 0.3-0.9~\unit{\gram}, this mass balance
- was deemed sufficiently accurate for the purposes of this experiment.
 \begin{equation}\label{eq:MassLoss}
     \Delta m=m_{p}-m_{t}
 \end{equation}
@@ -146,6 +141,14 @@ Equation~\ref{eq:PctMassLoss} defines sample mass loss (\(\Delta m\))
 \begin{equation}\label{eq:PctMassLoss}
     \Delta m_{\%}=\frac{\Delta m\times 100}{m_{p}}
 \end{equation}
+\textcolor{ForestGreen}{Taking into account an initial prepolymer mass 
+ of 3~\unit{\gram}, a mass loss range spanning 0.2-0.6~\unit{\gram}, 
+ and a mass balance repeatability of 0.01~\unit{\gram} we could 
+ estimate the uncertainty with respect to \(\Delta m_{\%}\) using 
+ a Monte Carlo sampling exercise and some assumed distributions- 
+ this equated to 0.44~\% points with \(1\sigma=0.01\)~\% points 
+ (see supplementary information in Section~\ref{subsec:NoMEP}).
+}
 Residence time within the drying oven for a sample was controlled by
  periodic measurement of sample mass: mass was plotted against time, an
  exponential decay curve fitted, and the sample removed from the oven once
@@ -448,9 +451,11 @@ During the fitting of the Gaussian process, a covariance function is used to
 In this work we used a Mat\'ern covariance function containing a 
 hyperparameter controlling smoothness of functions drawn from the 
 Gaussian process.
-This was set to \(\nu=2.5\), encouraging the generation of relatively smooth
- functions, which was deemed acceptable given that preliminary sampling of
- the parameter space indicated a similar topography.
+This was set to \(\nu=2.5\),\textcolor{purple}{balancing the need
+ for smoothness in sample paths against the drawbacks of higher 
+ values of \(\nu\) (e.g. unphysical nature of infinitely 
+ differentiable functions or mathematical instabilities when
+ undertaking likelihood calculations)}.
 
 After generating a posterior, a simple one-step lookahead sampling
  policy was used to select a suitable next point \(\mathbf{x}\) within the
@@ -527,12 +532,22 @@ Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
 \end{equation}
 
 Gaussian processes and acquisition functions were implemented using two
- open-source packages: scikit-optimise ("skopt", v0.9.0) \autocite{Kernc2021}
+ open-source packages: scikit-optimize ("skopt", v0.9.0) \autocite{Kernc2021}
  and Ax ("ax-platform", v0.4.3) \autocite{Facebook2024}.
+\textcolor{ForestGreen}{
+Note that the Gaussian process regression models developed by these software
+ packages assumed that measured percentage mass loss values comprised both
+ an underlying composition-dependent response plus some independent and
+ normally distributed noise.
+Both the Ax and scikit-optimize packages inferred the homoscedastic noise
+ during the fitting of the Gaussian process, with \(\sigma\) values of 
+ 0.35\% points and 0.46\% points recorded respectively (this being for
+ the final Gaussian processes obtained at culmination of the two 
+ optimisation routines undertaken).
+}
 
 % ========================================================================================================================================================================================
 \subsection{Benchmarks}
-
 The sampling efficiency of the Bayesian sequential optimisation techniques
  was demonstrated by employing three simple benchmarks.
 These were derived using one-shot deterministic space-filling sampling techniques
@@ -597,7 +612,10 @@ Note, that some data obtained outside the sample limit was included in this
  sequential technique using the `probability of improvement' acquisition
  function.
 These were remarkably high, and represented the experimental
- global optimum discovered during the course of this work.
+ global optimum discovered during the course of this work- 
+ \textcolor{purple}{as opposed to the true global optimum associated
+ with the latent objective function, this term denotes the globally
+ optimal result given the experimental data available}.
 Care was taken to ensure the trained \(\mathcal{GP}\) faithfully
  replicated this region of optimality within the parameter space as well
  as the general trends of the objective function.

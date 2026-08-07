@@ -2,6 +2,39 @@
 Here we include some peripheral elements of work that support
  the paper.
 
+\subsection{Notes on Measurement Error Propagation}
+\label{subsec:NoMEP}
+\textcolor{ForestGreen}{
+To evaluate uncertainty associated with the percentage mass loss
+ metric we undertook some error propagation analysis by modelling
+ the process of obtaining values for this metric.
+This modelling was carried out in the Python programming language
+ and is detailed in a Jupyter notebook held within the Github
+ repository associated with this paper, it can be found
+ under the `Sandbox/UncertaintyProgagation' directory and is
+ entitled `UncertaintyModel.ipynb'.
+}
+
+\textcolor{ForestGreen}{
+By setting the initial mass of a given sample at 3~\unit{\gram}
+ and allowing the final mass to vary in accordance with a uniform
+ distribution between a lower and upper bound (as deduced by
+ from the two samples evaluated exhibiting the maximal and minimal
+ mass losses across all trials) we could simulate the drawing of
+ a random sample from across the parameter space each having its own
+ unique mass loss.
+Additionally, to model the measurement error which manifests itself
+ during the process of evaluating the initial mass and final mass
+ values we could employ normal distributions with standard deviations
+ equal to the repeatability of the scales employed (0.01~\unit{\gram}).
+By coupling these concepts together and undertaking a Monte Carlo
+ sampling exercise we could obtain estimates of the average
+ uncertainty associated with any given percentage mass loss value
+ considered in the present work; this was equal to 
+ 0.44~\% points (1\(\sigma\)=0.01\% points).
+}
+
+
 \subsection{Notes on Process-Energy Calculations}
 \label{subsec:NoPEC}
 
@@ -27,7 +60,7 @@ Although by no means a full life-cycle analysis of either route,
  to impose an energy penalty relative to the unsaturated polyester 
  resin route.
 This model is presented within a Jupyter notebook file 
- entitled `calcs\_restructured\_uncertainty' (within the 
+ entitled `calcs\_restructured\_uncertainty.ipynb' (within the 
  `Sandbox/EnergyCalculations' directory) in
  the github repository associated with this paper.
 }

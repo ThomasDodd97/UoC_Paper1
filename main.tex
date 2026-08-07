@@ -19,12 +19,10 @@
 \usepackage{amssymb}
 % Importing package allowing for the use of a degrees C symbol e.g. \degree
 \usepackage{textcomp, gensymb}
-% Colorise the text at will. e.g. \color{red} \textcolor[HTML]{EB7D3C}{CO}
-\usepackage{xcolor}
-\definecolor{CarboxylOrange}{HTML}{EB7D3C}
-\definecolor{HydroxylBlue}{HTML}{1DB1ED}
 % Importing a package to deal with captions outside the usual. e.g. captionof
 \usepackage{caption}
+% Colorise the text at will. e.g. \color{red} \textcolor[HTML]{EB7D3C}{CO}
+\usepackage[dvipsnames]{xcolor}
 % Importing a package allowing the changing of caption formats
 \usepackage{subcaption}
 \DeclareCaptionFormat{custom}{\textbf{#1#2}\textit{\small #3}}
@@ -59,6 +57,7 @@
 % \hypersetup{colorlinks=false,linkcolor=blue,filecolor=magenta,urlcolor=cyan}
 % Import a package capable of more complicated cross-referencing e.g. \cref{eq:StoichiometricEquation,eq:CitricAcidBounds,eq:ItaconicAcidBounds}
 \usepackage{cleveref}
+
 
 % % This is a code snipped stolen from online which fixes spacing above and below any equations I have written.
 % \expandafter\def\expandafter\normalsize\expandafter{%
