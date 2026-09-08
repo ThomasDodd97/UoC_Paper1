@@ -1,0 +1,38 @@
+A short note as to the work undertaken here:
+We were interested in ascertaining the extent to which mass loss correlates with a material property.
+This was spurred by the fact that mass loss was expected to relate to extent of polymerisation.
+Despite this being highly likely given the chemistry of the polymers studied there were caveats.
+To allay fair concerns surrounding these caveats we intended to practically prove a link.
+This link would be between the proxy variable (mass loss under curing) and a real physical property.
+This physical property would be measured practically alongside curing mass loss to summise the link.
+The physical property elected was mass loss of a cured sample after extended exposure to tetrahydrofuran.
+
+A brief introduction to the directory:
+As can be seen in this directory there were two batches of 5 samples prepared.
+The first was the FollowUpTest_100.
+This batch is of interest for wider trends but is not considered for the purposes of this overview.
+Reason being that this batch was exposed to a higher temperature than intended (100oC).
+We therefore focus upon data generated under the FollowUpTest_90.
+The samples prepared in this directory correspond to those cured at the correct temperature of 90oC.
+
+Experimental Overview:
+Five sample formulations which were expected to exhibit mass losses across the full observed range were sought.
+These formulations were practically prepared and cured in a drying oven set to 90oC as detailed in the paper.
+Mass loss under curing was ascertained for each of these cured samples.
+Cured samples were extracted in tetrahydrofuran for 12 hours at room temperature under continuous agitation.
+Recovered samples were dried before ascertaining mass loss under extraction.
+
+Notes on Experiment:
+Three specimens remained sufficiently intact for quantitative recovery of the insoluble material.
+Across these specimens, increasing mass loss (7.83, 8.74 and 9.00%) was accompanied by increasing 
+THF-insoluble fraction (28.8, 83.9 and 98.8%, respectively).
+Two further specimens disintegrated during THF exposure and could not be quantitatively recovered, 
+and were therefore treated as failed measurements rather than as zero insoluble fraction.
+Although limited in sample number, these measurements provide independent experimental support 
+for using curing mass loss as an empirical indicator of network formation. 
+We have revised the manuscript to avoid interpreting mass loss as a direct quantitative measure of 
+conversion or crosslink density.
+
+Observation:
+Fine swollen threads seen in after sample 5 was exposed to tetrahydrofuran, but couldn't be retrieved
+easily."
