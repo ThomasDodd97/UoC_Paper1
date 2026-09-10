@@ -141,14 +141,13 @@ Equation~\ref{eq:PctMassLoss} defines sample mass loss (\(\Delta m\))
 \begin{equation}\label{eq:PctMassLoss}
     \Delta m_{\%}=\frac{\Delta m\times 100}{m_{p}}
 \end{equation}
-\textcolor{ForestGreen}{Taking into account an initial prepolymer mass 
+Taking into account an initial prepolymer mass 
  of 3~\unit{\gram}, a mass loss range spanning 0.2-0.6~\unit{\gram}, 
  and a mass balance repeatability of 0.01~\unit{\gram} we could 
  estimate the uncertainty with respect to \(\Delta m_{\%}\) using 
  a Monte Carlo sampling exercise and some assumed distributions- 
  this equated to 0.44~\% points with \(1\sigma=0.01\)~\% points 
  (see supplementary information in Section~\ref{subsec:NoMEP}).
-}
 Residence time within the drying oven for a sample was controlled by
  periodic measurement of sample mass: mass was plotted against time, an
  exponential decay curve fitted, and the sample removed from the oven once
@@ -451,11 +450,11 @@ During the fitting of the Gaussian process, a covariance function is used to
 In this work we used a Mat\'ern covariance function containing a 
 hyperparameter controlling smoothness of functions drawn from the 
 Gaussian process.
-This was set to \(\nu=2.5\),\textcolor{purple}{balancing the need
+This was set to \(\nu=2.5\), balancing the need
  for smoothness in sample paths against the drawbacks of higher 
  values of \(\nu\) (e.g. unphysical nature of infinitely 
  differentiable functions or mathematical instabilities when
- undertaking likelihood calculations)}.
+ undertaking likelihood calculations).
 
 After generating a posterior, a simple one-step lookahead sampling
  policy was used to select a suitable next point \(\mathbf{x}\) within the
@@ -534,7 +533,6 @@ Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
 Gaussian processes and acquisition functions were implemented using two
  open-source packages: scikit-optimize ("skopt", v0.9.0) \autocite{Kernc2021}
  and Ax ("ax-platform", v0.4.3) \autocite{Facebook2024}.
-\textcolor{ForestGreen}{
 Note that the Gaussian process regression models developed by these software
  packages assumed that measured percentage mass loss values comprised both
  an underlying composition-dependent response plus some independent and
@@ -544,7 +542,7 @@ Both the Ax and scikit-optimize packages inferred the homoscedastic noise
  0.35\% points and 0.46\% points recorded respectively (this being for
  the final Gaussian processes obtained at culmination of the two 
  optimisation routines undertaken).
-}
+
 
 % ========================================================================================================================================================================================
 \subsection{Benchmarks}
@@ -613,9 +611,9 @@ Note, that some data obtained outside the sample limit was included in this
  function.
 These were remarkably high, and represented the experimental
  global optimum discovered during the course of this work- 
- \textcolor{purple}{as opposed to the true global optimum associated
+ as opposed to the true global optimum associated
  with the latent objective function, this term denotes the globally
- optimal result given the experimental data available}.
+ optimal result given the experimental data available.
 Care was taken to ensure the trained \(\mathcal{GP}\) faithfully
  replicated this region of optimality within the parameter space as well
  as the general trends of the objective function.
