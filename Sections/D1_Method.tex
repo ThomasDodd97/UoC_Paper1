@@ -155,6 +155,66 @@ Residence time within the drying oven for a sample was controlled by
  a pre-determined rate of mass loss was reached (this equated to around
  -0.028~\unit{\percent\per\hour} of the initial mass).
 
+\textcolor{RawSienna}{
+To provide independent evidence of network formation occurring as a
+ function of the sample mass loss proxy variable, a practical 
+ experiment was undertaken wherein five thermoset sample formulations 
+ were tested for gel fraction, with the method adapted from Susa et al
+ (2024) \autocite{Susa2024}.
+Gel fraction was ascertained by firstly taking an initial mass
+ measurement \(m_{\text{initial}}\) (in \unit{\gram}) of a cured thermoset 
+ sample.
+Secondly, this sample was exposed to room-temperature tetrahydrofuran
+ for a period of 12~hours under agitation, before being dried at 
+ 40~\unit{\degreeCelsius} until a constant mass reading was obtained 
+ \(m_{\text{dried}}\) (in \unit{\gram}).
+Thirdly, Equation~\ref{eq:GelContent} was used to ascertain a gel
+ content value \(g\) (in \%) for the thermoset sample considered.
+}
+
+\begin{equation}\label{eq:GelContent}
+    g=\frac{m_{\text{dried}}}{m_{\text{initial}}}
+\end{equation}
+
+\textcolor{RawSienna}{
+For the purposes of this particular experiment all measurements were 
+ undertaken using a microbalance with a readability of 
+ 0.01~\unit{\micro\gram}, Monte Carlo investigation of error progagation 
+ found the errors associated with both \(g\) and \(\Delta m_{\%}\) to 
+ therewith be negligible (around 0.0004~\% for both metrics).
+}
+
+\begin{center}
+    \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
+    \includegraphics[width=0.48\textwidth]{MassLossInvestigation.png}
+    \captionof{figure}{
+        \footnotesize{
+            Overview of the relationship between the mass loss proxy
+             variable and gel fraction associated with a given
+             formulation.
+            Numbering indicates the 3 samples which were recoverable
+             and characterised during the course of experimentation.
+        }
+    }
+    \label{fig:MassLossInvestigation}
+\end{center}
+
+\textcolor{RawSienna}{
+Having prepared and cured five different formulations from across the 
+ parameter space investigated, these samples were exposed to the 
+ tetrahydrofuran as described.
+Three of these remained sufficiently intact for quantitative recovery
+ of the insoluble material, across these, sample mass loss closely
+ followed gel fraction increase, as presented in 
+ Figure~\ref{fig:MassLossInvestigation}.
+Two samples disintegrated during tetrahydrofuran exposure and could not
+ be quantitatively recovered, and were therewith treated as failed
+ measurements rather than zero insoluble fraction.
+Despite the sample number limitation, this series of measurements support
+ the use of sample mass loss under curing as an empirical indicator of
+ network formation.
+}
+
 % ========================================================================================================================================================================================
 \subsection{Optimisation Framing}
 Having selected percentage mass loss within a thermoset sample

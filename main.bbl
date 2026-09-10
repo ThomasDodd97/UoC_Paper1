@@ -964,6 +964,33 @@
       \verb https://github.com/ThomasDodd97/BO4BT
       \endverb
     \endentry
+    \entry{Susa2024}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a4dad93488557598c7ba479e8e143999}{%
+           family={Susa},
+           familyi={S\bibinitperiod},
+           given={Arijana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b52032c250fe4153de2b748379e705f5}
+      \strng{fullhash}{b52032c250fe4153de2b748379e705f5}
+      \strng{bibnamehash}{b52032c250fe4153de2b748379e705f5}
+      \strng{authorbibnamehash}{b52032c250fe4153de2b748379e705f5}
+      \strng{authornamehash}{b52032c250fe4153de2b748379e705f5}
+      \strng{authorfullhash}{b52032c250fe4153de2b748379e705f5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RSC Applied Polymers}
+      \field{title}{A direct comparison of the thermal reprocessing potential of associative and dissociative reversible bonds in thermosets}
+      \field{volume}{2}
+      \field{year}{2024}
+      \field{pages}{945\bibrangedash 956}
+      \range{pages}{12}
+    \endentry
     \entry{Garud2017}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1010,8 +1037,8 @@
       \strng{authorbibnamehash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
       \strng{authornamehash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
       \strng{authorfullhash}{ae0eeab3f0059421bd4d8dbc00b7c47b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mathematics for Machine Learning}
