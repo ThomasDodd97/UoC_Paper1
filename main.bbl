@@ -1155,6 +1155,67 @@
       \verb https://github.com/facebook/Ax
       \endverb
     \endentry
+    \entry{Crombecq2011}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=b71f6f40b8b48748720a9f75eac618a8}{%
+           family={Crombecq},
+           familyi={C\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{fullhash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{bibnamehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{authorbibnamehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{authornamehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{authorfullhash}{58e50b00d2930f6d031fb9c197717660}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{title}{Efficient space-filling and non-collapsing sequential design strategies for simulation-based models}
+      \field{volume}{214}
+      \field{year}{2011}
+      \field{pages}{683\bibrangedash 696}
+      \range{pages}{14}
+    \endentry
+    \entry{ChenT2026}{software}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{fullhash}{4a1b902110b26e322484f62946cb7718}
+      \strng{bibnamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authorbibnamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authornamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authorfullhash}{4a1b902110b26e322484f62946cb7718}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{8}
+      \field{title}{xgboost: Extreme Gradient Boosting}
+      \field{version}{3.4.1}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/dmlc/xgboost
+      \endverb
+      \verb{url}
+      \verb https://github.com/dmlc/xgboost
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

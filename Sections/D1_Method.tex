@@ -424,8 +424,7 @@ On evaluation of the initial representative set of samples
  an initial prior-forming dataset (\(\mathbb{D}^{i=p_{\text{init}}}\)) is produced.
 In practice, only one quasirandomly sampled initial prior-forming dataset 
  (\(\mathbb{D}^{i=8}\)) was generated and used (visualised in Figure 
- \ref{fig:BayesianPriorsAbbreviated}); this allowed a fair
- inter-comparison of the two Bayesian optimisation routines attempted.
+ \ref{fig:BayesianPriorsAbbreviated}).
 As an aside, a relatively smooth topography witnessed during preliminary
  experimentation in lower dimensions was the justification for the
  use of only 8 samples during initial quasirandom sampling.
@@ -440,7 +439,7 @@ As an aside, a relatively smooth topography witnessed during preliminary
             \(s_{2}\), and \(b_{1}\) (as in equations
             \ref{eq:CitricAcidStoichiometricPredictorLink} and
             \ref{eq:ItaconicAcidStoichiometricPredictorLink}), which provide
-            the prior-initialising dataset for the Bayesion routines.
+            the prior-initialising dataset for the Bayesian routine.
             Coloration of points denote distance from viewer with darker 
             points appearing further away.
         }
@@ -540,7 +539,7 @@ The first was predicated on the `probability of improvement' acquisition
  produce an updated dataset \(\mathbb{D}^{\prime}\) which generates a higher
  evaluation from the utility function than some absolute threshold \(\tau\).
 The probability of a sample exceeding the current best is deduced using the
- current posterior \(\mathcal{GP}\)'s mean (\(m(\textbf{x})\))and standard
+ current posterior \(\mathcal{GP}\)'s mean (\(m(\textbf{x})\)) and standard
  deviation (\(\sqrt{K(\mathbf{x},\mathbf{x})}\)) measured at that sample
  position.
 % Note, this work made the absolute threshold equal to an evaluation of the
@@ -591,6 +590,10 @@ Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
     \mathbf{x}^{+}=\argmaxA_{\mathbf{x}\in A}\alpha(\mathbf{x})
 \end{equation}
 
+\textcolor{RawSienna}{In the present work both of these acquisition functions
+ are employed during computational experiments concerning an emulated
+ parameter space, whilst only probability of improvement was deployed in
+ practice.}
 Gaussian processes and acquisition functions were implemented using two
  open-source packages: scikit-optimize ("skopt", v0.9.0) \autocite{Kernc2021}
  and Ax ("ax-platform", v0.4.3) \autocite{Facebook2024}.
@@ -600,68 +603,243 @@ Note that the Gaussian process regression models developed by these software
  an underlying composition-dependent response plus some independent and
  normally distributed noise.
 Both the Ax and scikit-optimize packages inferred the homoscedastic noise
- during the fitting of the Gaussian process, with \(\sigma\) values of 
- 0.35\% points and 0.46\% points recorded respectively (this being for
- the final Gaussian processes obtained at culmination of the two 
- optimisation routines undertaken).
+ during the fitting of the Gaussian process, with the \(\sigma\) value
+ being equal to 0.46\% points for the scikit-optimize fitted \(\mathcal{GP}\)
+ (at culmination of the practically-undertaken optimisation routine).
+}
+
+\subsubsection{One-Shot Space-Filling Sampling}
+\textcolor{RawSienna}{
+To facilitate gauging of Bayesian techniques' sample efficacy two simple
+ one-shot sampling techniques were deployed so that benchmark values could
+ be obtained.
+This was achieved by using either pseudorandom or quasirandom (Sobol) sampling 
+ techniques to disperse the maximum allowable number of samples 
+ (\(p_{\text{tot}}=27\)) across the parameter space \(A\).
+Subsequently, for any technique deployed, all samples, \(\mathbf{X}\), were 
+ evaluated, \(f(\mathbf{X})\), to retrieve associated target variable 
+ values, \(\mathbf{\Delta m_{\%}}\), generating a complete dataset \(\mathbb{D}\).
+The highest target variable value was identified within each technique's dataset 
+ (\(\Delta m_{\%}^{\circ}\)) and equated to a benchmark value.
+The present work deployed both during computational experiments, whilst only
+ the pseudorandom sampler saw practical application- Figure~\ref{fig:Benchmarks}
+ visualises the spread of samples it generated, and on functional evaluation of
+ this set the best mass loss discovered was recovered
+ \(\Delta m_{\%}^{\circ}=14.01\).
+}
+
+\begin{center}
+    \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
+    \includegraphics[width=0.48\textwidth]{Benchmarks.png}
+    \captionof{figure}{
+        \footnotesize{
+            Spread of the 27 samples drawn by the space-filling one-shot 
+             pseudorandom sampling  technique during practical experimentation.
+            Coloration of points denote distance from viewer with darker 
+             points appearing further away.
+        }
+    }
+    \label{fig:Benchmarks}
+\end{center}
+
+\subsubsection{Sequential Space-Filling Sampling}
+\textcolor{RawSienna}{
+To provide a more robust comparator of the Bayesian techniques, a second 
+ sequential sampling technique was employed during computational 
+ experimentation.
+Here, we re-constructed a sequential space-filling sampling technique
+ developed by Crombecq et al. (2011) called the
+ mc-intersite-proj-th (MIPT) algorithm \autocite{Crombecq2011}.
+At each iteration during a sequential sampling routine this 
+ objective-indifferent technique undertakes a Monte Carlo style
+ sampling exercise, wherein each of the vast number of putative candidates 
+ have their ability to fill space (within the parameter space and between
+ the samples evaluated so far) quantified and the strongest candidate
+ selected for evaluation.
 }
 
 % ========================================================================================================================================================================================
 \subsection{Benchmarks}
-The sampling efficiency of the Bayesian sequential optimisation techniques
+
+\sout{The sampling efficiency of the Bayesian sequential optimisation techniques
  was demonstrated by employing three simple benchmarks.
 These were derived using one-shot deterministic space-filling sampling techniques
  including pseudorandom, quasirandom (Sobol), and grid sampling to disperse the 
  maximum allowable number of samples (\(p_{\text{tot}}=27\)) across the parameter 
  space \(A\) (See Figure~\ref{fig:Benchmarks}).
-\begin{figure*}[htb]
-    \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
-    \includegraphics[width=\textwidth]{Benchmarks}
-    \captionof{figure}{\footnotesize{Deterministic space-filling one-shot sampling techniques. Coloration of points denote distance from viewer with darker points appearing further away.}}
-    \label{fig:Benchmarks}
-\end{figure*}
+}
+
+\sout{
 Subsequently, for each of the techniques deployed, all samples, \(\mathbf{X}\), were 
  evaluated, \(f(\mathbf{X})\), to retrieve associated target variable 
  values, \(\mathbf{\Delta m_{\%}}\), generating a complete dataset \(\mathbb{D}\).
 The highest target variable value was identified within each technique's dataset 
 (\(\Delta m_{\%}^{\circ}\)) and equated to the benchmark value 
-(See Table~\ref{tab:BenchmarkBestValues}).\
+% (See Table~\ref{tab:BenchmarkBestValues}).
+}
+
+% \footnotesize
+% \begin{center}
+%     \begin{tblr}{colspec={Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]},row{1}={guard},column{1}={guard}}
+%         {Benchmark\\Technique}&{Max\\(\%)}&{Mean\\(\%)}&{Standard\\Dev. (\%)}\\
+%         \hline
+%         Grid & 16.24 & 11.93 & 1.66 \\
+%         Quasirandom & 14.55 & 12.34 & 1.43 \\
+%         Pseudorandom & 14.01 & 12.54 & 0.88 \\
+%     \end{tblr}
+%     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
+%     \captionof{table}{
+%         \footnotesize{
+%             Statistical overview of mass loss, \(\Delta m_{\%}\), target
+%             variable evaluations obtained from each of the three 27-sample
+%             datasets generated by the one-shot deterministic sampling
+%             techniques used as benchmarks.
+%             `Max' equates to the highest discovered mass loss,
+%             (\(\Delta m_{\%}^{\circ}\)), `Mean' is the population mean, and
+%             `Standard Dev.' relates to the standard deviation.
+%         }
+%     }
+%     \label{tab:BenchmarkBestValues}
+% \end{center}
+% \normalsize
+
+% ========================================================================================================================================================================================
+\subsection{Emulation of Physical System}
+Since repeated experimental optimisation was impractical, a computational
+ emulator of the physical system was constructed to facilitate statistical
+ comparison of the sampling strategies.
+\textcolor{RawSienna}{
+In fact, five emulators were developed, four being based on Gaussian processes
+ (with differing covariance functions and hyperparameterisations) whilst the 
+ fifth employed gradient boosted decision trees (GBDT).
+The dataset informing these emulators development was comprised of all 
+ experimentally evaluated samples from both preliminary investigation of
+ the parameter space, preparation of the pseudorandom benchmark, and 
+ the Bayesian optimisation routine employing the probability of improvement
+ acquisition function.
+This consolidated dataset consisted of 83 stoichiometric variable arrays
+ (e.g. \({n_{ci},n_{it}}\)) and associated target variable evaluations
+ (e.g. \(\Delta m_{\%}\)).
+Predictor variable arrays were eschewed as the intent was to train emulators
+ capable of predicting \(\Delta m_{\%}\) from \({n_{ci},n_{it}}\), reasoning
+ being two-fold: firstly, predictor variable arrays are trivially converted
+ into stoichiometric variable arrays.
+Secondly, emulators are more easily trained in lower dimensional settings.
+}
+
+\textcolor{RawSienna}{
+Subsequently, the consolidated dataset was split (33:66) into both
+ test and train sets.
+To ensure a suitably representative train set and difficult-to-predict
+ test set, a two step process was undertaken.
+Firstly, Monte Carlo sampling was used to identify candidate test/train
+ splits which exhibited the least spatial overlap between test and train
+ samples.
+Secondly, from amongst the highest scoring of candidates, a test/train
+ split was manually selected which displayed both a representative train
+ set spread and a test set which included at least one point in the vicinity
+ of the highest \(\Delta m_{\%}\) sample.
+Figure~\ref{fig:TestTrainSplit} provides an overview of the test/train
+ split finally adopted.
+}
+
+\begin{center}
+    \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
+    \includegraphics[width=0.48\textwidth]{TestTrainSplit.png}
+    \captionof{figure}{
+        \footnotesize{
+            Overview of the test/train split undertaken with
+             respect to the consolidated dataset.
+            Bounds describe the outer edges of the parameter space.
+        }
+    }
+    \label{fig:TestTrainSplit}
+\end{center}
+
+\textcolor{RawSienna}{
+Using the train set, five models were trained: firstly, a series of
+ three Gaussian processes which employed the Matérn kernel were trained,
+ with each of these employing a monotonically increasing value of
+ \(\nu=[0.5,1.5,2.5]\) (respectively denoted as ``GP-Mat-05'', 
+ ``GP-Mat-15'', and ``GP-Mat-25'').
+Secondly, a separate Gaussian process was trained which employed the
+ radial basis function as its kernel (denoted ``GP-Rbf'').
+Thirdly, the XGBoost package was used to train a gradient boosted
+ decision tree model (denoted ``Xgb'') \autocite{ChenT2026}.
+Figure~\ref{fig:EmulatedSpaces} provides a comparison of the
+ five emulators with respect to the functional landscape which
+ they produce when queried over the entire parameter space.
+}
+
+\begin{figure*}[htb]
+    \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
+    \includegraphics[width=\textwidth]{EmulatedSpaces.png}
+    \captionof{figure}{
+        \footnotesize{
+            Contour plots describing the functional landscapes
+             across the parameter space as emulated by the five
+             different surrogate models.
+            Bounds describe the outer edges of the parameter space.
+            GBDT: gradient boosted decision tree.
+        }
+    }
+    \label{fig:EmulatedSpaces}
+\end{figure*}
+
+\textcolor{RawSienna}{
+By predicting on each array of stoichiometric variable values from the 
+ withheld test dataset, a given emulator could provide a predicted target
+ variable value array.
+In turn, this array could be used to gauge an emulator's performance by
+ measuring either the mean squared error (MSE) or the root mean squared 
+ error (RMSE) between it and the withheld test dataset's array of target 
+ variable values.
+Table~\ref{tab:EmulatorPerformance} presents the performance of the five
+ emulators with respect to these two metrics, as well as providing the
+ emulator's global optimum target variable values.
+It is clear that although the GP-Rbf emulator displays the strongest 
+ performance in terms of RMSE and MSE, it fails to replicate the
+ experimental global optimum value (\(15.14\% \ll 20.77\%\)); as opposed
+ to the true global optimum associated with the latent objective function,
+ this term denotes the globally optimal result given the experimental
+ data available.
+Meanwhile, emulator GP-Mat-05 provides both an emulated global optimum 
+ approaching the experimental global optimum value 
+ (\(18.57\% \approx 20.77\%\)) whilst retaining similarly low values for 
+ both RMSE and MSE, making it a more robust model of the experimental data
+ available.
+}
 
 \footnotesize
 \begin{center}
     \begin{tblr}{colspec={Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]Q[si={table-format=3.2},l]},row{1}={guard},column{1}={guard}}
-        {Benchmark\\Technique}&{Max\\(\%)}&{Mean\\(\%)}&{Standard\\Dev. (\%)}\\
+        {Emulator}&{RMSE\\(\%)}&{MSE\\(\%\(^{2}\))}&{Max\\(\%)}\\
         \hline
-        Grid & 16.24 & 11.93 & 1.66 \\
-        Quasirandom & 14.55 & 12.34 & 1.43 \\
-        Pseudorandom & 14.01 & 12.54 & 0.88 \\
+        GP-Mat-05   & 1.416 & 2.005 & 18.57 \\
+        GP-Mat-15   & 1.435 & 2.058 & 18.27 \\
+        GP-Mat-25   & 1.444 & 2.085 & 18.29 \\
+        GP-Rbf      & 1.414 & 1.999 & 15.14 \\
+        Xgb         & 1.486 & 2.209 & 19.14 \\
     \end{tblr}
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
     \captionof{table}{
         \footnotesize{
-            Statistical overview of mass loss, \(\Delta m_{\%}\), target
-            variable evaluations obtained from each of the three 27-sample
-            datasets generated by the one-shot deterministic sampling
-            techniques used as benchmarks.
-            `Max' equates to the highest discovered mass loss,
-            (\(\Delta m_{\%}^{\circ}\)), `Mean' is the population mean, and
-            `Standard Dev.' relates to the standard deviation.
+            Comparison of emulator's performance in predicting
+             upon the withheld test dataset.
+            MSE: Mean squared error.
+            RMSE: Root mean squared error.
+            Max: The emulated global optimum target variable value.
         }
     }
-    \label{tab:BenchmarkBestValues}
+    \label{tab:EmulatorPerformance}
 \end{center}
 \normalsize
 
-% ========================================================================================================================================================================================
-\subsection{Emulation of Physical System}
-
-Since repeated experimental optimisation was impractical, a computational
- emulator of the physical system was constructed to facilitate statistical
- comparison of the sampling strategies.
+\sout{
 The emulator was trained on a combined dataset of all experimentally evaluated
-samples from both the benchmark and sequential optimisation methods and was used
-as an approximate, data-driven, representation of the objective function within
-the region of parameter space explored experimentally.
+ samples from both the benchmark and sequential optimisation methods and was used
+ as an approximate, data-driven, representation of the objective function within
+ the region of parameter space explored experimentally.
 Subsequently, a Gaussian process \(\mathcal{GP}\) was trained on this
  master dataset using the parameterisations described earlier-
  the resultant mean function \(m(\mathbf{x})\) then being used as an
@@ -679,3 +857,4 @@ These were remarkably high, and represented the experimental
 Care was taken to ensure the trained \(\mathcal{GP}\) faithfully
  replicated this region of optimality within the parameter space as well
  as the general trends of the objective function.
+}

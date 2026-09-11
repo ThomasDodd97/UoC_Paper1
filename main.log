@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  10 SEP 2026 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  11 SEP 2026 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -948,14 +948,60 @@ Package pdftex.def Info: Images//OptimisationAlgorithm.png  used on input line 3
 <Images//BayesianPriorsAbbreviated.png, id=48, 249.78319pt x 248.6088pt>
 File: Images//BayesianPriorsAbbreviated.png Graphic file (type png)
 <use Images//BayesianPriorsAbbreviated.png>
-Package pdftex.def Info: Images//BayesianPriorsAbbreviated.png  used on input line 435.
+Package pdftex.def Info: Images//BayesianPriorsAbbreviated.png  used on input line 434.
 (pdftex.def)             Requested size: 217.42267pt x 216.3979pt.
  [9 <./Images//OptimisationAlgorithm.png>] [10 <./Images//BayesianPriorsAbbreviated.png>]
-<Images//Benchmarks.png, id=62, 359.27223pt x 114.45761pt>
+<Images//Benchmarks.png, id=62, 325.28728pt x 292.6935pt>
 File: Images//Benchmarks.png Graphic file (type png)
 <use Images//Benchmarks.png>
-Package pdftex.def Info: Images//Benchmarks.png  used on input line 619.
-(pdftex.def)             Requested size: 452.96793pt x 144.31512pt.
+Package pdftex.def Info: Images//Benchmarks.png  used on input line 633.
+(pdftex.def)             Requested size: 217.42267pt x 195.63914pt.
+ [11 <./Images//Benchmarks.png>]
+Underfull \hbox (badness 5578) in paragraph at lines 664--671
+|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--671
+|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--671
+|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--671
+|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--671
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 672--680
+|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 672--680
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+<Images//TestTrainSplit.png, id=67, 361.35pt x 289.08pt>
+File: Images//TestTrainSplit.png Graphic file (type png)
+<use Images//TestTrainSplit.png>
+Package pdftex.def Info: Images//TestTrainSplit.png  used on input line 748.
+(pdftex.def)             Requested size: 217.42267pt x 173.93895pt.
+[12 <./Images//TestTrainSplit.png>]
+<Images//EmulatedSpaces.png, id=72, 867.24pt x 271.0125pt>
+File: Images//EmulatedSpaces.png Graphic file (type png)
+<use Images//EmulatedSpaces.png>
+Package pdftex.def Info: Images//EmulatedSpaces.png  used on input line 776.
+(pdftex.def)             Requested size: 452.96793pt x 141.55173pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -964,13 +1010,48 @@ Package pdftex.def Info: Images//Benchmarks.png  used on input line 619.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) (./Sections/E1_Results.tex [11]
-<Images//ResultOverview.png, id=66, 356.65245pt x 142.01054pt>
+) (./Sections/E1_Results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 838--2
+|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--2
+|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 838--2
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 838--2
+|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--2
+|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--2
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Overfull \hbox (644.87892pt too wide) in paragraph at lines 838--2
+|   []
+ []
+
+[13]
+<Images//ResultOverview.png, id=77, 356.65245pt x 142.01054pt>
 File: Images//ResultOverview.png Graphic file (type png)
 <use Images//ResultOverview.png>
 Package pdftex.def Info: Images//ResultOverview.png  used on input line 39.
 (pdftex.def)             Requested size: 452.96793pt x 180.37305pt.
- [12 <./Images//Benchmarks.png>]
+ [14 <./Images//EmulatedSpaces.png>]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -979,23 +1060,23 @@ Package pdftex.def Info: Images//ResultOverview.png  used on input line 39.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [13 <./Images//ResultOverview.png>]
-<Images//SimulationResultOverview.png, id=75, 361.35pt x 103.52678pt>
+ [15 <./Images//ResultOverview.png>]
+<Images//SimulationResultOverview.png, id=86, 361.35pt x 103.52678pt>
 File: Images//SimulationResultOverview.png Graphic file (type png)
 <use Images//SimulationResultOverview.png>
 Package pdftex.def Info: Images//SimulationResultOverview.png  used on input line 140.
 (pdftex.def)             Requested size: 452.96793pt x 129.77618pt.
-) (./Sections/F1_Conclusion.tex [14]) (./Sections/G1_Conflicts.tex) (./Sections/I1_Acknowledgements.tex) (./Sections/J1_Bibliography.tex
+) (./Sections/F1_Conclusion.tex [16]) (./Sections/G1_Conflicts.tex) (./Sections/I1_Acknowledgements.tex) (./Sections/J1_Bibliography.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [15 <./Images//SimulationResultOverview.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 \OT1/cmr/m/n/12 (+20) trieved 16th Oc-to-ber 2025. In-
  []
 
-
+[17 <./Images//SimulationResultOverview.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 \OT1/cmr/m/n/12 (+20) trieved 27th Oc-to-ber 2025. In-
  []
@@ -1005,17 +1086,17 @@ Underfull \hbox (badness 6510) in paragraph at lines 2--2
 \OT1/cmtt/m/n/12 https : / / www . iea . org /
  []
 
-[16]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 []\OT1/cmr/m/n/12 (+20) H^^\jlund-Dodd, T. \OT1/cmr/m/it/12 (+20) BO4BT \OT1/cmr/m/n/12 (+20) ver-
  []
 
-[17]) (./Sections/K1_Supporting.tex
+[19]) (./Sections/K1_Supporting.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/17.28 (+20) Supporting In-for-ma-
  []
 
-[18]
+[20]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1024,32 +1105,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) [19] [20] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+) [21] [22] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26181 strings out of 476025
- 552343 string characters out of 5790017
- 1876388 words of memory out of 5000000
- 46027 multiletter control sequences out of 15000+600000
- 544005 words of font info for 253 fonts, out of 8000000 for 9000
+ 26225 strings out of 476025
+ 553592 string characters out of 5790017
+ 1902388 words of memory out of 5000000
+ 46062 multiletter control sequences out of 15000+600000
+ 544369 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,18n,112p,1113b,1904s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 58i,18n,109p,1113b,1904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (20 pages, 3670970 bytes).
+Output written on main.pdf (22 pages, 5687692 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61998 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 62008 words of extra memory for PDF output out of 74296 (max. 10000000)
 
