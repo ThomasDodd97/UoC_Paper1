@@ -141,7 +141,7 @@ Equation~\ref{eq:PctMassLoss} defines sample mass loss (\(\Delta m\))
 \begin{equation}\label{eq:PctMassLoss}
     \Delta m_{\%}=\frac{\Delta m\times 100}{m_{p}}
 \end{equation}
-\textcolor{ForestGreen}{Taking into account an initial prepolymer mass 
+\textcolor{RawSienna}{Taking into account an initial prepolymer mass 
  of 3~\unit{\gram}, a mass loss range spanning 0.2-0.6~\unit{\gram}, 
  and a mass balance repeatability of 0.01~\unit{\gram} we could 
  estimate the uncertainty with respect to \(\Delta m_{\%}\) using 
@@ -161,15 +161,16 @@ To provide independent evidence of network formation occurring as a
  experiment was undertaken wherein five thermoset sample formulations 
  were tested for gel fraction, with the method adapted from Susa et al
  (2024) \autocite{Susa2024}.
-Gel fraction was ascertained by firstly taking an initial mass
- measurement \(m_{\text{initial}}\) (in \unit{\gram}) of a cured thermoset 
- sample.
+Tetrahydrofuran-insoluble fraction was ascertained by firstly 
+ taking an initial mass measurement \(m_{\text{initial}}\) 
+ (in \unit{\gram}) of a cured thermoset sample.
 Secondly, this sample was exposed to room-temperature tetrahydrofuran
  for a period of 12~hours under agitation, before being dried at 
  40~\unit{\degreeCelsius} until a constant mass reading was obtained 
  \(m_{\text{dried}}\) (in \unit{\gram}).
-Thirdly, Equation~\ref{eq:GelContent} was used to ascertain a gel
- content value \(g\) (in \%) for the thermoset sample considered.
+Thirdly, Equation~\ref{eq:GelContent} was used to ascertain a 
+ tetrahydrofuran-insoluble fraction value \(g\) (in \%) for the 
+ thermoset sample considered.
 }
 
 \begin{equation}\label{eq:GelContent}
@@ -510,7 +511,7 @@ During the fitting of the Gaussian process, a covariance function is used to
 In this work we used a Mat\'ern covariance function containing a 
 hyperparameter controlling smoothness of functions drawn from the 
 Gaussian process.
-This was set to \(\nu=2.5\),\textcolor{purple}{balancing the need
+This was set to \(\nu=2.5\),\textcolor{RawSienna}{balancing the need
  for smoothness in sample paths against the drawbacks of higher 
  values of \(\nu\) (e.g. unphysical nature of infinitely 
  differentiable functions or mathematical instabilities when
@@ -597,7 +598,7 @@ Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
 Gaussian processes and acquisition functions were implemented using two
  open-source packages: scikit-optimize ("skopt", v0.9.0) \autocite{Kernc2021}
  and Ax ("ax-platform", v0.4.3) \autocite{Facebook2024}.
-\textcolor{ForestGreen}{
+\textcolor{RawSienna}{
 Note that the Gaussian process regression models developed by these software
  packages assumed that measured percentage mass loss values comprised both
  an underlying composition-dependent response plus some independent and
@@ -851,9 +852,9 @@ Note, that some data obtained outside the sample limit was included in this
  function.
 These were remarkably high, and represented the experimental
  global optimum discovered during the course of this work- 
- \textcolor{purple}{as opposed to the true global optimum associated
+ as opposed to the true global optimum associated
  with the latent objective function, this term denotes the globally
- optimal result given the experimental data available}.
+ optimal result given the experimental data available.
 Care was taken to ensure the trained \(\mathcal{GP}\) faithfully
  replicated this region of optimality within the parameter space as well
  as the general trends of the objective function.

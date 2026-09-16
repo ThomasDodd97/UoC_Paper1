@@ -41,15 +41,15 @@ Given the sequential samples available (\(p_{\text{tot}}-p_{\text{init}}=19\))
 Figure \ref{fig:ResultOverview} shows that the sequential Bayesian technique 
  employing the `expected improvement' (EI - solid green line) acquisition 
  function discovered a point
- \textcolor{ForestGreen}{which makes a statistically significant improvement
- upon the strongest one-shot benchmark} exceeding the strongest one-shot 
+ which makes a statistically significant improvement
+ upon the strongest one-shot benchmark exceeding the strongest one-shot 
  technique in almost half the allowable samples (63\% \(p_{\text{tot}}\)).
 In contrast, the `probability of improvement' (PI - solid blue line) 
- acquisition function \textcolor{ForestGreen}{failed to make a statistically 
+ acquisition function failed to make a statistically 
  significant improvement upon the grid sampled benchmark within the sample 
  limit, although the sample drawn on the sample limit 
  (100\% \(p_{\text{tot}}\)) did make significant improvements upon both the 
- pseudo/quasi-random benchmarks}; this was consistent with the 
+ pseudo/quasi-random benchmarks; this was consistent with the 
  `probability of improvement' acquisition function exhibiting more 
  exploratory behaviour than the `expected improvement' acquisition function.
 Further evidence of the `probability of improvement' acquisition function's
@@ -208,7 +208,6 @@ Notably, the Bayesian sequential technique employing the 'probability of
 
 % ========================================================================================================================================================================================
 \subsection{Emulated System Optimisation}
-
 Since curing of a single prepolymer sample could take up to 
  \textcolor{RawSienna}{a week} \sout{2~weeks} to
  complete, the temporal expense of sampling the objective function was
@@ -375,7 +374,6 @@ Given the above, and \dots we could venture that the probability of having
              where \(\nu=0.5/1.5/2.5\) respectively.
             Rbf: Gaussian process emulator with RBF kernel.
             Xgb: XGBoost gradient boosted decision tree emulator.
-            Avg.: Average values across the various emulators.
         }
     }
     \label{tab:CompResOvervTab}
