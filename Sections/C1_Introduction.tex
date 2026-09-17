@@ -38,12 +38,12 @@ In addressing the industry's sustainability shortcoming identified above, the
  development of properties in future replacement materials that would 
  facilitate recycling \autocite{Liu2022}, such as introduction of chemically 
  cleavable bonds into the thermoset polymers used \autocite{Tesoro1990}.
-The motivation for present work was to ascertain whether Bayesian optimisation
+The motivation for the present work was to ascertain whether Bayesian optimisation
  could be used to sample efficiently improve the extent of polymerisation
  in a novel biodegradable bio-based thermoset.
 
 The composite matrix used for wind turbine blades is comprised of a moulding 
- thermoset, with the most prevalently manufactured pre-thermoset form being 
+ thermoset, with the most commonly manufactured pre-thermoset form being 
  general-purpose unsaturated polyester resin (GP-UPR) \autocite{Bobade2016}.
 These GP-UPRs are based on a mixture of a reactive diluent (e.g. styrene) and 
  a linear aromatic unsaturated polyester (e.g. poly(propylene maleate
@@ -109,7 +109,7 @@ Poly(glycerol citrate itaconate) is formed from its monomers by
  such as temperature, stoichiometric ratios, and additive presence 
  \autocite{Alberts2017}.
 Additionally, reaction times for rigid solid thermoset materials are on the
- order of \textcolor{purple}{days} when uncatalyzed 
+ order of \textcolor{purple}{days} when uncatalysed 
  \autocite{Trenkel2008} (catalysis commonly
  involves strong fuming acids which can corrode 
  equipment \autocite{Shukla2022}).
@@ -127,14 +127,14 @@ The population class evolutionary and particle swarm optimisation algorithms
  class of algorithms.
 Surrogate class algorithms are variously formulated, but the three major
  forms are distinguished by the surrogate models they leverage: polynomial
- response surface model, kriging (also known as gaussian process regression)
+ response surface model, kriging (also known as Gaussian process regression)
  and radial basis functions \autocite{Roeva2012}.
 Kriging is preferable to response surface modelling since it makes no
- assumption of polynomial order, avoiding a priori bias in surrogate models
- generated.
+ assumption of polynomial order, avoiding a priori bias in the 
+ surrogate models generated.
 Furthermore, radial basis function-based surrogate models provide no
  estimates of uncertainty around the fitted function; functions and
- associated uncertainties derived using kriging provides the means by which
+ associated uncertainties derived using kriging provide the means by which
  Bayesian optimisation effectively balances exploitation and exploration of
  the parameter space.
 Hence, for the development of a part-computational and 
@@ -166,7 +166,7 @@ Hereafter, we detail the algorithmic mechanism behind the Bayesian
  sampling strategy, sequential Bayesian acquisition functions, and 
  one-shot benchmark sampling routines applied during the course of this
  work.
-The method concludes with a brief overview of how the physical system
+The methods section concludes with a brief overview of how the physical system
  was computationally emulated such that Bayesian techniques could be
  simulated repeatedly to gain statistical insights.
 The results section is split between elucidation of results associated
@@ -177,9 +177,9 @@ The paper concludes that the Bayesian sequential routines succeeded in
  improving the mass loss metric from 48\% to 72\% of the theoretical 
  limit.
 \textcolor{RawSienna}{
-Whilst also statistically proving that the probability of
+Simulations further demonstrated statistically that the probability of
  improvement and expected improvement acquisition functions
- respectively exhibited a 23.8\% and 65.0\% probability of
+ respectively exhibited probabilities of 23.8\% and 65.0\%, respectively, of
  discovering values approaching the emulated global optimum,
  far surpassing the various benchmark techniques.
 }

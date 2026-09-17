@@ -5,10 +5,10 @@ An integrated experimental-computational methodology was developed to optimise
  setting.
 Programs were written in the Python programming language and developed into
  modules, whereafter these were united into a single package, ``BO4BT'', 
- available from it's Github repository (https://github.com/ThomasDodd97/BO4BT)
+ available from a GitHub repository (https://github.com/ThomasDodd97/BO4BT)
  alongside its dependencies.
 A .yaml configuration file is also provided which allows an identical
- Conda environment to be setup, allowing a user to run this code
+ Conda environment to be set up, allowing a user to run this code
  \autocite{HojlundDodd2024}.
 
 % ========================================================================================================================================================================================
@@ -105,11 +105,12 @@ The monomers glycerol (99+~\unit{\percent}), citric acid (99.6~\unit{\percent}),
     \label{fig:SimpleReactionOverview}
 \end{figure*}
 
-Thermoset synthesis was two-step: firstly, a homogenous prepolymer resin was 
- prepared by stirring solid monomers (acids) together with liquid monomer
+Thermoset synthesis was carried out in two steps: firstly, a homogenous 
+ prepolymer resin was prepared by stirring solid monomers (acids) together 
+ with liquid monomer
  (glycerol) atop a hotplate and raising the temperature to a maximum of 
  140~\unit{\degreeCelsius} until the solids were completely dissolved.
-Note, 140~\unit{\degreeCelsius} was adopted to accelerate dissolution
+The temperature of 140~\unit{\degreeCelsius} was chosen to accelerate dissolution
  without encouraging decarboxylation of the citric acid to itaconic
  acid \autocite{Alberts2017}.
 Secondly, prepolymer was cured into the desired thermoset by transferral to
@@ -145,7 +146,7 @@ Equation~\ref{eq:PctMassLoss} defines sample mass loss (\(\Delta m\))
  of 3~\unit{\gram}, a mass loss range spanning 0.2-0.6~\unit{\gram}, 
  and a mass balance repeatability of 0.01~\unit{\gram} we could 
  estimate the uncertainty with respect to \(\Delta m_{\%}\) using 
- a Monte Carlo sampling exercise and some assumed distributions- 
+ a Monte Carlo sampling procedure and some assumed distributions - 
  this equated to 0.44~\% points with \(1\sigma=0.01\)~\% points 
  (see supplementary information in Section~\ref{subsec:NoMEP}).
 }
@@ -159,15 +160,15 @@ Residence time within the drying oven for a sample was controlled by
 To provide independent evidence of network formation occurring as a
  function of the sample mass loss proxy variable, a practical 
  experiment was undertaken wherein five thermoset sample formulations 
- were tested for gel fraction, with the method adapted from Susa et al
+ were tested for gel fraction, with the method adapted from Susa et al.
  (2024) \autocite{Susa2024}.
-Tetrahydrofuran-insoluble fraction was ascertained by firstly 
+The tetrahydrofuran-insoluble fraction was ascertained by firstly 
  taking an initial mass measurement \(m_{\text{initial}}\) 
- (in \unit{\gram}) of a cured thermoset sample.
+ (in grams) of a cured thermoset sample.
 Secondly, this sample was exposed to room-temperature tetrahydrofuran
  for a period of 12~hours under agitation, before being dried at 
  40~\unit{\degreeCelsius} until a constant mass reading was obtained 
- \(m_{\text{dried}}\) (in \unit{\gram}).
+ \(m_{\text{dried}}\) (in grams).
 Thirdly, Equation~\ref{eq:GelContent} was used to ascertain a 
  tetrahydrofuran-insoluble fraction value \(g\) (in \%) for the 
  thermoset sample considered.
@@ -180,9 +181,9 @@ Thirdly, Equation~\ref{eq:GelContent} was used to ascertain a
 \textcolor{RawSienna}{
 For the purposes of this particular experiment all measurements were 
  undertaken using a microbalance with a readability of 
- 0.01~\unit{\micro\gram}, Monte Carlo investigation of error progagation 
+ 0.01~\unit{\micro\gram}, Monte Carlo investigation of error propagation 
  found the errors associated with both \(g\) and \(\Delta m_{\%}\) to 
- therewith be negligible (around 0.0004~\% for both metrics).
+ therewith to be negligible (around 0.0004~\% for both metrics).
 }
 
 \begin{center}
@@ -191,7 +192,7 @@ For the purposes of this particular experiment all measurements were
     \captionof{figure}{
         \footnotesize{
             Overview of the relationship between the mass loss proxy
-             variable and gel fraction associated with a given
+             variable and THF-insoluble fraction associated with a given
              formulation.
             Numbering indicates the 3 samples which were recoverable
              and characterised during the course of experimentation.
@@ -211,7 +212,7 @@ Three of these remained sufficiently intact for quantitative recovery
 Two samples disintegrated during tetrahydrofuran exposure and could not
  be quantitatively recovered, and were therewith treated as failed
  measurements rather than zero insoluble fraction.
-Despite the sample number limitation, this series of measurements support
+Despite the sample number limitation, this series of measurements supports
  the use of sample mass loss under curing as an empirical indicator of
  network formation.
 }
@@ -230,7 +231,7 @@ The polyesterification of monomers to polymer seen in
  equation linking monomeric reagents glycerol (G), itaconic acid (It), and 
  citric acid (Ci) with the product polymer poly(glycerol citrate itaconate) 
  (P(GCiIt)) and byproduct water.
-Equation~\ref{eq:StoichiometricEquation} introduces two stoichiometric
+Equation~\ref{eq:StoichiometricEquation} introduces three stoichiometric
  variables representing the moles of glycerol (\(n_{\text{G}}\)), citric acid
  (\(n_{\text{Ci}}\)) and itaconic acid (\(n_{\text{It}}\)), and a variable representing
  the unknown number of moles of water produced (\(v\)).
@@ -281,7 +282,7 @@ In addition to the basic polymerisable bounds imposed on the two
  stoichiometric variables, a further constraint must be imposed for a
  successful optimisation: it must be possible for permutations of
  prepolymer monomeric mixtures to allow one acid to entirely dominate the
- other whilst ensuring that a prepolymer will still polymerise- this
+ other whilst ensuring that a prepolymer will still polymerise - this
  constraint ensures that any polymerisable stoichiometric mixture of
  monomers is possible.
 To achieve this, a three-dimensional bounded domain (a.k.a. parameter
@@ -331,7 +332,7 @@ This black-box mapping is described by \(f:A\rightarrow \mathbb{R}\),
  where an unknown function (\(f\)) maps any point in our parameter space 
  (\(A\)) to a single real number value (\(\mathbb{R}\)).
 Equation~\ref{eq:BlackBoxFunction} more explicitly expresses the black-box 
- function in terms of the our target variable and predictor variables at a 
+ function in terms of our target variable and predictor variables at a 
  given sample number (\(i\)).
 Note that sample number is an integer counter used to track the number of
  function evaluations carried out during a sequential optimisation.
@@ -350,7 +351,7 @@ Our optimisation problem is thus expressed in
 The sequential optimisation algorithm employed during this work is summarised
  by the flow diagram in Figure~\ref{fig:OptimisationAlgorithm}.
 Successful conclusion of the optimisation is controlled by an if-else clause 
- comparing an initially specified permissable number of function evaluations 
+ comparing an initially specified permissible number of function evaluations 
  (a.k.a. sample limit, \(p_{\text{tot}}\)) with the current sample number (\(i\)):
  when \(i<p_{\text{tot}}\) the algorithm continues.
 A second if-else statement controls whether a dataset exists from which a
@@ -409,8 +410,8 @@ During a sequential optimisation two forms of sampling were employed:
  firstly, a deterministic space-filling sampling of a quasirandom nature was
  used to representatively sample the parameter space when initialising the
  optimisation.
-Subequently, a Bayesian sampling technique was used to sample-efficiently
- guide the search for the global optimimum \(x^{*}\).
+Subsequently, a Bayesian sampling technique was used to sample-efficiently
+ guide the search for the global optimum \(x^{*}\).
 \subsubsection{Initial Quasirandom Sampling}
 Optimisation routines were initiated by representatively sampling across
  the parameter space \(A\); achieved using the quasirandom Sobol sampling
@@ -441,7 +442,7 @@ As an aside, a relatively smooth topography witnessed during preliminary
             \ref{eq:CitricAcidStoichiometricPredictorLink} and
             \ref{eq:ItaconicAcidStoichiometricPredictorLink}), which provide
             the prior-initialising dataset for the Bayesian routine.
-            Coloration of points denote distance from viewer with darker 
+            The coloration of points denotes distance from viewer with darker 
             points appearing further away.
         }
     }
@@ -511,7 +512,7 @@ During the fitting of the Gaussian process, a covariance function is used to
 In this work we used a Mat\'ern covariance function containing a 
 hyperparameter controlling smoothness of functions drawn from the 
 Gaussian process.
-This was set to \(\nu=2.5\),\textcolor{RawSienna}{balancing the need
+This was set to \(\nu=2.5\), \textcolor{RawSienna}{balancing the need
  for smoothness in sample paths against the drawbacks of higher 
  values of \(\nu\) (e.g. unphysical nature of infinitely 
  differentiable functions or mathematical instabilities when
@@ -552,7 +553,7 @@ The probability of a sample exceeding the current best is deduced using the
 Here, the improvement threshold was defined as the current best observed
  value (\(\tau=u(\mathbb{D})\)), rather than introducing an additional
  offset parameter \(\varepsilon\).
-This simplified the optimisation while avoiding unecessary hyperparameter
+This simplified the optimisation while avoiding unnecessary hyperparameter
  tuning.
 
 \footnotesize
@@ -568,21 +569,18 @@ This simplified the optimisation while avoiding unecessary hyperparameter
 The second policy made use of the `expected improvement' acquisition
  function (defined in Equation \ref{eq:ExpectedImprovement}), which
  incorporates an expectation of improvement value
- (\(u(\mathbb{D}^{\prime})-u(\mathbb{D})\)).
+ (\(c=u(\mathbb{D}^{\prime})-u(\mathbb{D})\)).
 This counteracts any overtly exploitative behaviour by rewarding both the scale and 
  probability of an improvement above the threshold \(\tau\) \autocite{Teh2020}.
 
 \footnotesize
 \begin{equation}\label{eq:ExpectedImprovement}
-    \begin{split}
-        &\alpha_{EI}(\mathbf{x})=\int_{\tau}^{\infty}c\ \mathcal{N}(m(\mathbf{x}),\sqrt{K(\mathbf{x},\mathbf{x})})dm(x)\\
-        &\textnormal{where}\ c=u(\mathbb{D}^{\prime})-u(\mathbb{D})\\
-    \end{split}
+    \alpha_{EI}(\mathbf{x})=\int_{\tau}^{\infty}c\ \mathcal{N}(m(\mathbf{x}),\sqrt{K(\mathbf{x},\mathbf{x})})dm(x)
 \end{equation}
 \normalsize
 
 Equation \ref{eq:AcquisitionFunctionOptimisation} shows how the next point
- to be sampled sampled, \(\mathbf{x}^{+}\), is found by trivially optimising
+ to be sampled, \(\mathbf{x}^{+}\), is found by trivially optimising
  the cheap acquisition function (many putative samples \(\textbf{x}\) may be
  evaluated) to find the global optimum within the bounds of the parameter 
  space \(A\) \autocite{Teh2020}.
@@ -606,14 +604,14 @@ Note that the Gaussian process regression models developed by these software
 Both the Ax and scikit-optimize packages inferred the homoscedastic noise
  during the fitting of the Gaussian process, with the \(\sigma\) value
  being equal to 0.46\% points for the scikit-optimize fitted \(\mathcal{GP}\)
- (at culmination of the practically-undertaken optimisation routine).
+ (at the culmination of the practically-undertaken optimisation routine).
 }
 
 \subsubsection{One-Shot Space-Filling Sampling}
 \textcolor{RawSienna}{
-To facilitate gauging of Bayesian techniques' sample efficacy two simple
- one-shot sampling techniques were deployed so that benchmark values could
- be obtained.
+To facilitate the assessment of the Bayesian techniques' sample efficacy,
+ two simple one-shot sampling techniques were employed so that benchmark 
+ values could be obtained.
 This was achieved by using either pseudorandom or quasirandom (Sobol) sampling 
  techniques to disperse the maximum allowable number of samples 
  (\(p_{\text{tot}}=27\)) across the parameter space \(A\).
@@ -623,10 +621,10 @@ Subsequently, for any technique deployed, all samples, \(\mathbf{X}\), were
 The highest target variable value was identified within each technique's dataset 
  (\(\Delta m_{\%}^{\circ}\)) and equated to a benchmark value.
 The present work deployed both during computational experiments, whilst only
- the pseudorandom sampler saw practical application- Figure~\ref{fig:Benchmarks}
- visualises the spread of samples it generated, and on functional evaluation of
- this set the best mass loss discovered was recovered
- \(\Delta m_{\%}^{\circ}=14.01\).
+ the pseudorandom sampler saw practical application. 
+Figure~\ref{fig:Benchmarks} visualises the spread of samples it generated, 
+ and on functional evaluation of this set the best mass loss discovered was 
+ recovered \(\Delta m_{\%}^{\circ}=14.01\).
 }
 
 \begin{center}
@@ -636,7 +634,7 @@ The present work deployed both during computational experiments, whilst only
         \footnotesize{
             Spread of the 27 samples drawn by the space-filling one-shot 
              pseudorandom sampling  technique during practical experimentation.
-            Coloration of points denote distance from viewer with darker 
+            The coloration of points denotes distance from viewer with darker 
              points appearing further away.
         }
     }
@@ -652,7 +650,7 @@ Here, we re-constructed a sequential space-filling sampling technique
  developed by Crombecq et al. (2011) called the
  mc-intersite-proj-th (MIPT) algorithm \autocite{Crombecq2011}.
 At each iteration during a sequential sampling routine this 
- objective-indifferent technique undertakes a Monte Carlo style
+ objective-indifferent technique undertakes a Monte Carlo
  sampling exercise, wherein each of the vast number of putative candidates 
  have their ability to fill space (within the parameter space and between
  the samples evaluated so far) quantified and the strongest candidate
@@ -660,7 +658,7 @@ At each iteration during a sequential sampling routine this
 }
 
 % ========================================================================================================================================================================================
-\subsection{Benchmarks}
+% \subsection{Benchmarks}
 
 \sout{The sampling efficiency of the Bayesian sequential optimisation techniques
  was demonstrated by employing three simple benchmarks.
@@ -713,7 +711,7 @@ Since repeated experimental optimisation was impractical, a computational
 In fact, five emulators were developed, four being based on Gaussian processes
  (with differing covariance functions and hyperparameterisations) whilst the 
  fifth employed gradient boosted decision trees (GBDT).
-The dataset informing these emulators development was comprised of all 
+The dataset informing the development of these emulators was comprised of all 
  experimentally evaluated samples from both preliminary investigation of
  the parameter space, preparation of the pseudorandom benchmark, and 
  the Bayesian optimisation routine employing the probability of improvement
@@ -729,8 +727,8 @@ Secondly, emulators are more easily trained in lower dimensional settings.
 }
 
 \textcolor{RawSienna}{
-Subsequently, the consolidated dataset was split (33:66) into both
- test and train sets.
+Subsequently, the consolidated dataset was split ( in the ratio 1:3) 
+ into both test and train sets.
 To ensure a suitably representative train set and difficult-to-predict
  test set, a two step process was undertaken.
 Firstly, Monte Carlo sampling was used to identify candidate test/train
@@ -765,9 +763,9 @@ Using the train set, five models were trained: firstly, a series of
  ``GP-Mat-15'', and ``GP-Mat-25'').
 Secondly, a separate Gaussian process was trained which employed the
  radial basis function as its kernel (denoted ``GP-Rbf'').
-Thirdly, the XGBoost package was used to train a gradient boosted
+Thirdly, the XGBoost package was used to train a gradient-boosted
  decision tree model (denoted ``Xgb'') \autocite{ChenT2026}.
-Figure~\ref{fig:EmulatedSpaces} provides a comparison of the
+Figure~\ref{fig:EmulatedSpaces} shows a comparison of the
  five emulators with respect to the functional landscape which
  they produce when queried over the entire parameter space.
 }
@@ -800,7 +798,7 @@ Table~\ref{tab:EmulatorPerformance} presents the performance of the five
  emulator's global optimum target variable values.
 It is clear that although the GP-Rbf emulator displays the strongest 
  performance in terms of RMSE and MSE, it fails to replicate the
- experimental global optimum value (\(15.14\% \ll 20.77\%\)); as opposed
+ experimental global optimum value (\(15.14\% < 20.77\%\)); as opposed
  to the true global optimum associated with the latent objective function,
  this term denotes the globally optimal result given the experimental
  data available.
@@ -825,7 +823,7 @@ Meanwhile, emulator GP-Mat-05 provides both an emulated global optimum
     \captionsetup{format=custom,width=0.48\textwidth,skip=0pt}
     \captionof{table}{
         \footnotesize{
-            Comparison of emulator's performance in predicting
+            Comparison of emulator performance in predicting
              upon the withheld test dataset.
             MSE: Mean squared error.
             RMSE: Root mean squared error.
