@@ -5,7 +5,6 @@ Here we include some peripheral elements of work that support
 
 \subsection{Notes on Measurement Error Propagation}
 \label{subsec:NoMEP}
-\textcolor{RawSienna}{
 To evaluate uncertainty associated with the percentage mass loss
  metric we undertook some error propagation analysis by modelling
  the process of obtaining values for this metric.
@@ -14,9 +13,7 @@ This modelling was carried out in the Python programming language
  repository associated with this paper, it can be found
  under the `Sandbox/UncertaintyProgagation' directory and is
  entitled `UncertaintyModel.ipynb'.
-}
 
-\textcolor{RawSienna}{
 By setting the initial mass of a given sample at 3~\unit{\gram}
  and allowing the final mass to vary in accordance with a uniform
  distribution between a lower and upper bound (as deduced
@@ -33,13 +30,11 @@ By coupling these concepts together and undertaking a Monte Carlo
  uncertainty associated with any given percentage mass loss value
  considered in the present work; this was equal to 
  0.44~\% points (1\(\sigma\)=0.01\% points).
-}
 
 
 \subsection{Notes on Process-Energy Calculations}
 \label{subsec:NoPEC}
 
-\textcolor{RawSienna}{
 Although this paper has focussed upon branching polyester
  thermosets as an alternative to unsaturated polyester resin
  derived thermosets on account of the relative ease with
@@ -51,9 +46,7 @@ To prove this, one would first have to choose a suitable
  quantitative definition of sustainability (e.g. embodied carbon),
  before engaging in a comprehensive life-cycle analysis for both
  the methods by which thermosets were manufactured.
-}
 
-\textcolor{RawSienna}{
 Although by no means a full life-cycle analysis of either route,
  we have undertaken some modelling of the two system with a view
  to elucidating whether the prolonged thermal cure time used for
@@ -64,9 +57,7 @@ This model is presented within a Jupyter notebook file
  entitled `calcs\_restructured\_uncertainty.ipynb' (within the 
  `Sandbox/EnergyCalculations' directory) in
  the GitHub repository associated with this paper.
-}
 
-\textcolor{RawSienna}{
 Here, we establish two separate models, one for the branched system
  and the other for the unsaturated polyester system.
 These models both consider the energy required to form prepolymers
@@ -76,9 +67,7 @@ Each model is based on a set of parameters, each parameter being
  described by a triangular distribution, which allows propagation 
  of uncertainty to be considered over the course of a large number
  of simulations in a Monte Carlo fashion.
-}
 
-\textcolor{RawSienna}{
 On conclusion of 20,000 Monte Carlo draws, it was concluded that
  the more energy intensive route was that of branched polyester
  thermoset manufacture (requiring an average of 5.4\(\times\) the 
@@ -92,7 +81,6 @@ Estimates of kWh~kg\textsuperscript{-1} yielded by the branched
  whilst the unsaturated polyester model was most sensitive toward
  energy required to maintain reactor temperature, auxiliary power
  requirements, and heat capacity of various elements.
- }
 
 \small
 \begin{figure*}[htb]
