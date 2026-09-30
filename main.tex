@@ -59,6 +59,7 @@
 % \hypersetup{colorlinks=false,linkcolor=blue,filecolor=magenta,urlcolor=cyan}
 % Import a package capable of more complicated cross-referencing e.g. \cref{eq:StoichiometricEquation,eq:CitricAcidBounds,eq:ItaconicAcidBounds}
 \usepackage{cleveref}
+\usepackage{lineno}
 
 
 % % This is a code snipped stolen from online which fixes spacing above and below any equations I have written.
@@ -73,16 +74,16 @@
 \begin{document}
     \input{Sections/A1_Title}
     \input{Sections/B1_Abstract}
-    % \input{Sections/B2_Sustainability}
+    \input{Sections/B2_Sustainability}
     \begin{multicols}{2}
         \input{Sections/C1_Introduction}
         \input{Sections/D1_Method}
         \input{Sections/E1_Results}
         \input{Sections/F1_Conclusion}
         \input{Sections/G1_Conflicts}
-        % \input{Sections/H1_Data}
+        \input{Sections/H1_Data}
         \input{Sections/I1_Acknowledgements}
         \input{Sections/J1_Bibliography}
-        \input{Sections/K1_Supporting}
     \end{multicols}
+    \input{Sections/K1_Supporting}
 \end{document}
